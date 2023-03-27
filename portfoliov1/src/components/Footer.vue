@@ -1,5 +1,5 @@
 <template>
-    <h4 class="bottom-header">Projeto em Desenvolvimento | Danilo Oliveira 2023</h4>
+    <div class="bottom-header">Projeto em Desenvolvimento | Danilo Oliveira 2023</div>
 </template>
 
 <script>

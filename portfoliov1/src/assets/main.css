@@ -47,6 +47,7 @@ button {
 
 a {
   color: var(--clr-pink);
+  text-decoration: none;
 }
 
 strong {
