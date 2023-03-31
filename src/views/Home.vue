@@ -1,16 +1,13 @@
 <template>
     <div class="home">
-        <article class="container">
-            <h1>Dev Working</h1>
-            <p>
-                <strong>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.</strong> Et, beatae ipsa? Eius nam
-                perspiciatis
-                molestias
-                quasi ad? Laudantium ab et mollitia debitis quo omnis? Quam natus accusamus at necessitatibus dolorum.
-            </p>
-            <button class="btn">Contato</button>
-        </article>
+        <!-- <main>
+            <section></section>
+            <section></section>
+            <section></section>
+            <section></section>
+            <section></section>
+        </main>
+        <footer></footer> -->
 
     </div>
 </template>

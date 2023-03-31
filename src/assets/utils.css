@@ -31,6 +31,10 @@
 .container {
         max-width: 1280px;
     }
+
+    .section {
+        margin-top: 10rem;
+    }
  } 
 
 /* 2xl */
@@ -67,5 +71,9 @@
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     /* border: 1px solid red; */
+}
+
+.section {
+    margin-top: 5rem;
 }
 
