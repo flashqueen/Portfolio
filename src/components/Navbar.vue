@@ -24,6 +24,13 @@
                     <a class="header__resume btn" href="#">Currículo</a>
                 </li>
             </ul>
+            <button class="header__bars">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+                        clip-rule="evenodd" />
+                </svg>
+            </button>
         </nav>
     </header>
 </template>
@@ -38,6 +45,7 @@ export default {
 
 <style scoped>
 @import '../assets/main.css';
+@import '../assets/utils.css';
 
 .header {
     display: flex;
@@ -48,35 +56,73 @@ export default {
 }
 
 .header__menu {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-    gap: 2em;
+    display: none;
 }
 
-.header__link {
-    font-size: var(--size-xs);
-    text-decoration: none;
-    font-weight: 600;
-    color: var(--clr-slate600);
-    letter-spacing: -0.05em;
-    transition: color 0.3s;
-}
-
-.header__link:hover {
-    color: var(--clr-rose);
-}
-
-.header__line {
-    border: 1px solid var(--clr-slate600);
-    padding-top: 1.5em;
-}
-
-.header__sun {
+.header__bars {
+    color: var(--clr-light);
+    width: var(--size-2xl);
+    height: var(--size-2xl);
     display: block;
-    color: var(--clr-slate600);
-    width: var(--size-base);
-    height: var(--size-base);
+}
+
+/* MD */
+@media (min-width: 768px) {
+    .header__menu {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        gap: 2em;
+    }
+
+    .header__link {
+        font-size: var(--size-xs);
+        text-decoration: none;
+        font-weight: 600;
+        color: var(--clr-slate600);
+        letter-spacing: -0.05em;
+        transition: color 0.3s;
+    }
+
+    .header__link:hover {
+        color: var(--clr-rose);
+    }
+
+    .header__line {
+        border: 1px solid var(--clr-slate600);
+        padding-top: 1.5em;
+    }
+
+    .header__sun {
+        display: block;
+        color: var(--clr-slate600);
+        width: var(--size-base);
+        height: var(--size-base);
+    }
+
+    .header__resume {
+        font-size: var(--size-xs);
+    }
+
+    .header__bars {
+        display: none;
+    }
+}
+
+/* LG */
+@media (min-width: 1024px) {
+    .header__link {
+        font-size: var(--size-sm);
+    }
+
+    .header__sun {
+        width: var(--size-xl);
+        height: var(--size-xl);
+    }
+
+    .header__resume {
+        font-size: var(--size-sm);
+    }
 }
 </style>
