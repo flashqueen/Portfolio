@@ -15,5 +15,6 @@ export default {
     left: 800px;
     width: 100%;
     z-index: 1;
+    color: rgba(255, 255, 255, 0.3);
 }
 </style>

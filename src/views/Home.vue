@@ -2,7 +2,7 @@
     <div class="home">
         <main>
             <section class="hero container">
-                <img class="hero__img" src="../../public/MeYae.jpg" alt="Esse sou eu!" />
+                <img class="hero__img" src="/MeYae.jpg" alt="Esse sou eu!" />
                 <h2 class="hero__subtitle">Oi oi pessoal, Danr-- Danilo aqui (•◡•) /</h2>
                 <h1 class="hero__title">FRONT-END <br> STREAMER <br> GAME DEVELOPER</h1>
                 <p class="hero__description">Um desenvolvedor frontend em constante aprendizado, trabalhando
@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="about__img-wrapper">
-                    <img class="about__img" src="../../public/gato_serio.png" alt="Foto de perfil">
+                    <img class="about__img" src="/gato_serio.png" alt="Foto de perfil">
                 </div>
 
             </section>
@@ -73,13 +73,9 @@
                     <div>
                         <h3 class="featured__label">Tech stack</h3>
                         <ul class="featured__tech-stack">
-                            <li class="featured__info">TailwindCSS</li>
-                            <li class="featured__info">ReactJS</li>
-                            <li class="featured__info">React-hook-form</li>
-                            <li class="featured__info">NextJS</li>
-                            <li class="featured__info">Axios</li>
-                            <li class="featured__info">Supabase</li>
-                            <li class="featured__info">Stripe</li>
+                            <li class="featured__info">BootstrapCSS</li>
+                            <li class="featured__info">Javascript</li>
+                            <li class="featured__info">HTML</li>
                         </ul>
                     </div>
                     <div>
@@ -89,6 +85,26 @@
                     <div>
                         <h3 class="featured__label">Timeline</h3>
                         <p class="featured__info">29 a 31 de Março</p>
+                    </div>
+                </div>
+                <div class="featured__img-container">
+                    <div class="featured__img-wrapper">
+                        <img src="/prefeitura_header1.PNG" alt="Prefeitura de Serdin cabeçalho">
+                    </div>
+                    <div class="featured__img-wrapper">
+                        <img src="/prefeitura_footer2.PNG" alt="Prefeitura de Serdin rodapé">
+                    </div>
+                    <div class="featured__img-wrapper">
+                        <img src="/prefeitura_noticia3.PNG" alt="Prefeitura de Serdin cabeçalho de notícias">
+                    </div>
+                    <div class="featured__img-wrapper">
+                        <img src="/prefeitura_noticia4.PNG" alt="Prefeitura de Serdin rodapé de notícias">
+                    </div>
+                    <div class="featured__img-wrapper">
+                        <img src="/prefeitura_responsivo5.PNG" alt="Prefeitura de Serdin cabeçalho celular">
+                    </div>
+                    <div class="featured__img-wrapper">
+                        <img src="/prefeitura_responsivo6.PNG" alt="Prefeitura de Serdin rodapé celular">
                     </div>
                 </div>
             </section>
@@ -265,6 +281,33 @@ export default {
     min-width: 250px;
 }
 
+.featured__img-container {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+}
+
+.featured__img-wrapper {
+    position: relative;
+}
+
+.featured__img-wrapper::after {
+    content: '';
+    background-color: rgba(124, 58, 237, 0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: background-color 0.3s;
+}
+
+.featured__img-wrapper:hover::after {
+    background-color: rgba(124, 58, 237, 0.1);
+}
+
 /* XS */
 @media (min-width: 475px) {
 
@@ -345,6 +388,11 @@ export default {
     .featured__info {
         font-size: var(--size-base);
     }
+
+    .featured__img-container {
+        margin-top: 1.5rem;
+        grid-gap: 1.5rem;
+    }
 }
 
 /* sm */
@@ -359,7 +407,10 @@ export default {
         width: 28.6875rem;
     }
 
-
+    /* ---------------Destaque---------- */
+    .featured__img-container {
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    }
 }
 
 /* LG */
@@ -517,6 +568,11 @@ export default {
 
     .featured__info {
         font-size: var(--size-xl);
+    }
+
+    .featured__img-container {
+        margin-top: 2rem;
+        grid-gap: 2rem;
     }
 }
 </style>
