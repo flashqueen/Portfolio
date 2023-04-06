@@ -108,8 +108,18 @@
                     </div>
                 </div>
             </section>
-            <!--<section></section>
-            <section></section> -->
+            <section class="work container section">
+                <h2 class="work__title">Projetos</h2>
+                <p class="work__description">Projetos que desenvolvi durante o meu tempo livre em diversas linguagens. Os
+                    projetos variam de jogos a sites em <strong>python e javascript</strong>.</p>
+                <!-- Project 1 -->]
+                <h3>Wax Motif</h3>
+                <img src="" alt="">
+                <p></p>
+                <p></p>
+                <a href="#" class="btn"></a>
+            </section>
+            <!--<section></section> -->
         </main>
         <!-- <footer></footer> -->
 
@@ -308,6 +318,20 @@ export default {
     background-color: rgba(124, 58, 237, 0.1);
 }
 
+.work__title {
+    font-size: var(--size-2xl);
+    color: var(--clr-light);
+    text-align: center;
+}
+
+.work__description {
+    max-width: 60ch;
+    font-size: var(--size-sm);
+    color: var(--clr-slate600);
+    text-align: center;
+    margin: 1rem auto;
+}
+
 /* XS */
 @media (min-width: 475px) {
 
@@ -392,6 +416,16 @@ export default {
     .featured__img-container {
         margin-top: 1.5rem;
         grid-gap: 1.5rem;
+    }
+
+    /* ----------Projetos------------- */
+    .work__title {
+        font-size: var(--size-3xl);
+    }
+
+    .work__description {
+        font-size: var(--size-base);
+        margin: 1.5rem auto;
     }
 }
 
@@ -487,6 +521,15 @@ export default {
     .featured__info {
         font-size: var(--size-lg);
     }
+
+    /* ----------Projetos------------- */
+    .work__title {
+        font-size: var(--size-4xl);
+    }
+
+    .work__description {
+        font-size: var(--size-lg);
+    }
 }
 
 /* XL */
@@ -573,6 +616,16 @@ export default {
     .featured__img-container {
         margin-top: 2rem;
         grid-gap: 2rem;
+    }
+
+    /* ----------Projetos------------- */
+    .work__title {
+        font-size: var(--size-5xl);
+    }
+
+    .work__description {
+        font-size: var(--size-xl);
+        margin: 2rem auto;
     }
 }
 </style>
