@@ -121,8 +121,7 @@
                 <div class="work__project work__content1">
                     <h3 class="work__project-subtitle">Fusion Attack!</h3>
                     <p class="work__project-description1">Primeiro jogo de luta em dupla que desenvolvi em <strong>javascript</strong> para o meu TCC.</p>
-                    <p class="work__project-description2">'Fusion Attack!' É um jogo em que dois times se enfrentam, 
-                        podendo atacar, esquivar ou defender dos golpes. A barra azul claro abaixo das barras duplas se preenche 
+                    <p class="work__project-description2">Dois times se enfrentam, podendo atacar, esquivar ou defender dos golpes. A barra azul claro abaixo das barras duplas se preenche 
                         com o tempo e quando cheia, os dois personagens do mesmo time podem se juntar para temporariamente fundirem e 
                         liberarem um poderoso golpe!</p>
                     <a href="#" class="btn work__project-btn">Demo</a>
@@ -140,7 +139,11 @@
                 </div>
                 </div>
             </section>
-            <!--<section></section> -->
+            <section class="contact container section">
+                <h2 class="contact__title">Entre em Contato</h2>
+                <p class="contact__description">.</p>
+                <a class="contact__btn btn" href="mailto:danilo.a.l.oliveira74@outlook.com" target="_blank">E-mail</a>
+            </section>
         </main>
         <!-- <footer></footer> -->
 
@@ -404,6 +407,31 @@ export default {
     display: none;
 }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.contact__title {
+    font-size: var(--size-2xl);
+    color: var(--clr-light);
+    text-transform: capitalize;
+}
+
+.contact__description {
+    font-size: var(--size-sm);
+    color: var(--clr-slate600);
+    max-width: 60ch;
+}
+
+.contact__btn {
+    font-size: var(--size-sm);
+}
+
 /* XS */
 @media (min-width: 475px) {
 
@@ -518,6 +546,24 @@ export default {
     .work__project-btn {
         font-size: var(--size-base);
     }
+
+    /* ----------Contatos------------- */
+    .contact {
+        gap: 1.5rem;
+    }
+
+    .contact__title {
+        font-size: var(--size-3xl);
+
+    }
+
+    .contact__description {
+        font-size: var(--size-base);
+    }
+
+    .contact__btn {
+        font-size: var(--size-base);
+    }
 }
 
 /* sm */
@@ -598,6 +644,7 @@ export default {
 
 }
 
+/* md */
 @media (min-width: 768px) {
     .work__project-description1 {
         font-size: var(--size-sm);
@@ -714,6 +761,20 @@ export default {
     
     .work__project-subtitle {
         font-size: var(--size-xl);
+    }
+
+    /* ----------Contatos------------- */
+    .contact__title {
+        font-size: var(--size-4xl);
+
+    }
+
+    .contact__description {
+        font-size: var(--size-lg);
+    }
+
+    .contact__btn {
+        font-size: var(--size-lg);
     }
 }
 
@@ -833,8 +894,27 @@ export default {
         width: 80%;
         margin: 0 auto;
     }
+
+    /* ----------Contatos------------- */
+    .contact {
+        gap: 2rem;
+    }
+
+    .contact__title {
+        font-size: var(--size-5xl);
+
+    }
+
+    .contact__description {
+        font-size: var(--size-xl);
+    }
+
+    .contact__btn {
+        font-size: var(--size-xl);
+    }
 }
 
+/* 2xl */
 @media (min-width: 1536px) {
     .work__container {
         width: 70%;
