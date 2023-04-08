@@ -112,12 +112,33 @@
                 <h2 class="work__title">Projetos</h2>
                 <p class="work__description">Projetos que desenvolvi durante o meu tempo livre em diversas linguagens. Os
                     projetos variam de jogos a sites em <strong>python e javascript</strong>.</p>
-                <!-- Project 1 -->]
-                <h3>Wax Motif</h3>
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <a href="#" class="btn"></a>
+                <div class="work__container">
+                    <!-- Project 1 -->
+                <h3 class="work__project-title">Fusion Attack!</h3>
+                <div class="work__img-wrapper work__image1">
+                    <img src="/fusionattack.png" alt="Jogo de luta com dois personagens em cada lado da tela">
+                </div>
+                <div class="work__project work__content1">
+                    <h3 class="work__project-subtitle">Fusion Attack!</h3>
+                    <p class="work__project-description1">Primeiro jogo de luta em dupla que desenvolvi em <strong>javascript</strong> para o meu TCC.</p>
+                    <p class="work__project-description2">'Fusion Attack!' É um jogo em que dois times se enfrentam, 
+                        podendo atacar, esquivar ou defender dos golpes. A barra azul claro abaixo das barras duplas se preenche 
+                        com o tempo e quando cheia, os dois personagens do mesmo time podem se juntar para temporariamente fundirem e 
+                        liberarem um poderoso golpe!</p>
+                    <a href="#" class="btn work__project-btn">Demo</a>
+                </div>
+                <!-- Project 2 -->
+                <h3 class="work__project-title">PokiMO</h3>
+                <div class="work__img-wrapper work__image2">
+                    <img src="/pokiMO.png" alt="Jogo de aventura estilo pokemon">
+                </div>
+                <div class="work__project work__content2">
+                    <h3 class="work__project-subtitle">PokiMO</h3>
+                    <p class="work__project-description1">Jogo de aventura estilo pokemon que desenvolvi em <strong>javascript</strong> e <strong>Tiled</strong> como hobbie.</p>
+                    <p class="work__project-description2">'PokiMO' É um jogo curto que se passa em uma ilha focado no estudo de combate por turnos e construção de mapas com áreas de interação!</p>
+                    <a href="#" class="btn work__project-btn">Demo</a>
+                </div>
+                </div>
             </section>
             <!--<section></section> -->
         </main>
@@ -318,18 +339,69 @@ export default {
     background-color: rgba(124, 58, 237, 0.1);
 }
 
+.work {
+    text-align: center;
+}
+
 .work__title {
     font-size: var(--size-2xl);
     color: var(--clr-light);
-    text-align: center;
 }
 
 .work__description {
     max-width: 60ch;
     font-size: var(--size-sm);
     color: var(--clr-slate600);
-    text-align: center;
     margin: 1rem auto;
+}
+
+.work__project-title {
+    font-size: var(--size-base);
+    margin-bottom: 1rem;
+}
+
+.work__img-wrapper {
+    position: relative;
+}
+
+.work__img-wrapper::after {
+    content: '';
+    background-color: rgba(124, 58, 237, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: background-color 0.3s;
+}
+
+.work__img-wrapper:hover::after {
+    background-color: rgba(124, 58, 237, 0.2);
+}
+
+.work__project:not(:last-child) {
+    margin-bottom: 5rem;
+}
+
+.work__project-description1 {
+    font-size: var(--size-sm);
+    color: var(--clr-slate600);
+    margin: 1rem 0;
+}
+
+.work__project-description2 {
+    font-size: var(--size-sm);
+    color: var(--clr-slate400);
+    margin-bottom: 1rem;
+}
+
+.work__project-btn {
+    font-size: var(--size-sm);
+}
+
+.work__project-subtitle {
+    display: none;
 }
 
 /* XS */
@@ -427,6 +499,25 @@ export default {
         font-size: var(--size-base);
         margin: 1.5rem auto;
     }
+
+    .work__project-title {
+        font-size: var(--size-lg);
+        margin-bottom: 1.5rem;
+    }
+
+    .work__project-description1 {
+        font-size: var(--size-base);
+        margin: 1.5rem 0;
+    }
+
+    .work__project-description2 {
+        font-size: var(--size-base);
+        margin-bottom: 1.5rem;
+    }
+
+    .work__project-btn {
+        font-size: var(--size-base);
+    }
 }
 
 /* sm */
@@ -441,9 +532,87 @@ export default {
         width: 28.6875rem;
     }
 
-    /* ---------------Destaque---------- */
+    /* ------------Destaque---------- */
     .featured__img-container {
         grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    }
+
+    /* -------------Projetos------------- */
+    .work__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'image1 content1'
+        'content2 image2'
+        ;
+        place-items: center;
+    }
+
+    .work__image1 {
+        grid-area: image1
+    }
+
+    .work__image2 {
+        grid-area: image2
+    }
+
+    .work__content1{
+        grid-area: content1;
+    }
+
+    .work__content2{
+        grid-area: content2;
+    }
+
+    .work__project {
+        padding: 0 1rem;
+    }
+
+    .work__project-title {
+        display: none;
+    }
+
+    .work__project-description1 {
+        font-size: var(--size-xs);
+        margin: 1em 0;
+    }
+
+    .work__project-description2 {
+        font-size: var(--size-xs);
+        margin-bottom: 1em;
+    }
+
+    .work__project-btn {
+        font-size: var(--size-xs);
+    }
+
+    .work__project:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+    .work__project-subtitle {
+        display: block;
+        font-size: var(--size-base);
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    .work__project-description1 {
+        font-size: var(--size-sm);
+    }
+
+    .work__project-description2 {
+        font-size: var(--size-sm);
+    }
+
+    .work__project-btn {
+        font-size: var(--size-sm);
+    }
+    
+    .work__project-subtitle {
+        font-size: var(--size-lg);
     }
 }
 
@@ -529,6 +698,22 @@ export default {
 
     .work__description {
         font-size: var(--size-lg);
+    }
+
+    .work__project-description1 {
+        font-size: var(--size-base);
+    }
+
+    .work__project-description2 {
+        font-size: var(--size-base);
+    }
+
+    .work__project-btn {
+        font-size: var(--size-base);
+    }
+    
+    .work__project-subtitle {
+        font-size: var(--size-xl);
     }
 }
 
@@ -626,6 +811,33 @@ export default {
     .work__description {
         font-size: var(--size-xl);
         margin: 2rem auto;
+    }
+
+    .work__project-description1 {
+        font-size: var(--size-lg);
+    }
+
+    .work__project-description2 {
+        font-size: var(--size-lg);
+    }
+
+    .work__project-btn {
+        font-size: var(--size-lg);
+    }
+    
+    .work__project-subtitle {
+        font-size: var(--size-2xl);
+    }
+
+    .work__container {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1536px) {
+    .work__container {
+        width: 70%;
     }
 }
 </style>
