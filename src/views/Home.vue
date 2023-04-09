@@ -141,7 +141,7 @@
             </section>
             <section class="contact container section">
                 <h2 class="contact__title">Entre em Contato</h2>
-                <p class="contact__description">.</p>
+                <p class="contact__description">Caso esteja começando um projeto, queira fazer algum tipo de proposta ou apenas dizer um oi, sinta-se livre para entrar em contato! te responderei o quanto antes :)</p>
                 <a class="contact__btn btn" href="mailto:danilo.a.l.oliveira74@outlook.com" target="_blank">E-mail</a>
             </section>
         </main>
