@@ -12,7 +12,7 @@
                 </p>
                 <a class="hero__btn btn" href="#">Entrar em contato</a>
             </section>
-            <section class="about container section">
+            <section id="about" class="about container section">
                 <div class="about__content">
                     <h2 class="about__title">Sobre</h2>
                     <p class="about__description"> Olá! me chamo Danilo e atualmente sou um <strong>desenvolvedor de
@@ -52,7 +52,7 @@
                 </div>
 
             </section>
-            <section class="featured container section">
+            <section id="featured" class="featured container section">
                 <h3 class="featured__subtitle">Projeto em Destaque</h3>
                 <div class="featured__wrapper">
                     <h2 class="featured__title">Prefeitura de Serdin</h2>
@@ -114,32 +114,37 @@
                     projetos variam de jogos a sites em <strong>python e javascript</strong>.</p>
                 <div class="work__container">
                     <!-- Project 1 -->
-                <h3 class="work__project-title">Fusion Attack!</h3>
-                <div class="work__img-wrapper work__image1">
-                    <img src="/fusionattack.png" alt="Jogo de luta com dois personagens em cada lado da tela">
-                </div>
-                <div class="work__project work__content1">
-                    <h3 class="work__project-subtitle">Fusion Attack!</h3>
-                    <p class="work__project-description1">Primeiro jogo de luta em dupla que desenvolvi em <strong>javascript</strong> para o meu TCC.</p>
-                    <p class="work__project-description2">Dois times se enfrentam, podendo atacar, esquivar ou defender dos golpes. A barra azul claro abaixo das barras duplas se preenche 
-                        com o tempo e quando cheia, os dois personagens do mesmo time podem se juntar para temporariamente fundirem e 
-                        liberarem um poderoso golpe!</p>
-                    <a href="#" class="btn work__project-btn">Demo</a>
-                </div>
-                <!-- Project 2 -->
-                <h3 class="work__project-title">PokiMO</h3>
-                <div class="work__img-wrapper work__image2">
-                    <img src="/pokiMO.png" alt="Jogo de aventura estilo pokemon">
-                </div>
-                <div class="work__project work__content2">
-                    <h3 class="work__project-subtitle">PokiMO</h3>
-                    <p class="work__project-description1">Jogo de aventura estilo pokemon que desenvolvi em <strong>javascript</strong> e <strong>Tiled</strong> como hobbie.</p>
-                    <p class="work__project-description2">'PokiMO' É um jogo curto que se passa em uma ilha focado no estudo de combate por turnos e construção de mapas com áreas de interação!</p>
-                    <a href="#" class="btn work__project-btn">Demo</a>
-                </div>
+                    <h3 class="work__project-title">Fusion Attack!</h3>
+                    <div class="work__img-wrapper work__image1">
+                        <img src="/fusionattack.png" alt="Jogo de luta com dois personagens em cada lado da tela">
+                    </div>
+                    <div class="work__project work__content1">
+                        <h3 class="work__project-subtitle">Fusion Attack!</h3>
+                        <p class="work__project-description1">Primeiro jogo de luta em dupla que desenvolvi em
+                            <strong>javascript</strong> para o meu TCC.</p>
+                        <p class="work__project-description2">Dois times se enfrentam, podendo atacar, esquivar ou defender
+                            dos golpes. A barra azul claro abaixo das barras duplas se preenche
+                            com o tempo e quando cheia, os dois personagens do mesmo time podem se juntar para
+                            temporariamente fundirem e
+                            liberarem um poderoso golpe!</p>
+                        <a href="#" class="btn work__project-btn">Demo</a>
+                    </div>
+                    <!-- Project 2 -->
+                    <h3 class="work__project-title">PokiMO</h3>
+                    <div class="work__img-wrapper work__image2">
+                        <img src="/pokiMO.png" alt="Jogo de aventura estilo pokemon">
+                    </div>
+                    <div class="work__project work__content2">
+                        <h3 class="work__project-subtitle">PokiMO</h3>
+                        <p class="work__project-description1">Jogo de aventura estilo pokemon que desenvolvi em
+                            <strong>javascript</strong> e <strong>Tiled</strong> como hobbie.</p>
+                        <p class="work__project-description2">'PokiMO' É um jogo curto que se passa em uma ilha focado no
+                            estudo de combate por turnos e construção de mapas com áreas de interação!</p>
+                        <a href="#" class="btn work__project-btn">Demo</a>
+                    </div>
                 </div>
             </section>
-            <section class="contact container section">
+            <section id="contact" class="contact container section">
                 <h2 class="contact__title">Entre em Contato</h2>
                 <p class="contact__description">Caso esteja começando um projeto, queira fazer algum tipo de proposta ou apenas dizer um oi, sinta-se livre para entrar em contato! te responderei o quanto antes :)</p>
                 <a class="contact__btn btn" href="mailto:danilo.a.l.oliveira74@outlook.com" target="_blank">E-mail</a>
@@ -587,9 +592,9 @@ export default {
     .work__container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: 
-        'image1 content1'
-        'content2 image2'
+        grid-template-areas:
+            'image1 content1'
+            'content2 image2'
         ;
         place-items: center;
     }
@@ -602,11 +607,11 @@ export default {
         grid-area: image2
     }
 
-    .work__content1{
+    .work__content1 {
         grid-area: content1;
     }
 
-    .work__content2{
+    .work__content2 {
         grid-area: content2;
     }
 
@@ -657,7 +662,7 @@ export default {
     .work__project-btn {
         font-size: var(--size-sm);
     }
-    
+
     .work__project-subtitle {
         font-size: var(--size-lg);
     }
@@ -758,7 +763,7 @@ export default {
     .work__project-btn {
         font-size: var(--size-base);
     }
-    
+
     .work__project-subtitle {
         font-size: var(--size-xl);
     }
@@ -885,7 +890,7 @@ export default {
     .work__project-btn {
         font-size: var(--size-lg);
     }
-    
+
     .work__project-subtitle {
         font-size: var(--size-2xl);
     }
@@ -919,5 +924,4 @@ export default {
     .work__container {
         width: 70%;
     }
-}
-</style>
+}</style>

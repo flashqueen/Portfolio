@@ -10,11 +10,13 @@ export default {
 
 <style scoped>
 .bottom-header {
-    position: fixed;
-    bottom: 0px;
-    left: 800px;
-    width: 100%;
-    z-index: 1;
-    color: rgba(255, 255, 255, 0.3);
+    font-size: var(--size-xs);
+    font-weight: 400;
+    color: var(--clr-slate600);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    user-select: none;
+    margin-top: 5em;
 }
 </style>
