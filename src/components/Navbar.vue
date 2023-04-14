@@ -13,7 +13,7 @@
                 </li>
                 <li class="header__line"></li>
                 <li>
-                    <button class="header__sun">
+                    <button id="theme-toggle" class="header__sun">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                             <path
                                 d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
@@ -40,17 +40,17 @@
         <nav>
             <ul class="mobile-nav__menu">
                 <li>
-                    <a href="#about" class="mobile-nav__link">Sobre</a>
+                    <a href="#about" class="mobile-nav__link" @click="mobileLinks()">Sobre</a>
                 </li>
                 <li>
-                    <a href="#featured" class="mobile-nav__link">Destaque</a>
+                    <a href="#featured" class="mobile-nav__link" @click="mobileLinks()">Destaque</a>
                 </li>
                 <li>
-                    <a href="#contact" class="mobile-nav__link">Contato</a>
+                    <a href="#contact" class="mobile-nav__link" @click="mobileLinks()">Contato</a>
                 </li>
                 <li class="mobile-nav__link-line"></li>
                 <li>
-                    <button class="mobile-nav__sun">
+                    <button id="theme-toggle" class="mobile-nav__sun">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                             <path
                                 d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
@@ -72,7 +72,7 @@ export default {
     name: 'Navbar',
     data() {
         return {
-            isMobileNavOpen: false
+            isMobileNavOpen: false,
         }
     },
 
@@ -80,12 +80,19 @@ export default {
     methods: {
         mobileNavig() {
             //state
-            isMobileNavOpen = !isMobileNavOpen
-            console.log(isMobileNavOpen)
+            this.isMobileNavOpen = !this.isMobileNavOpen;
 
-            if (isMobileNavOpen) {
+            if (this.isMobileNavOpen) {
                 document.body.style.overflowY = 'hidden';
             } else {
+                document.body.style.overflowY = 'auto';
+            }
+        },
+        mobileLinks() {
+            //state
+            this.isMobileNavOpen = !this.isMobileNavOpen;
+
+            if (!this.isMobileNavOpen) {
                 document.body.style.overflowY = 'auto';
             }
         }
@@ -128,12 +135,13 @@ export default {
     left: 0;
     z-index: 999;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: var(--clr-dark);
     display: none;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: 1px solid green;
 }
 
 .mobile-nav__menu {
