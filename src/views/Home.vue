@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="about__img-wrapper">
-                    <img class="about__img" src="/gato_serio.png" alt="Foto de perfil">
+                    <img class="about__img lazy" src="/gato_serio.png" alt="Foto de perfil">
                 </div>
 
             </section>
@@ -89,22 +89,22 @@
                 </div>
                 <div class="featured__img-container">
                     <div class="featured__img-wrapper">
-                        <img src="/prefeitura_header1.PNG" alt="Prefeitura de Serdin cabeçalho">
+                        <img class="lazy" src="/prefeitura_header1.PNG" alt="Prefeitura de Serdin cabeçalho">
                     </div>
                     <div class="featured__img-wrapper">
-                        <img src="/prefeitura_footer2.PNG" alt="Prefeitura de Serdin rodapé">
+                        <img class="lazy" src="/prefeitura_footer2.PNG" alt="Prefeitura de Serdin rodapé">
                     </div>
                     <div class="featured__img-wrapper">
-                        <img src="/prefeitura_noticia3.PNG" alt="Prefeitura de Serdin cabeçalho de notícias">
+                        <img class="lazy" src="/prefeitura_noticia3.PNG" alt="Prefeitura de Serdin cabeçalho de notícias">
                     </div>
                     <div class="featured__img-wrapper">
-                        <img src="/prefeitura_noticia4.PNG" alt="Prefeitura de Serdin rodapé de notícias">
+                        <img class="lazy" src="/prefeitura_noticia4.PNG" alt="Prefeitura de Serdin rodapé de notícias">
                     </div>
                     <div class="featured__img-wrapper">
-                        <img src="/prefeitura_responsivo5.PNG" alt="Prefeitura de Serdin cabeçalho celular">
+                        <img class="lazy" src="/prefeitura_responsivo5.PNG" alt="Prefeitura de Serdin cabeçalho celular">
                     </div>
                     <div class="featured__img-wrapper">
-                        <img src="/prefeitura_responsivo6.PNG" alt="Prefeitura de Serdin rodapé celular">
+                        <img class="lazy" src="/prefeitura_responsivo6.PNG" alt="Prefeitura de Serdin rodapé celular">
                     </div>
                 </div>
             </section>
@@ -116,7 +116,7 @@
                     <!-- Project 1 -->
                     <h3 class="work__project-title">Fusion Attack!</h3>
                     <div class="work__img-wrapper work__image1">
-                        <img src="/fusionattack.png" alt="Jogo de luta com dois personagens em cada lado da tela">
+                        <img class="lazy" src="/fusionattack.png" alt="Jogo de luta com dois personagens em cada lado da tela">
                     </div>
                     <div class="work__project work__content1">
                         <h3 class="work__project-subtitle">Fusion Attack!</h3>
@@ -132,7 +132,7 @@
                     <!-- Project 2 -->
                     <h3 class="work__project-title">PokiMO</h3>
                     <div class="work__img-wrapper work__image2">
-                        <img src="/pokiMO.png" alt="Jogo de aventura estilo pokemon">
+                        <img class="lazy" src="/pokiMO.png" alt="Jogo de aventura estilo pokemon">
                     </div>
                     <div class="work__project work__content2">
                         <h3 class="work__project-subtitle">PokiMO</h3>

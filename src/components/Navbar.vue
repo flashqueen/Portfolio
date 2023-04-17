@@ -13,7 +13,7 @@
                 </li>
                 <li class="header__line"></li>
                 <li>
-                    <button id="theme-toggle" class="header__sun">
+                    <button id="theme-toggle" class="header__sun" @click="darkMode()">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                             <path
                                 d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
@@ -50,7 +50,7 @@
                 </li>
                 <li class="mobile-nav__link-line"></li>
                 <li>
-                    <button id="theme-toggle" class="mobile-nav__sun">
+                    <button id="theme-toggle" class="mobile-nav__sun" @click="darkMode()">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                             <path
                                 d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
@@ -95,6 +95,21 @@ export default {
             if (!this.isMobileNavOpen) {
                 document.body.style.overflowY = 'auto';
             }
+        },
+        darkMode() {
+            //State
+            const theme = localStorage.getItem('theme');
+            //On Mount
+            theme && document.body.classList.add(theme)
+
+            //Events
+            document.body.classList.toggle('light-mode');
+            if(document.body.classList.contains('light-mode')) {
+                localStorage.setItem('theme', 'light-mode');
+            }else{
+                localStorage.removeItem('theme');
+                document.body.removeAttribute('class');
+            }
         }
     }
 }
@@ -103,7 +118,7 @@ export default {
 
 </script>
 
-<style scoped>
+<style>
 @import '../assets/main.css';
 @import '../assets/utils.css';
 
@@ -141,7 +156,6 @@ export default {
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid green;
 }
 
 .mobile-nav__menu {
