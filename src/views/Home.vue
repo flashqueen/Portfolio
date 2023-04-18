@@ -2,7 +2,7 @@
     <div class="home">
         <main>
             <section class="hero container">
-                <img class="hero__img" src="/MeYae.jpg" alt="Esse sou eu!" />
+                <img class="hero__img" src="/eu2.png" alt="Esse sou eu!" />
                 <h2 class="hero__subtitle">Oi oi pessoal, Danr-- Danilo aqui (•◡•) /</h2>
                 <h1 class="hero__title">FRONT-END <br> STREAMER <br> GAME DEVELOPER</h1>
                 <p class="hero__description">Um desenvolvedor frontend em constante aprendizado, trabalhando
@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="about__img-wrapper">
-                    <img class="about__img lazy" src="/gato_serio.png" alt="Foto de perfil">
+                    <img class="about__img"   src="/euSerio2.png" alt="Foto de perfil">
                 </div>
 
             </section>
@@ -89,22 +89,22 @@
                 </div>
                 <div class="featured__img-container">
                     <div class="featured__img-wrapper">
-                        <img class="lazy" src="/prefeitura_header1.PNG" alt="Prefeitura de Serdin cabeçalho">
+                        <img   src="/prefeitura_header1.PNG" alt="Prefeitura de Serdin cabeçalho">
                     </div>
                     <div class="featured__img-wrapper">
-                        <img class="lazy" src="/prefeitura_footer2.PNG" alt="Prefeitura de Serdin rodapé">
+                        <img   src="/prefeitura_footer2.PNG" alt="Prefeitura de Serdin rodapé">
                     </div>
                     <div class="featured__img-wrapper">
-                        <img class="lazy" src="/prefeitura_noticia3.PNG" alt="Prefeitura de Serdin cabeçalho de notícias">
+                        <img   src="/prefeitura_noticia3.PNG" alt="Prefeitura de Serdin cabeçalho de notícias">
                     </div>
                     <div class="featured__img-wrapper">
-                        <img class="lazy" src="/prefeitura_noticia4.PNG" alt="Prefeitura de Serdin rodapé de notícias">
+                        <img   src="/prefeitura_noticia4.PNG" alt="Prefeitura de Serdin rodapé de notícias">
                     </div>
                     <div class="featured__img-wrapper">
-                        <img class="lazy" src="/prefeitura_responsivo5.PNG" alt="Prefeitura de Serdin cabeçalho celular">
+                        <img   src="/prefeitura_responsivo5.PNG" alt="Prefeitura de Serdin cabeçalho celular">
                     </div>
                     <div class="featured__img-wrapper">
-                        <img class="lazy" src="/prefeitura_responsivo6.PNG" alt="Prefeitura de Serdin rodapé celular">
+                        <img   src="/prefeitura_responsivo6.PNG" alt="Prefeitura de Serdin rodapé celular">
                     </div>
                 </div>
             </section>
@@ -116,7 +116,7 @@
                     <!-- Project 1 -->
                     <h3 class="work__project-title">Fusion Attack!</h3>
                     <div class="work__img-wrapper work__image1">
-                        <img class="lazy" src="/fusionattack.png" alt="Jogo de luta com dois personagens em cada lado da tela">
+                        <img   src="/fusionattack.png" alt="Jogo de luta com dois personagens em cada lado da tela">
                     </div>
                     <div class="work__project work__content1">
                         <h3 class="work__project-subtitle">Fusion Attack!</h3>
@@ -132,7 +132,7 @@
                     <!-- Project 2 -->
                     <h3 class="work__project-title">PokiMO</h3>
                     <div class="work__img-wrapper work__image2">
-                        <img class="lazy" src="/pokiMO.png" alt="Jogo de aventura estilo pokemon">
+                        <img src="/pokiMO.png" alt="Jogo de aventura estilo pokemon">
                     </div>
                     <div class="work__project work__content2">
                         <h3 class="work__project-subtitle">PokiMO</h3>
@@ -156,9 +156,12 @@
 </template>
 
 <script>
+
 export default {
-    name: 'Home'
+    name: 'Home',
 }
+
+
 
 </script>
 
@@ -925,3 +928,13 @@ export default {
         width: 70%;
     }
 }</style>
+
+<!-- src="https://via.placeholder.com/350x360"
+src="https://via.placeholder.com/1454x964"
+src="https://via.placeholder.com/1902x965"
+src="https://via.placeholder.com/1403x967"
+src="https://via.placeholder.com/1903x790"
+src="https://via.placeholder.com/415x726"
+src="https://via.placeholder.com/423x735"
+src="https://via.placeholder.com/1023x576"
+src="https://via.placeholder.com/1023x573" -->
