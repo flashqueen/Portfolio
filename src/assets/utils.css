@@ -52,10 +52,13 @@
 }
 
 .loading {
-    filter: blur(40px) grayscale(100%);
+    filter: blur(30px) grayscale(100%);
 }
 
-/* .loaded {} */
+.loaded {
+    filter: blur(0) grayscale(0);
+    transition: 0.5s ease-in-out;
+}
 
 /* xs */
 @media (min-width: 475px) {

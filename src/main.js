@@ -8,6 +8,7 @@ import './assets/utils.css'
 
 import lazyLoading from './utils/lazy-loading';
 
-lazyLoading();
+
 createApp(App).use(router).mount('#app')
+lazyLoading();
 
