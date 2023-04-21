@@ -10,7 +10,7 @@
                     <strong>javascript e python</strong> entre outros.
                     <br>Também trabalho no desenvolvimento de jogos e faço lives na <strong>twitch</strong>!
                 </p>
-                <a class="hero__btn btn" href="#">Entrar em contato</a>
+                <a class="hero__btn btn" href="#contact">Entrar em contato</a>
             </section>
             <section id="about" class="about container section">
                 <div class="about__content">
