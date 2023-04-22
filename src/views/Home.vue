@@ -24,7 +24,7 @@
                     <p class="about__description"> No meu tempo livre, estudo sobre a programação de jogos e desenvolvo
                         alguns em
                         <strong>javascript/html</strong>. Jogos
-                        digitais são parte da minha vida desde muito novo, e considero criar eles um desafio muito
+                        digitais são parte da minha vida desde muito novo, e considero cria-los um desafio muito
                         satisfatório!
                     </p>
                     <p class="about__description">Também faço lives em meu canal da twitch <strong>tw.tv/danrowllet</strong>
@@ -37,12 +37,15 @@
                         <ul class="about__ul">
                             <li class="about__list">Javascript</li>
                             <li class="about__list">CSS / HTML</li>
-                            <li class="about__list">TailwindCSS / Bootstrap</li>
+                            <li class="about__list">TailwindCSS</li>
+                            <li class="about__list">Bootstrap</li>
+                            
 
                         </ul>
                         <ul class="about__ul">
                             <li class="about__list">Vue3 (+vite)</li>
                             <li class="about__list">Laravel</li>
+                            <li class="about__list">Wordpress</li>
                             <li class="about__list">Python</li>
                         </ul>
                     </div>
@@ -147,6 +150,7 @@
             <section id="contact" class="contact container section">
                 <h2 class="contact__title">Entre em Contato</h2>
                 <p class="contact__description">Caso esteja começando um projeto, queira fazer algum tipo de proposta ou apenas dizer um oi, sinta-se livre para entrar em contato! te responderei o quanto antes :)</p>
+                <p class="contact__description"><strong>Whattsapp:</strong> (63) 98409-7497</p>
                 <a class="contact__btn btn" href="mailto:danilo.a.l.oliveira74@outlook.com" target="_blank">E-mail</a>
             </section>
         </main>
