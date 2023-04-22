@@ -130,7 +130,7 @@
                             com o tempo e quando cheia, os dois personagens do mesmo time podem se juntar para
                             temporariamente fundirem e
                             liberarem um poderoso golpe!</p>
-                        <a href="#" class="btn work__project-btn">Demo</a>
+                        <a href="https://fighting-prototype.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
                     </div>
                     <!-- Project 2 -->
                     <h3 class="work__project-title">PokiMO</h3>
