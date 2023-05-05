@@ -39,7 +39,7 @@
                             <li class="about__list">CSS / HTML</li>
                             <li class="about__list">TailwindCSS</li>
                             <li class="about__list">Bootstrap</li>
-                            
+
 
                         </ul>
                         <ul class="about__ul">
@@ -51,7 +51,8 @@
                     </div>
                 </div>
                 <div class="about__img-wrapper">
-                    <img class="about__img lazy loading" src="https://via.placeholder.com/350x360"   data-src="/euSerio2.png" alt="Foto de perfil">
+                    <img class="about__img lazy loading" src="https://via.placeholder.com/350x360" data-src="/euSerio2.png"
+                        alt="Foto de perfil">
                 </div>
 
             </section>
@@ -92,22 +93,28 @@
                 </div>
                 <div class="featured__img-container">
                     <div class="featured__img-wrapper">
-                        <img class="lazy loading" src="https://via.placeholder.com/1454x964"  data-src="/prefeitura_header1.PNG" alt="Prefeitura de Serdin cabeçalho">
+                        <img class="lazy loading" src="https://via.placeholder.com/1454x964"
+                            data-src="/prefeitura_header1.PNG" alt="Prefeitura de Serdin cabeçalho">
                     </div>
                     <div class="featured__img-wrapper">
-                        <img class="lazy loading" src="https://via.placeholder.com/1902x965"  data-src="/prefeitura_footer2.PNG" alt="Prefeitura de Serdin rodapé">
+                        <img class="lazy loading" src="https://via.placeholder.com/1902x965"
+                            data-src="/prefeitura_footer2.PNG" alt="Prefeitura de Serdin rodapé">
                     </div>
                     <div class="featured__img-wrapper">
-                        <img class="lazy loading" src="https://via.placeholder.com/1403x967"  data-src="/prefeitura_noticia3.PNG" alt="Prefeitura de Serdin cabeçalho de notícias">
+                        <img class="lazy loading" src="https://via.placeholder.com/1403x967"
+                            data-src="/prefeitura_noticia3.PNG" alt="Prefeitura de Serdin cabeçalho de notícias">
                     </div>
                     <div class="featured__img-wrapper">
-                        <img class="lazy loading" src="https://via.placeholder.com/1903x790"  data-src="/prefeitura_noticia4.PNG" alt="Prefeitura de Serdin rodapé de notícias">
+                        <img class="lazy loading" src="https://via.placeholder.com/1903x790"
+                            data-src="/prefeitura_noticia4.PNG" alt="Prefeitura de Serdin rodapé de notícias">
                     </div>
                     <div class="featured__img-wrapper">
-                        <img class="lazy loading"  src="https://via.placeholder.com/415x726" data-src="/prefeitura_responsivo5.PNG" alt="Prefeitura de Serdin cabeçalho celular">
+                        <img class="lazy loading" src="https://via.placeholder.com/415x726"
+                            data-src="/prefeitura_responsivo5.PNG" alt="Prefeitura de Serdin cabeçalho celular">
                     </div>
                     <div class="featured__img-wrapper">
-                        <img class="lazy loading" src="https://via.placeholder.com/423x735"  data-src="/prefeitura_responsivo6.PNG" alt="Prefeitura de Serdin rodapé celular">
+                        <img class="lazy loading" src="https://via.placeholder.com/423x735"
+                            data-src="/prefeitura_responsivo6.PNG" alt="Prefeitura de Serdin rodapé celular">
                     </div>
                 </div>
             </section>
@@ -119,37 +126,59 @@
                     <!-- Project 1 -->
                     <h3 class="work__project-title">Fusion Attack!</h3>
                     <div class="work__img-wrapper work__image1">
-                        <img class="lazy loading" src="https://via.placeholder.com/1023x576"  data-src="/fusionattack.png" alt="Jogo de luta com dois personagens em cada lado da tela">
+                        <img class="lazy loading" src="https://via.placeholder.com/1023x576" data-src="/fusionattack.png"
+                            alt="Jogo de luta com dois personagens em cada lado da tela">
                     </div>
                     <div class="work__project work__content1">
                         <h3 class="work__project-subtitle">Fusion Attack!</h3>
                         <p class="work__project-description1">Primeiro jogo de luta em dupla que desenvolvi em
-                            <strong>javascript</strong> para o meu TCC.</p>
+                            <strong>javascript</strong> para o meu TCC.
+                        </p>
                         <p class="work__project-description2">Dois times se enfrentam, podendo atacar, esquivar ou defender
                             dos golpes. A barra azul claro abaixo das barras duplas se preenche
                             com o tempo e quando cheia, os dois personagens do mesmo time podem se juntar para
                             temporariamente fundirem e
                             liberarem um poderoso golpe!</p>
-                        <a href="https://fighting-prototype.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
+                        <a href="https://fighting-prototype.netlify.app" target="_blank"
+                            class="btn work__project-btn">Demo</a>
                     </div>
                     <!-- Project 2 -->
                     <h3 class="work__project-title">PokiMO</h3>
                     <div class="work__img-wrapper work__image2">
-                        <img class="lazy loading" src="https://via.placeholder.com/1023x573" data-src="/pokiMO.png" alt="Jogo de aventura estilo pokemon">
+                        <img class="lazy loading" src="https://via.placeholder.com/1023x573" data-src="/pokiMO.png"
+                            alt="Jogo de aventura estilo pokemon">
                     </div>
                     <div class="work__project work__content2">
                         <h3 class="work__project-subtitle">PokiMO</h3>
                         <p class="work__project-description1">Jogo de aventura estilo pokemon que desenvolvi em
-                            <strong>javascript</strong> e <strong>Tiled</strong> como hobbie.</p>
+                            <strong>javascript</strong> e <strong>Tiled</strong> como hobbie.
+                        </p>
                         <p class="work__project-description2">'PokiMO' É um jogo curto que se passa em uma ilha focado no
                             estudo de combate por turnos e construção de mapas com áreas de interação!</p>
-                        <a href="#" class="btn work__project-btn">Demo</a>
+                        <a href="#" class="btn work__project-btn">Em Breve</a>
+                    </div>
+                    <!-- Project 3 -->
+                    <h3 class="work__project-title">PokeVi</h3>
+                    <div class="work__img-wrapper work__image3">
+                        <img class="lazy loading" src="https://via.placeholder.com/1025x576" data-src="/Pokevi.PNG"
+                            alt="Pokedéx da 1ª e 2ª geração">
+                    </div>
+                    <div class="work__project work__content3">
+                        <h3 class="work__project-subtitle">PokeVi</h3>
+                        <p class="work__project-description1">Pokedéx da 1ª e 2ª geração de pokemons.</p>
+                        <p class="work__project-description2">Desenvolvida para fins didáticos em <strong>Vue3+Vite</strong>
+                            utilizando as
+                            bibliotecas <strong>Bootstrap</strong> e <strong>AnimateCSS</strong> em linguagem
+                            <strong>Javascript</strong>.
+                        </p>
+                        <a href="https://pokevi.netlify.app/" class="btn work__project-btn">Demo</a>
                     </div>
                 </div>
             </section>
             <section id="contact" class="contact container section">
                 <h2 class="contact__title">Entre em Contato</h2>
-                <p class="contact__description">Caso esteja começando um projeto, queira fazer algum tipo de proposta ou apenas dizer um oi, sinta-se livre para entrar em contato! te responderei o quanto antes :)</p>
+                <p class="contact__description">Caso esteja começando um projeto, queira fazer algum tipo de proposta ou
+                    apenas dizer um oi, sinta-se livre para entrar em contato! te responderei o quanto antes :)</p>
                 <p class="contact__description"><strong>Whattsapp:</strong> (63) 98409-7497</p>
                 <a class="contact__btn btn" href="mailto:danilo.a.l.oliveira74@outlook.com" target="_blank">E-mail</a>
             </section>
@@ -607,6 +636,7 @@ export default {
         grid-template-areas:
             'image1 content1'
             'content2 image2'
+            'image3 content3'
         ;
         place-items: center;
     }
@@ -619,12 +649,20 @@ export default {
         grid-area: image2
     }
 
+    .work__image3 {
+        grid-area: image3
+    }
+
     .work__content1 {
         grid-area: content1;
     }
 
     .work__content2 {
         grid-area: content2;
+    }
+
+    .work__content3 {
+        grid-area: content3;
     }
 
     .work__project {
@@ -772,6 +810,10 @@ export default {
         font-size: var(--size-base);
     }
 
+    .work__project-description3 {
+        font-size: var(--size-base);
+    }
+
     .work__project-btn {
         font-size: var(--size-base);
     }
@@ -899,6 +941,10 @@ export default {
         font-size: var(--size-lg);
     }
 
+    .work__project-description3 {
+        font-size: var(--size-lg);
+    }
+
     .work__project-btn {
         font-size: var(--size-lg);
     }
@@ -936,7 +982,8 @@ export default {
     .work__container {
         width: 70%;
     }
-}</style>
+}
+</style>
 
 <!-- src="https://via.placeholder.com/350x360"
 src="https://via.placeholder.com/1454x964"
