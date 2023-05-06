@@ -325,17 +325,26 @@
           >E-mail</a
         >
         <div class="contact__icons">
-          <a href="https://github.com/flashqueen" target="_blank"
-            ><img class="icons__color" src="/icons/github_icon.png" height="30"
-          /></a>
-          <a
-            href="https://www.linkedin.com/in/danilo-aires-lopes-de-oliveira-45a6b5260"
-            target="_blank"
-            ><img
-              class="icons__color"
-              src="/icons/linkedin_icon.png"
-              height="30"
-          /></a>
+          <div class="contact__icons_info">
+            <a href="https://github.com/flashqueen" target="_blank"
+              ><img
+                class="icons__color"
+                src="/icons/github_icon.png"
+                height="30"
+            /></a>
+            <p class="contact__description">Github</p>
+          </div>
+          <div class="contact__icons_info">
+            <a
+              href="https://www.linkedin.com/in/danilo-aires-lopes-de-oliveira-45a6b5260"
+              target="_blank"
+              ><img
+                class="icons__color"
+                src="/icons/linkedin_icon.png"
+                height="30"
+            /></a>
+            <p class="contact__description">Linkedin</p>
+          </div>
         </div>
       </section>
     </main>
@@ -642,6 +651,12 @@ export default {
   justify-content: center;
   gap: 2em;
   margin-top: 2em;
+}
+
+.contact__icons_info {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
 }
 
 /* XS */
