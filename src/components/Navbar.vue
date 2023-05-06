@@ -67,15 +67,13 @@
 </template>
 
 <script>
-
 export default {
-    name: 'Navbar',
+    name: "Navbar",
     data() {
         return {
             isMobileNavOpen: false,
-        }
+        };
     },
-
 
     methods: {
         mobileNavig() {
@@ -83,9 +81,9 @@ export default {
             this.isMobileNavOpen = !this.isMobileNavOpen;
 
             if (this.isMobileNavOpen) {
-                document.body.style.overflowY = 'hidden';
+                document.body.style.overflowY = "hidden";
             } else {
-                document.body.style.overflowY = 'auto';
+                document.body.style.overflowY = "auto";
             }
         },
         mobileLinks() {
@@ -93,34 +91,39 @@ export default {
             this.isMobileNavOpen = !this.isMobileNavOpen;
 
             if (!this.isMobileNavOpen) {
-                document.body.style.overflowY = 'auto';
+                document.body.style.overflowY = "auto";
             }
         },
         darkMode() {
             //State
-            const theme = localStorage.getItem('theme');
+            const theme = localStorage.getItem("theme");
+            //icons
+            const dots = document.querySelectorAll(".icons__color");
             //On Mount
-            theme && document.body.classList.add(theme)
+            theme && document.body.classList.add(theme);
 
             //Events
-            document.body.classList.toggle('light-mode');
-            if(document.body.classList.contains('light-mode')) {
-                localStorage.setItem('theme', 'light-mode');
-            }else{
-                localStorage.removeItem('theme');
-                document.body.removeAttribute('class');
+            document.body.classList.toggle("light-mode");
+            if (document.body.classList.contains("light-mode")) {
+                localStorage.setItem("theme", "light-mode");
+                dots.forEach((icons__color) => {
+                    icons__color.style.filter = "brightness(0)";
+                });
+            } else {
+                localStorage.removeItem("theme");
+                document.body.removeAttribute("class");
+                dots.forEach((icons__color) => {
+                    icons__color.style.filter = "brightness(0) invert(1)";
+                });
             }
-        }
-    }
-}
-
-
-
+        },
+    },
+};
 </script>
 
 <style>
-@import '../assets/main.css';
-@import '../assets/utils.css';
+@import "../assets/main.css";
+@import "../assets/utils.css";
 
 .header {
     display: flex;
@@ -130,7 +133,6 @@ export default {
     padding-bottom: 2rem;
     position: relative;
     z-index: 9999;
-
 }
 
 .header__menu {
