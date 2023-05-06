@@ -153,9 +153,7 @@
           <div>
             <h3 class="featured__label">Tech stack</h3>
             <ul class="featured__tech-stack">
-              <li class="featured__info">
-                BootstrapCSS<img src="/icons/bootstrap_icon.png" />
-              </li>
+              <li class="featured__info">BootstrapCSS</li>
               <li class="featured__info">Javascript</li>
               <li class="featured__info">HTML</li>
             </ul>
