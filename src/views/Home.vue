@@ -48,81 +48,45 @@
           <div class="about__ul-container">
             <ul class="about__ul">
               <li class="about__list">
-                <img
-                  class="about__list_img icons__color"
-                  src="/icons/javascript_icon.png"
-                  height="25"
-                />
+                <img class="about__list_img icons__color" src="/icons/javascript_icon.png" height="25" />
                 Javascript
               </li>
               <li class="about__list">
-                <img
-                  class="about__list_img icons__color"
-                  src="/icons/filetype_css_icon.png"
-                  height="25"
-                />
+                <img class="about__list_img icons__color" src="/icons/filetype_css_icon.png" height="25" />
                 CSS / HTML
               </li>
               <li class="about__list">
-                <img
-                  class="about__list_img icons__color"
-                  src="/icons/tailwind_icon.png"
-                  height="25"
-                />
+                <img class="about__list_img icons__color" src="/icons/tailwind_icon.png" height="25" />
                 TailwindCSS
               </li>
               <li class="about__list">
-                <img
-                  class="about__list_img icons__color"
-                  src="/icons/bootstrap_icon.png"
-                  height="25"
-                />
+                <img class="about__list_img icons__color" src="/icons/bootstrap_icon.png" height="25" />
                 Bootstrap
               </li>
             </ul>
             <ul class="about__ul">
               <li class="about__list">
-                <img
-                  class="about__list_img icons__color"
-                  src="/icons/vue_fill_icon.png"
-                  height="25"
-                />
+                <img class="about__list_img icons__color" src="/icons/vue_fill_icon.png" height="25" />
                 Vue3 (+vite)
               </li>
               <li class="about__list">
-                <img
-                  class="about__list_img icons__color"
-                  src="/icons/laravel_icon.png"
-                  height="25"
-                />
+                <img class="about__list_img icons__color" src="/icons/laravel_icon.png" height="25" />
                 Laravel
               </li>
               <li class="about__list">
-                <img
-                  class="about__list_img icons__color"
-                  src="/icons/wordpress_icon.png"
-                  height="25"
-                />
+                <img class="about__list_img icons__color" src="/icons/wordpress_icon.png" height="25" />
                 Wordpress
               </li>
               <li class="about__list">
-                <img
-                  class="about__list_img icons__color"
-                  src="/icons/python_icon.png"
-                  height="25"
-                />
+                <img class="about__list_img icons__color" src="/icons/python_icon.png" height="25" />
                 Python
               </li>
             </ul>
           </div>
         </div>
         <div class="about__img-wrapper">
-          <img
-            class="about__img lazy loading"
-            src="https://via.placeholder.com/350x360"
-            data-src="/euSerio2.png"
-            alt="Foto de perfil"
-          />
+          <img class="about__img lazy loading" src="https://via.placeholder.com/350x360" data-src="/euSerio2.png"
+            alt="Foto de perfil" />
         </div>
       </section>
       <section id="featured" class="featured container section">
@@ -130,53 +94,43 @@
         <div class="featured__wrapper">
           <h2 class="featured__title">Prefeitura de Serdin</h2>
           <a class="featured__link" href="">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-            >
-              <path
-                fill-rule="evenodd"
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path fill-rule="evenodd"
                 d="M19.902 4.098a3.75 3.75 0 00-5.304 0l-4.5 4.5a3.75 3.75 0 001.035 6.037.75.75 0 01-.646 1.353 5.25 5.25 0 01-1.449-8.45l4.5-4.5a5.25 5.25 0 117.424 7.424l-1.757 1.757a.75.75 0 11-1.06-1.06l1.757-1.757a3.75 3.75 0 000-5.304zm-7.389 4.267a.75.75 0 011-.353 5.25 5.25 0 011.449 8.45l-4.5 4.5a5.25 5.25 0 11-7.424-7.424l1.757-1.757a.75.75 0 111.06 1.06l-1.757 1.757a3.75 3.75 0 105.304 5.304l4.5-4.5a3.75 3.75 0 00-1.035-6.037.75.75 0 01-.354-1z"
-                clip-rule="evenodd"
-              />
+                clip-rule="evenodd" />
             </svg>
           </a>
         </div>
-        <p class="featured__description">
-          Layout da fictícia prefeitura de Serdin, realizado em
-          <strong>HTML e BootstrapCSS</strong>, inspirado no visual de outras
-          prefeituras do Brasil contando com uma página principal e uma página
-          de notícia.
-        </p>
         <div class="featured__info-container">
           <div>
-            <div>
-              <h3 class="featured__label">Tech stack</h3>
-              <ul class="featured__tech-stack">
-                <li class="featured__info">BootstrapCSS</li>
-                <li class="featured__info">Javascript</li>
-                <li class="featured__info">HTML</li>
-              </ul>
-            </div>
-            <div>
-              <h3 class="featured__label">Project Type</h3>
-              <p class="featured__info">Fullstack-Frontend</p>
-            </div>
-            <div>
-              <h3 class="featured__label">Timeline</h3>
-              <p class="featured__info">29 a 31 de Março</p>
+            <p class="featured__description">
+              Layout da fictícia prefeitura de Serdin, realizado em
+              <strong>HTML e BootstrapCSS</strong>, inspirado no visual de outras
+              prefeituras do Brasil contando com uma página principal e uma página
+              de notícia.
+            </p>
+            <div class="featured__lists">
+              <div>
+                <h3 class="featured__label">Tech stack</h3>
+                <ul class="featured__tech-stack">
+                  <li class="featured__info">BootstrapCSS</li>
+                  <li class="featured__info">Javascript</li>
+                  <li class="featured__info">HTML</li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="featured__label">Project Type</h3>
+                <p class="featured__info">Fullstack-Frontend</p>
+              </div>
+              <div>
+                <h3 class="featured__label">Timeline</h3>
+                <p class="featured__info">29 a 31 de Março</p>
+              </div>
             </div>
           </div>
           <div class="slide-show ">
-            <SlideShow v-for="(data, index) in slideData" 
-              :key="index" 
-              v-bind:img="slideData[index].img"
-              v-bind:myId="index + 1"
-              v-bind:currentId="currentId"
-              v-bind:count="slideCounts"
-              v-on:direction="dir"
-              />
+            <SlideShow v-for="(data, index) in slideData" :key="index" v-bind:img="slideData[index].img"
+              v-bind:myId="index + 1" v-bind:currentId="currentId" v-bind:count="slideCounts" v-on:direction="dir" />
           </div>
         </div>
         <!-- <div class="featured__img-container">
@@ -242,12 +196,8 @@
           <!-- Project 1 -->
           <h3 class="work__project-title">Fusion Attack!</h3>
           <div class="work__img-wrapper work__image1">
-            <img
-              class="lazy loading"
-              src="https://via.placeholder.com/1023x576"
-              data-src="/fusionattack.png"
-              alt="Jogo de luta com dois personagens em cada lado da tela"
-            />
+            <img class="lazy loading" src="https://via.placeholder.com/1023x576" data-src="/fusionattack.png"
+              alt="Jogo de luta com dois personagens em cada lado da tela" />
           </div>
           <div class="work__project work__content1">
             <h3 class="work__project-subtitle">Fusion Attack!</h3>
@@ -256,28 +206,18 @@
               <strong>javascript</strong> para o meu TCC.
             </p>
             <p class="work__project-description2">
-              Dois times se enfrentam, podendo atacar, esquivar ou defender dos
-              golpes. A barra azul claro abaixo das barras duplas se preenche
-              com o tempo e quando cheia, os dois personagens do mesmo time
-              podem se juntar para temporariamente fundirem e liberarem um
+              ataque, esquive ou defenda dos golpes adversários.
+              ao preencher da barra azul, una-se ao seu aliado para
+              temporariamente fundirem e liberarem um
               poderoso golpe!
             </p>
-            <a
-              href="https://fighting-prototype.netlify.app"
-              target="_blank"
-              class="btn work__project-btn"
-              >Demo</a
-            >
+            <a href="https://fighting-prototype.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
           </div>
           <!-- Project 2 -->
           <h3 class="work__project-title">PokiMO</h3>
           <div class="work__img-wrapper work__image2">
-            <img
-              class="lazy loading"
-              src="https://via.placeholder.com/1023x573"
-              data-src="/pokiMO.png"
-              alt="Jogo de aventura estilo pokemon"
-            />
+            <img class="lazy loading" src="https://via.placeholder.com/1023x573" data-src="/pokiMO.png"
+              alt="Jogo de aventura estilo pokemon" />
           </div>
           <div class="work__project work__content2">
             <h3 class="work__project-subtitle">PokiMO</h3>
@@ -295,12 +235,8 @@
           <!-- Project 3 -->
           <h3 class="work__project-title">PokeVi</h3>
           <div class="work__img-wrapper work__image3">
-            <img
-              class="lazy loading"
-              src="https://via.placeholder.com/1025x576"
-              data-src="/Pokevi.PNG"
-              alt="Pokedéx da 1ª e 2ª geração"
-            />
+            <img class="lazy loading" src="https://via.placeholder.com/1025x576" data-src="/Pokevi.PNG"
+              alt="Pokedéx da 1ª e 2ª geração" />
           </div>
           <div class="work__project work__content3">
             <h3 class="work__project-subtitle">PokeVi</h3>
@@ -313,9 +249,7 @@
               <strong>Bootstrap</strong> e <strong>AnimateCSS</strong> em
               linguagem <strong>Javascript</strong>.
             </p>
-            <a href="https://pokevi.netlify.app/" class="btn work__project-btn"
-              >Demo</a
-            >
+            <a href="https://pokevi.netlify.app/" class="btn work__project-btn">Demo</a>
           </div>
         </div>
       </section>
@@ -329,31 +263,16 @@
         <p class="contact__description">
           <strong>Whattsapp:</strong> (63) 98409-7497
         </p>
-        <a
-          class="contact__btn btn"
-          href="mailto:danilo.a.l.oliveira74@outlook.com"
-          target="_blank"
-          >E-mail</a
-        >
+        <a class="contact__btn btn" href="mailto:danilo.a.l.oliveira74@outlook.com" target="_blank">E-mail</a>
         <div class="contact__icons">
           <div class="contact__icons_info">
-            <a href="https://github.com/flashqueen" target="_blank"
-              ><img
-                class="icons__color"
-                src="/icons/github_icon.png"
-                height="30"
-            /></a>
+            <a href="https://github.com/flashqueen" target="_blank"><img class="icons__color" src="/icons/github_icon.png"
+                height="30" /></a>
             <p class="contact__description">Github</p>
           </div>
           <div class="contact__icons_info">
-            <a
-              href="https://www.linkedin.com/in/danilo-aires-lopes-de-oliveira-45a6b5260"
-              target="_blank"
-              ><img
-                class="icons__color"
-                src="/icons/linkedin_icon.png"
-                height="30"
-            /></a>
+            <a href="https://www.linkedin.com/in/danilo-aires-lopes-de-oliveira-45a6b5260" target="_blank"><img
+                class="icons__color" src="/icons/linkedin_icon.png" height="30" /></a>
             <p class="contact__description">Linkedin</p>
           </div>
         </div>
@@ -373,15 +292,15 @@ export default {
     SlideShow
   },
   methods: {
-    dir: function(myDir) {
-      if(myDir === "right") {
-        if(this.currentId < this.slideCounts){
+    dir: function (myDir) {
+      if (myDir === "right") {
+        if (this.currentId < this.slideCounts) {
           this.currentId += 1;
-        }else {
+        } else {
           this.currentId = 1;
         }
       } else {
-        if(this.currentId > 1) {
+        if (this.currentId > 1) {
           this.currentId -= 1;
         } else {
           this.currentId = this.slideCounts;
@@ -392,8 +311,8 @@ export default {
   mounted() {
     lazyLoading();
   },
-  data: function() {
-    return{
+  data: function () {
+    return {
       slideCounts: 4,
       currentId: 1,
       slideData: [
@@ -547,10 +466,15 @@ export default {
 }
 
 .featured__description {
-  max-width: 60ch;
   color: var(--clr-slate600);
   font-size: var(--size-sm);
   margin: 1rem 0;
+}
+
+.featured__lists {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .featured__label {
@@ -572,9 +496,9 @@ export default {
 
 .featured__info-container {
   display: flex;
-  flex-direction:row;
+  flex-direction: column;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 19rem;
 }
 
 .featured__info-container div {
@@ -591,7 +515,8 @@ export default {
 
 .slide-show {
   width: 100%;
-  height: 10ch;
+  height: 70ch;
+  margin-bottom: 15rem;
 }
 
 .featured__img-wrapper {
@@ -719,6 +644,7 @@ export default {
 
 /* XS */
 @media (min-width: 475px) {
+
   /* -----------------Herói--------------- */
   .hero {
     gap: 1.5rem;
@@ -797,6 +723,12 @@ export default {
     font-size: var(--size-base);
   }
 
+  .slide-show {
+    width: 100%;
+    height: 70ch;
+    margin-bottom: 15rem;
+  }
+
   .featured__img-container {
     margin-top: 1.5rem;
     grid-gap: 1.5rem;
@@ -851,6 +783,7 @@ export default {
 
 /* sm */
 @media (min-width: 640px) {
+
   /* --------------Sobre-------------- */
   .about__img-wrapper {
     margin: 0 auto;
@@ -1070,6 +1003,7 @@ export default {
 
 /* XL */
 @media (min-width: 1280px) {
+
   /* --------------Herói--------------- */
   .hero {
     gap: 2rem;
@@ -1140,8 +1074,22 @@ export default {
     margin: 2rem 0;
   }
 
+  .featured__lists {
+    gap: 1em;
+  }
+
   .featured__label {
     font-size: var(--size-2xl);
+  }
+
+  .featured__info-container {
+    flex-direction: row;
+    gap: 0.1rem;
+  }
+
+  .featured__info-container div {
+    min-width: 150px;
+    margin-bottom: -5rem;
   }
 
   .featured__info {

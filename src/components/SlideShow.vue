@@ -1,40 +1,41 @@
 <template>
-  <div class="slide" v-bind:class="[whereAmI]">
-    <img v-bind:src="img" alt="img" class="slide-img">
-    <div class="slide-bullets">
-        <div v-for="n in count" :key="n" class="slide-bullet" v-bind:class="{'bullet-on' :n === currentId ? true : false}">
+    <div class="slide" v-bind:class="[whereAmI]">
+        <img v-bind:src="img" alt="img" class="slide-img">
+        <div class="slide-bullets">
+            <div v-for="n in count" :key="n" class="slide-bullet"
+                v-bind:class="{ 'bullet-on': n === currentId ? true : false }">
+            </div>
+        </div>
+        <div class="right-arrow" @click="$emit('direction', 'right')">
+            <div class="arrow-pos-div">
+                <img src="/arrow.png" alt="arrow" class="right-arrow-pic" />
+            </div>
+        </div>
+        <div class="left-arrow" @click="$emit('direction', 'left')">
+            <div class="arrow-pos-div">
+                <img src="/arrow.png" alt="arrow" class="left-arrow-pic" />
+            </div>
         </div>
     </div>
-    <div class="right-arrow" @click="$emit('direction', 'right')">
-        <div class="arrow-pos-div">
-            <img src="/arrow.png" alt="arrow" class="right-arrow-pic"/>
-        </div>
-    </div>
-    <div class="left-arrow" @click="$emit('direction', 'left')">
-        <div class="arrow-pos-div">
-            <img src="/arrow.png" alt="arrow" class="left-arrow-pic"/>
-        </div>
-    </div>
-  </div>
 </template>
 
 <script>
 export default {
     name: "SlideShow",
-    props: ["data", "img", "myId", "currentId","count"],
+    props: ["data", "img", "myId", "currentId", "count"],
     computed: {
-        whereAmI: function() {
-            if(this.myId > this.currentId){
-                return{
+        whereAmI: function () {
+            if (this.myId > this.currentId) {
+                return {
                     "slide-right": true,
                     "slide-left": false,
                 }
-            }else if(this.myId < this.currentId) {
+            } else if (this.myId < this.currentId) {
                 return {
                     "slide-right": false,
                     "slide-left": true,
                 }
-            }else {
+            } else {
                 return {
                     "slide-right": false,
                     "slide-left": false,
@@ -46,7 +47,7 @@ export default {
 </script>
 
 <style>
-.slide{
+.slide {
     width: 100%;
     position: absolute;
     top: 50%;
@@ -54,7 +55,7 @@ export default {
     transform: translate(-50%, -50%);
     opacity: 1;
     /* background-color: blueviolet; */
-    height: 48vh;
+    height: 50vh;
 }
 
 .slide-right {
@@ -67,10 +68,9 @@ export default {
     visibility: hidden;
 }
 
-.slide-img{
+.slide-img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
 .right-arrow {
@@ -129,7 +129,7 @@ export default {
     opacity: 1;
 }
 
-.slide-bullets{
+.slide-bullets {
     height: 11px;
     position: absolute;
     top: 100%;
@@ -138,7 +138,7 @@ export default {
     display: flex;
 }
 
-.slide-bullet{
+.slide-bullet {
     height: 200px;
     border-radius: 50%;
     background-color: transparent;
@@ -160,8 +160,11 @@ export default {
     transition: 1s;
 }
 
-.bullet-on:after{
+.bullet-on:after {
     transform: translate(-50%, -50%) scale(1);
     opacity: 1;
 }
+
+/* xs */
+/* @media (min-width: 475px) {} */
 </style>
