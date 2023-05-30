@@ -151,23 +151,36 @@
         </p>
         <div class="featured__info-container">
           <div>
-            <h3 class="featured__label">Tech stack</h3>
-            <ul class="featured__tech-stack">
-              <li class="featured__info">BootstrapCSS</li>
-              <li class="featured__info">Javascript</li>
-              <li class="featured__info">HTML</li>
-            </ul>
+            <div>
+              <h3 class="featured__label">Tech stack</h3>
+              <ul class="featured__tech-stack">
+                <li class="featured__info">BootstrapCSS</li>
+                <li class="featured__info">Javascript</li>
+                <li class="featured__info">HTML</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="featured__label">Project Type</h3>
+              <p class="featured__info">Fullstack-Frontend</p>
+            </div>
+            <div>
+              <h3 class="featured__label">Timeline</h3>
+              <p class="featured__info">29 a 31 de Março</p>
+            </div>
           </div>
-          <div>
-            <h3 class="featured__label">Project Type</h3>
-            <p class="featured__info">Fullstack-Frontend</p>
-          </div>
-          <div>
-            <h3 class="featured__label">Timeline</h3>
-            <p class="featured__info">29 a 31 de Março</p>
+          <div class="slide-show ">
+            <SlideShow v-for="(data, index) in slideData" 
+              :key="index" 
+              v-bind:img="slideData[index].img"
+              v-bind:myId="index + 1"
+              v-bind:currentId="currentId"
+              v-bind:count="slideCounts"
+              v-on:direction="dir"
+              />
           </div>
         </div>
-        <div class="featured__img-container">
+        <!-- <div class="featured__img-container">
+            
           <div class="featured__img-wrapper">
             <img
               class="lazy loading"
@@ -216,7 +229,7 @@
               alt="Prefeitura de Serdin rodapé celular"
             />
           </div>
-        </div>
+        </div> -->
       </section>
       <section class="work container section">
         <h2 class="work__title">Projetos</h2>
@@ -352,12 +365,53 @@
 
 <script>
 import lazyLoading from "../utils/lazy-loading";
+import SlideShow from "../components/SlideShow.vue";
 
 export default {
   name: "Home",
+  components: {
+    SlideShow
+  },
+  methods: {
+    dir: function(myDir) {
+      if(myDir === "right") {
+        if(this.currentId < this.slideCounts){
+          this.currentId += 1;
+        }else {
+          this.currentId = 1;
+        }
+      } else {
+        if(this.currentId > 1) {
+          this.currentId -= 1;
+        } else {
+          this.currentId = this.slideCounts;
+        }
+      }
+    }
+  },
   mounted() {
     lazyLoading();
   },
+  data: function() {
+    return{
+      slideCounts: 4,
+      currentId: 1,
+      slideData: [
+        {
+          img: "/prefeitura_header1.PNG"
+        },
+        {
+          img: "/prefeitura_footer2.PNG"
+        },
+        {
+          img: "/prefeitura_noticia3.PNG"
+        },
+        {
+          img: "/prefeitura_noticia4.PNG"
+        },
+      ]
+    }
+  }
 };
 </script>
 
@@ -518,6 +572,7 @@ export default {
 
 .featured__info-container {
   display: flex;
+  flex-direction:row;
   flex-wrap: wrap;
   gap: 1rem;
 }
@@ -532,6 +587,11 @@ export default {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1rem;
+}
+
+.slide-show {
+  width: 100%;
+  height: 10ch;
 }
 
 .featured__img-wrapper {

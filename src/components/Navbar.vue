@@ -26,7 +26,7 @@
           </button>
         </li>
         <li>
-          <a class="header__resume btn" href="#">Currículo</a>
+          <a class="header__resume btn" href="/archives/Currículo_Danilo_Oliveira.pdf" download>Currículo</a>
         </li>
       </ul>
       <button class="header__bars" @click="mobileNavig()">
@@ -100,9 +100,9 @@ export default {
     };
   },
 
-  mounted() {
-    this.persistLightMode();
-  },
+  // mounted() {
+  //   this.persistLightMode();
+  // },
 
   methods: {
     mobileNavig() {
@@ -144,12 +144,12 @@ export default {
         });
       }
     },
-    persistLightMode() {
-      //State
-      const theme = localStorage.getItem("theme");
-      //On Mount
-      theme && document.body.classList.add(theme);
-    },
+    // persistLightMode() {
+    //   //State
+    //   const theme = localStorage.getItem("theme");
+    //   //On Mount
+    //   theme && document.body.classList.add(theme);
+    // },
   },
 };
 </script>
