@@ -211,7 +211,12 @@
               temporariamente fundirem e liberarem um
               poderoso golpe!
             </p>
-            <a href="https://fighting-prototype.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
+            <div>
+              <a href="https://fighting-prototype.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
+              <a href="https://github.com/flashqueen/fighting-game" target="_blank" class="btn work__project-btn"
+                style="margin-left:15px;">Github</a>
+            </div>
+
           </div>
           <!-- Project 2 -->
           <h3 class="work__project-title">PokiMO</h3>
@@ -249,7 +254,12 @@
               <strong>Bootstrap</strong> e <strong>AnimateCSS</strong> em
               linguagem <strong>Javascript</strong>.
             </p>
-            <a href="https://pokevi.netlify.app/" class="btn work__project-btn">Demo</a>
+            <div>
+              <a href="https://pokevi.netlify.app/" class="btn work__project-btn">Demo</a>
+              <a href="https://github.com/flashqueen/PokeVite" target="_blank" class="btn work__project-btn"
+                style="margin-left:15px;">Github</a>
+
+            </div>
           </div>
         </div>
       </section>
@@ -723,11 +733,11 @@ export default {
     font-size: var(--size-base);
   }
 
-  .slide-show {
+  /* .slide-show {
     width: 100%;
     height: 70ch;
     margin-bottom: 15rem;
-  }
+  } */
 
   .featured__img-container {
     margin-top: 1.5rem;
