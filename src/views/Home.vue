@@ -128,12 +128,8 @@
               </div>
             </div>
           </div>
-          <div class="slide-show ">
-            <SlideShow v-for="(data, index) in slideData" :key="index" v-bind:img="slideData[index].img"
-              v-bind:myId="index + 1" v-bind:currentId="currentId" v-bind:count="slideCounts" v-on:direction="dir" />
-          </div>
         </div>
-        <!-- <div class="featured__img-container">
+        <div class="featured__img-container">
             
           <div class="featured__img-wrapper">
             <img
@@ -183,7 +179,7 @@
               alt="Prefeitura de Serdin rodapé celular"
             />
           </div>
-        </div> -->
+        </div>
       </section>
       <section class="work container section">
         <h2 class="work__title">Projetos</h2>
@@ -294,53 +290,14 @@
 
 <script>
 import lazyLoading from "../utils/lazy-loading";
-import SlideShow from "../components/SlideShow.vue";
 
 export default {
   name: "Home",
-  components: {
-    SlideShow
-  },
-  methods: {
-    dir: function (myDir) {
-      if (myDir === "right") {
-        if (this.currentId < this.slideCounts) {
-          this.currentId += 1;
-        } else {
-          this.currentId = 1;
-        }
-      } else {
-        if (this.currentId > 1) {
-          this.currentId -= 1;
-        } else {
-          this.currentId = this.slideCounts;
-        }
-      }
-    }
-  },
+
   mounted() {
     lazyLoading();
   },
-  data: function () {
-    return {
-      slideCounts: 4,
-      currentId: 1,
-      slideData: [
-        {
-          img: "/prefeitura_header1.PNG"
-        },
-        {
-          img: "/prefeitura_footer2.PNG"
-        },
-        {
-          img: "/prefeitura_noticia3.PNG"
-        },
-        {
-          img: "/prefeitura_noticia4.PNG"
-        },
-      ]
-    }
-  }
+  
 };
 </script>
 
@@ -369,7 +326,7 @@ export default {
 }
 
 .hero__title {
-  color: var(--clr-slate400);
+  color: var(--clr-slate200);
   text-transform: uppercase;
   font-size: var(--size-4xl);
   letter-spacing: -0.05em;
@@ -380,7 +337,7 @@ export default {
 .hero__description {
   max-width: 60ch;
   font-size: var(--size-sm);
-  color: var(--clr-slate600);
+  color: var(--clr-slate400);
 }
 
 .hero__btn {
@@ -408,7 +365,7 @@ export default {
 .about__description {
   max-width: 60ch;
   font-size: var(--size-sm);
-  color: var(--clr-slate600);
+  color: var(--clr-slate400);
 }
 
 .about__hr {
@@ -417,7 +374,7 @@ export default {
 
 .about__subtitle {
   font-size: var(--size-sm);
-  color: var(--clr-slate400);
+  color: var(--clr-slate200);
 }
 
 .about__ul-container {
@@ -435,7 +392,7 @@ export default {
 
 .about__list {
   font-size: var(--size-sm);
-  color: var(--clr-slate600);
+  color: var(--clr-slate400);
 }
 
 .about__list::before {
@@ -476,7 +433,7 @@ export default {
 }
 
 .featured__description {
-  color: var(--clr-slate600);
+  color: var(--clr-slate400);
   font-size: var(--size-sm);
   margin: 1rem 0;
 }
@@ -500,7 +457,7 @@ export default {
 
 .featured__info {
   font-size: var(--size-sm);
-  color: var(--clr-slate600);
+  color: var(--clr-slate400);
   text-transform: capitalize;
 }
 
@@ -508,7 +465,6 @@ export default {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 19rem;
 }
 
 .featured__info-container div {
@@ -521,12 +477,6 @@ export default {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1rem;
-}
-
-.slide-show {
-  width: 100%;
-  height: 70ch;
-  margin-bottom: 15rem;
 }
 
 .featured__img-wrapper {
@@ -561,7 +511,7 @@ export default {
 .work__description {
   max-width: 60ch;
   font-size: var(--size-sm);
-  color: var(--clr-slate600);
+  color: var(--clr-slate400);
   margin: 1rem auto;
 }
 
@@ -596,13 +546,13 @@ export default {
 
 .work__project-description1 {
   font-size: var(--size-sm);
-  color: var(--clr-slate600);
+  color: var(--clr-slate400);
   margin: 1rem 0;
 }
 
 .work__project-description2 {
   font-size: var(--size-sm);
-  color: var(--clr-slate400);
+  color: var(--clr-slate200);
   margin-bottom: 1rem;
 }
 
@@ -631,7 +581,7 @@ export default {
 
 .contact__description {
   font-size: var(--size-sm);
-  color: var(--clr-slate600);
+  color: var(--clr-slate400);
   max-width: 60ch;
 }
 
@@ -732,12 +682,6 @@ export default {
   .featured__info {
     font-size: var(--size-base);
   }
-
-  /* .slide-show {
-    width: 100%;
-    height: 70ch;
-    margin-bottom: 15rem;
-  } */
 
   .featured__img-container {
     margin-top: 1.5rem;
@@ -1099,7 +1043,6 @@ export default {
 
   .featured__info-container div {
     min-width: 150px;
-    margin-bottom: -5rem;
   }
 
   .featured__info {
