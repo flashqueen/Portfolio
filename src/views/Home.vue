@@ -2,21 +2,27 @@
   <div class="home">
     <main>
       <section class="hero container">
-        <img class="hero__img" src="/eu2.png" alt="Esse sou eu!" />
+        <div class="person">
+          <div class="person__container">
+            <img class="hero__img" src="/eu3.jpg" alt="Esse sou eu!" />
+            <img class="hero__outer_img" src="/eu2_removebg.png" alt="Esse sou eu!">
+          </div>
+        </div>
         <h2 class="hero__subtitle">
-          Oi oi pessoal, Danr-- Danilo aqui (•◡•) /
+          Seja bem vindo, sou Danilo Oliveira, um desenvolvedor
         </h2>
         <h1 class="hero__title">
-          FRONT-END <br />
+          FULLSTACK <br />
           STREAMER <br />
           GAME DEVELOPER
         </h1>
         <p class="hero__description">
-          Um desenvolvedor frontend em constante aprendizado, trabalhando com
-          frameworks como <strong>Vue+Vite, React, Django</strong> e linguagens
-          como <strong>javascript e python</strong> entre outros. <br />Também
-          trabalho no desenvolvimento de jogos e faço lives na
-          <strong>twitch</strong>!
+          Cientista da computação com formação voltada para <strong>desenvolvimento de softwares e páginas web
+            fullstack</strong>.
+          Possuo Experiência em <strong>desenvolvimento de formulários</strong> para banco de dados governamentais e sites
+          governamentais,
+          organizações privadas e não governamentais. Pesquisas na área de <strong>jogos estilo 2D, 3D e
+            Top-Down</strong>.
         </p>
         <a class="hero__btn btn" href="#contact">Entrar em contato</a>
       </section>
@@ -89,7 +95,7 @@
             alt="Foto de perfil" />
         </div>
       </section>
-      <section id="featured" class="featured container section">
+      <!-- <section id="featured" class="featured container section">
         <h3 class="featured__subtitle">Projeto em Destaque</h3>
         <div class="featured__wrapper">
           <h2 class="featured__title">Prefeitura de Serdin</h2>
@@ -130,57 +136,33 @@
           </div>
         </div>
         <div class="featured__img-container">
-            
+
           <div class="featured__img-wrapper">
-            <img
-              class="lazy loading"
-              src="https://via.placeholder.com/1454x964"
-              data-src="/prefeitura_header1.PNG"
-              alt="Prefeitura de Serdin cabeçalho"
-            />
+            <img class="lazy loading" src="https://via.placeholder.com/1454x964" data-src="/prefeitura_header1.PNG"
+              alt="Prefeitura de Serdin cabeçalho" />
           </div>
           <div class="featured__img-wrapper">
-            <img
-              class="lazy loading"
-              src="https://via.placeholder.com/1902x965"
-              data-src="/prefeitura_footer2.PNG"
-              alt="Prefeitura de Serdin rodapé"
-            />
+            <img class="lazy loading" src="https://via.placeholder.com/1902x965" data-src="/prefeitura_footer2.PNG"
+              alt="Prefeitura de Serdin rodapé" />
           </div>
           <div class="featured__img-wrapper">
-            <img
-              class="lazy loading"
-              src="https://via.placeholder.com/1403x967"
-              data-src="/prefeitura_noticia3.PNG"
-              alt="Prefeitura de Serdin cabeçalho de notícias"
-            />
+            <img class="lazy loading" src="https://via.placeholder.com/1403x967" data-src="/prefeitura_noticia3.PNG"
+              alt="Prefeitura de Serdin cabeçalho de notícias" />
           </div>
           <div class="featured__img-wrapper">
-            <img
-              class="lazy loading"
-              src="https://via.placeholder.com/1903x790"
-              data-src="/prefeitura_noticia4.PNG"
-              alt="Prefeitura de Serdin rodapé de notícias"
-            />
+            <img class="lazy loading" src="https://via.placeholder.com/1903x790" data-src="/prefeitura_noticia4.PNG"
+              alt="Prefeitura de Serdin rodapé de notícias" />
           </div>
           <div class="featured__img-wrapper">
-            <img
-              class="lazy loading"
-              src="https://via.placeholder.com/415x726"
-              data-src="/prefeitura_responsivo5.PNG"
-              alt="Prefeitura de Serdin cabeçalho celular"
-            />
+            <img class="lazy loading" src="https://via.placeholder.com/415x726" data-src="/prefeitura_responsivo5.PNG"
+              alt="Prefeitura de Serdin cabeçalho celular" />
           </div>
           <div class="featured__img-wrapper">
-            <img
-              class="lazy loading"
-              src="https://via.placeholder.com/423x735"
-              data-src="/prefeitura_responsivo6.PNG"
-              alt="Prefeitura de Serdin rodapé celular"
-            />
+            <img class="lazy loading" src="https://via.placeholder.com/423x735" data-src="/prefeitura_responsivo6.PNG"
+              alt="Prefeitura de Serdin rodapé celular" />
           </div>
         </div>
-      </section>
+      </section> -->
       <section class="work container section">
         <h2 class="work__title">Projetos</h2>
         <p class="work__description">
@@ -191,7 +173,7 @@
         <div class="work__container">
           <!-- Project 1 -->
           <h3 class="work__project-title">Fusion Attack!</h3>
-          <div class="work__img-wrapper work__image1">
+          <div class="work__img-wrapper work__image1 bording__top">
             <img class="lazy loading" src="https://via.placeholder.com/1023x576" data-src="/fusionattack.png"
               alt="Jogo de luta com dois personagens em cada lado da tela" />
           </div>
@@ -216,7 +198,7 @@
           </div>
           <!-- Project 2 -->
           <h3 class="work__project-title">PokiMO</h3>
-          <div class="work__img-wrapper work__image2">
+          <div class="work__img-wrapper work__image2 bording__bottom">
             <img class="lazy loading" src="https://via.placeholder.com/1023x573" data-src="/pokiMO.png"
               alt="Jogo de aventura estilo pokemon" />
           </div>
@@ -235,7 +217,7 @@
           </div>
           <!-- Project 3 -->
           <h3 class="work__project-title">PokeVi</h3>
-          <div class="work__img-wrapper work__image3">
+          <div class="work__img-wrapper work__image3 bording__top">
             <img class="lazy loading" src="https://via.placeholder.com/1025x576" data-src="/Pokevi.PNG"
               alt="Pokedéx da 1ª e 2ª geração" />
           </div>
@@ -297,7 +279,7 @@ export default {
   mounted() {
     lazyLoading();
   },
-  
+
 };
 </script>
 
@@ -310,12 +292,53 @@ export default {
   align-items: center;
   gap: 1rem;
   margin-top: 2rem;
+  position: relative;
+  margin-inline: auto;
+}
+
+.person {
+  --transform-speed: 250ms;
+  position: relative;
+  max-width: 20rem;
+  margin-inline: auto;
+}
+
+.person__container {
+  aspect-ratio: 1 / 1.4;
+  display: grid;
+  align-items: end;
+  border-radius: 0 0 100vw 100vw;
+  overflow: hidden;
+  transition: transform var(--transform-speed) ease-in-out;
+}
+
+.person__container:hover {
+  transform:
+    scale(1.1) translateY(-1rem);
 }
 
 .hero__img {
+  position: absolute;
+  inset: auto 0 0;
+  width: 100%;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
-  width: 6rem;
-  height: 6rem;
+  margin-inline: auto;
+  object-fit: cover;
+}
+
+.hero__outer_img {
+  position: relative;
+  z-index: 2;
+  top: 0.5rem;
+  left: 0.5rem;
+  transform: scale(1.1);
+  transition: transform var(--transform-speed) ease-in-out;
+}
+
+.person__container:hover .hero__outer_img {
+  transform:
+    scale(1.1) translateY(-1rem);
 }
 
 .hero__subtitle {
@@ -524,6 +547,27 @@ export default {
   position: relative;
 }
 
+.bording__top {
+  border-inline-start: 4px solid;
+  border-block-start: 4px solid;
+  border-image-source:
+    radial-gradient(circle at top left,
+      #db2777,
+      transparent 45%);
+  border-image-slice: 1;
+}
+
+.bording__bottom {
+  border-inline-end: 4px solid;
+  border-block-end: 4px solid;
+  margin-top: .5em;
+  border-image-source:
+    radial-gradient(circle at bottom right,
+      #db2777,
+      transparent 45%);
+  border-image-slice: 1;
+}
+
 .work__img-wrapper::after {
   content: "";
   background-color: rgba(124, 58, 237, 0.6);
@@ -611,8 +655,7 @@ export default {
   }
 
   .hero__img {
-    width: 6.5rem;
-    height: 6.5rem;
+    aspect-ratio: 2 / 2;
   }
 
   .hero__subtitle {
@@ -866,8 +909,7 @@ export default {
 
   /* --------------Herói------------------ */
   .hero__img {
-    width: 8rem;
-    height: 8rem;
+    aspect-ratio: 2.5 / 2.5;
   }
 
   .hero__subtitle {
@@ -964,8 +1006,7 @@ export default {
   }
 
   .hero__img {
-    width: 10rem;
-    height: 10rem;
+    aspect-ratio: 3 / 3;
   }
 
   .hero__subtitle {
