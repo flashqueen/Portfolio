@@ -13,17 +13,17 @@
         </h2>
         <h1 class="hero__title">
           FULLSTACK <br />
-          STREAMER <br />
+          <!-- STREAMER <br /> -->
           GAME DEVELOPER
         </h1>
-        <p class="hero__description">
+        <!-- <p class="hero__description">
           Cientista da computação com formação voltada para <strong>desenvolvimento de softwares e páginas web
             fullstack</strong>.
           Possuo Experiência em <strong>desenvolvimento de formulários</strong> para banco de dados governamentais e sites
           governamentais,
           organizações privadas e não governamentais. Pesquisas na área de <strong>jogos estilo 2D, 3D e
             Top-Down</strong>.
-        </p>
+        </p> -->
         <a class="hero__btn btn" href="#contact">Entrar em contato</a>
       </section>
       <section id="about" class="about container section">
@@ -32,23 +32,23 @@
           <p class="about__description">
             Olá! me chamo Danilo e atualmente sou um
             <strong>desenvolvedor de software / desenvolvedor frontend</strong>
-            na empresa Barco Digital em Palmas-TO. Meu trabalho envolve a
-            criação de sites e programas, assim como a manutenção e alterações
-            solicitadas por clientes.
+            na empresa Barco Digital em Palmas-TO. À vista disso possuo experiência
+            em <strong>desenvolvimento de formulários</strong> para banco de dados
+            governamentais e sites governamentais, organizações privadas e não governamentais.
           </p>
           <p class="about__description">
-            No meu tempo livre, estudo sobre a programação de jogos e desenvolvo
-            alguns em
-            <strong>javascript/html</strong>. Jogos digitais são parte da minha
-            vida desde muito novo, e considero cria-los um desafio muito
-            satisfatório!
+            No meu tempo livre, realizo o estudo e a pesquisa
+            na área de <strong>jogos estilo 2D, 3D e Top-Down</strong>.
+            Até o momento desenvolvi alguns em <strong>javascript/html</strong>.
+            Jogos digitais são parte da minha vida desde muito novo,
+            e considero cria-los um desafio muito satisfatório!
           </p>
-          <p class="about__description">
+          <!-- <p class="about__description">
             Também faço lives em meu canal da twitch
             <strong>tw.tv/danrowllet</strong> onde interajo com as pessoas que
             me assistem em diferentes jogos e procuro jogar com composições
             inusitadas e divertidas.
-          </p>
+          </p> -->
           <hr class="about__hr" />
           <h3 class="about__subtitle">Tecnologias</h3>
           <div class="about__ul-container">
@@ -166,54 +166,48 @@
       <section class="work container section">
         <h2 class="work__title">Projetos</h2>
         <p class="work__description">
-          Projetos que desenvolvi durante o meu tempo livre em diversas
-          linguagens. Os projetos variam de jogos a sites em
-          <strong>python e javascript</strong>.
+          Lista resumida de projetos que produzi e/ou colaborei. Os projetos variam de jogos a sites em
+          <strong>Wordpress, Javascript e PHP</strong>.
         </p>
+        <hr class="work__hr" />
         <div class="work__container">
           <!-- Project 1 -->
-          <h3 class="work__project-title">Fusion Attack!</h3>
+          <h3 class="work__project-title">Sites Governamentais / Legislativos</h3>
           <div class="work__img-wrapper work__image1 bording__top">
-            <img class="lazy loading" src="https://via.placeholder.com/1023x576" data-src="/fusionattack.png"
-              alt="Jogo de luta com dois personagens em cada lado da tela" />
+            <img class="lazy loading" src="https://via.placeholder.com/1025x576" data-src="/pref_lajeado.png"
+              alt="Site legislativo da prefeitura de lajeado" />
           </div>
           <div class="work__project work__content1">
-            <h3 class="work__project-subtitle">Fusion Attack!</h3>
+            <h3 class="work__project-subtitle">Sites Governamentais / Legislativos</h3>
             <p class="work__project-description1">
-              Primeiro jogo de luta em dupla que desenvolvi em
-              <strong>javascript</strong> para o meu TCC.
+              Modificações nos sites legislativos e governamentais das cidades do Tocantins.
             </p>
             <p class="work__project-description2">
-              ataque, esquive ou defenda dos golpes adversários.
-              ao preencher da barra azul, una-se ao seu aliado para
-              temporariamente fundirem e liberarem um
-              poderoso golpe!
+              Colaborei realizando modificações na sua estrutura via <strong>Wordpress</strong>
+              e a transferência de arquivos do modelo antigo
+              com os aplicativos <strong>Filezilla</strong> e <strong>S3 Browser</strong>.
             </p>
             <div>
-              <a href="https://fighting-prototype.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
-              <a href="https://github.com/flashqueen/fighting-game" target="_blank" class="btn work__project-btn"
-                style="margin-left:15px;">Github</a>
+              <a href="https://lajeado.to.leg.br/" target="_blank" class="btn work__project-btn">Site</a>
             </div>
 
           </div>
           <!-- Project 2 -->
-          <h3 class="work__project-title">PokiMO</h3>
+          <h3 class="work__project-title">Conemad-TO</h3>
           <div class="work__img-wrapper work__image2 bording__bottom">
-            <img class="lazy loading" src="https://via.placeholder.com/1023x573" data-src="/pokiMO.png"
+            <img class="lazy loading" src="https://via.placeholder.com/1025x576" data-src="/conemad-to.png"
               alt="Jogo de aventura estilo pokemon" />
           </div>
           <div class="work__project work__content2">
-            <h3 class="work__project-subtitle">PokiMO</h3>
+            <h3 class="work__project-subtitle">Conemad-TO</h3>
             <p class="work__project-description1">
-              Jogo de aventura estilo pokemon que desenvolvi em
-              <strong>javascript</strong> e <strong>Tiled</strong> como hobbie.
+              Convenção das Assembleias de Deus Ministério de Madureira no Tocantins
             </p>
             <p class="work__project-description2">
-              'PokiMO' É um jogo curto que se passa em uma ilha focado no estudo
-              de combate por turnos e construção de mapas com áreas de
-              interação!
+              Colaboração realizando modificações na estrutura do site via <strong>Wordpress</strong>
+              e atualização do banco de imagens de eventos e participantes.
             </p>
-            <a href="#" class="btn work__project-btn">Em Breve</a>
+            <a href="https://conemadto.com.br/" target="_blank" class="btn work__project-btn">Site</a>
           </div>
           <!-- Project 3 -->
           <h3 class="work__project-title">PokeVi</h3>
@@ -238,6 +232,50 @@
                 style="margin-left:15px;">Github</a>
 
             </div>
+          </div>
+          <!-- Project 4 -->
+          <h3 class="work__project-title">Fusion Attack!</h3>
+          <div class="work__img-wrapper work__image4 bording__bottom">
+            <img class="lazy loading" src="https://via.placeholder.com/1023x576" data-src="/fusionattack.png"
+              alt="Jogo de luta com dois personagens em cada lado da tela" />
+          </div>
+          <div class="work__project work__content4">
+            <h3 class="work__project-subtitle">Fusion Attack!</h3>
+            <p class="work__project-description1">
+              Primeiro jogo de luta em dupla que desenvolvi em
+              <strong>javascript</strong> para o meu TCC.
+            </p>
+            <p class="work__project-description2">
+              ataque, esquive ou defenda dos golpes adversários.
+              ao preencher da barra azul, una-se ao seu aliado para
+              temporariamente fundirem e liberarem um
+              poderoso golpe!
+            </p>
+            <div>
+              <a href="https://fighting-prototype.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
+              <a href="https://github.com/flashqueen/fighting-game" target="_blank" class="btn work__project-btn"
+                style="margin-left:15px;">Github</a>
+            </div>
+
+          </div>
+          <!-- Project 5 -->
+          <h3 class="work__project-title">PokiMO</h3>
+          <div class="work__img-wrapper work__image5 bording__top">
+            <img class="lazy loading" src="https://via.placeholder.com/1023x573" data-src="/pokiMO.png"
+              alt="Jogo de aventura estilo pokemon" />
+          </div>
+          <div class="work__project work__content5">
+            <h3 class="work__project-subtitle">PokiMO</h3>
+            <p class="work__project-description1">
+              Jogo de aventura estilo pokemon que desenvolvi em
+              <strong>javascript</strong> e <strong>Tiled</strong> como hobbie.
+            </p>
+            <p class="work__project-description2">
+              'PokiMO' É um jogo curto que se passa em uma ilha focado no estudo
+              de combate por turnos e construção de mapas com áreas de
+              interação!
+            </p>
+            <a href="#" class="btn work__project-btn">Em Breve</a>
           </div>
         </div>
       </section>
@@ -265,6 +303,7 @@
           </div>
         </div>
       </section>
+
     </main>
     <!-- <footer></footer> -->
   </div>
@@ -538,6 +577,13 @@ export default {
   margin: 1rem auto;
 }
 
+.work__hr {
+  border: 0;
+  height: 5px;
+  margin-bottom: 20px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), #db2777, rgba(0, 0, 0, 0))
+}
+
 .work__project-title {
   font-size: var(--size-base);
   margin-bottom: 1rem;
@@ -615,13 +661,17 @@ export default {
   align-items: center;
   text-align: center;
   gap: 1rem;
+  position: relative;
 }
 
 .contact__title {
   font-size: var(--size-2xl);
   color: var(--clr-light);
   text-transform: capitalize;
+  position: relative;
 }
+
+
 
 .contact__description {
   font-size: var(--size-sm);
@@ -802,7 +852,9 @@ export default {
     grid-template-areas:
       "image1 content1"
       "content2 image2"
-      "image3 content3";
+      "image3 content3"
+      "content4 image4"
+      "image5 content5";
     place-items: center;
   }
 
@@ -818,6 +870,14 @@ export default {
     grid-area: image3;
   }
 
+  .work__image4 {
+    grid-area: image4;
+  }
+
+  .work__image5 {
+    grid-area: image5;
+  }
+
   .work__content1 {
     grid-area: content1;
   }
@@ -828,6 +888,14 @@ export default {
 
   .work__content3 {
     grid-area: content3;
+  }
+
+  .work__content4 {
+    grid-area: content4;
+  }
+
+  .work__content5 {
+    grid-area: content5;
   }
 
   .work__project {
