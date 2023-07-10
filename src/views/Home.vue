@@ -163,13 +163,15 @@
           </div>
         </div>
       </section> -->
+
       <section class="work container section">
+        <hr class="work__hr" />
         <h2 class="work__title">Projetos</h2>
         <p class="work__description">
           Lista resumida de projetos que produzi e/ou colaborei. Os projetos variam de jogos a sites em
           <strong>Wordpress, Javascript e PHP</strong>.
         </p>
-        <hr class="work__hr" />
+
         <div class="work__container">
           <!-- Project 1 -->
           <h3 class="work__project-title">Sites Governamentais / Legislativos</h3>
@@ -280,6 +282,7 @@
         </div>
       </section>
       <section id="contact" class="contact container section">
+
         <h2 class="contact__title">Entre em Contato</h2>
         <p class="contact__description">
           Caso esteja começando um projeto, queira fazer algum tipo de proposta
@@ -381,7 +384,7 @@ export default {
 }
 
 .hero__subtitle {
-  color: var(--clr-slate800);
+  color: var(--clr-slate500);
   font-size: var(--size-base);
   line-height: 0.9;
   font-weight: bold;
@@ -464,6 +467,14 @@ export default {
 
 .about__list_img {
   display: inline;
+}
+
+.about__img-wrapper {
+  margin: 0 auto;
+}
+
+.about__img {
+  width: 28.6875rem;
 }
 
 .icons__color {
