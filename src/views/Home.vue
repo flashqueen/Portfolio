@@ -37,9 +37,9 @@
             governamentais e sites governamentais, organizações privadas e não governamentais.
           </p>
           <p class="about__description">
-            No meu tempo livre, realizo o estudo e a pesquisa
-            na área de <strong>jogos estilo 2D, 3D e Top-Down</strong>.
-            Até o momento desenvolvi alguns em <strong>javascript/html</strong>.
+            Neste momento, realizo uma pós-graduação em <strong>projeto e 
+            desenvolvimento de jogos digitais</strong>, tendo craido alguns jogos
+            em <strong>javascript/html</strong> e <strong>Unity 3D</strong>.
             Jogos digitais são parte da minha vida desde muito novo,
             e considero cria-los um desafio muito satisfatório!
           </p>
