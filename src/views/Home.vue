@@ -212,12 +212,30 @@
             <a href="https://conemadto.com.br/" target="_blank" class="btn work__project-btn">Site</a>
           </div>
           <!-- Project 3 -->
-          <h3 class="work__project-title">PokeVi</h3>
+          <h3 class="work__project-title">Sistema de Gerenciamento de Documentos</h3>
           <div class="work__img-wrapper work__image3 bording__top">
+            <img class="lazy loading" src="https://via.placeholder.com/1025x576" data-src="/BD.png"
+              alt="Sistema de Gerenciamento de Documentos" />
+          </div>
+          <div class="work__project work__content3">
+            <h3 class="work__project-subtitle">Sistema de Gerenciamento de Documentos</h3>
+            <p class="work__project-description1">
+              sistema que cria e gerencia diferentes documentos governamentais.
+            </p>
+            <p class="work__project-description2">
+              Trabalho com desenvolvimento em progresso com o framework
+              <strong>Vue3+Vite</strong> utilizando as bibliotecas
+              <strong>TailwindCSS</strong> e <strong>Laravel</strong> principalmente em
+              linguagem <strong>Javascript</strong>.
+            </p>
+          </div>
+          <!-- Project 4 -->
+          <h3 class="work__project-title">PokeVi</h3>
+          <div class="work__img-wrapper work__image4 bording__bottom">
             <img class="lazy loading" src="https://via.placeholder.com/1025x576" data-src="/Pokevi.PNG"
               alt="Pokedéx da 1ª e 2ª geração" />
           </div>
-          <div class="work__project work__content3">
+          <div class="work__project work__content4">
             <h3 class="work__project-subtitle">PokeVi</h3>
             <p class="work__project-description1">
               Pokedéx da 1ª e 2ª geração de pokemons.
@@ -229,19 +247,19 @@
               linguagem <strong>Javascript</strong>.
             </p>
             <div>
-              <a href="https://pokevi.netlify.app/" class="btn work__project-btn">Demo</a>
+              <a href="https://pokevi.netlify.app/" target="_blank" class="btn work__project-btn">Demo</a>
               <a href="https://github.com/flashqueen/PokeVite" target="_blank" class="btn work__project-btn"
                 style="margin-left:15px;">Github</a>
 
             </div>
           </div>
-          <!-- Project 4 -->
+          <!-- Project 5 -->
           <h3 class="work__project-title">Fusion Attack!</h3>
-          <div class="work__img-wrapper work__image4 bording__bottom">
+          <div class="work__img-wrapper work__image5 bording__top">
             <img class="lazy loading" src="https://via.placeholder.com/1023x576" data-src="/fusionattack.png"
               alt="Jogo de luta com dois personagens em cada lado da tela" />
           </div>
-          <div class="work__project work__content4">
+          <div class="work__project work__content5">
             <h3 class="work__project-subtitle">Fusion Attack!</h3>
             <p class="work__project-description1">
               Primeiro jogo de luta em dupla que desenvolvi em
@@ -260,13 +278,13 @@
             </div>
 
           </div>
-          <!-- Project 5 -->
+          <!-- Project 6 -->
           <h3 class="work__project-title">PokiMO</h3>
-          <div class="work__img-wrapper work__image5 bording__top">
+          <div class="work__img-wrapper work__image6 bording__bottom">
             <img class="lazy loading" src="https://via.placeholder.com/1023x573" data-src="/pokiMO.png"
               alt="Jogo de aventura estilo pokemon" />
           </div>
-          <div class="work__project work__content5">
+          <div class="work__project work__content6">
             <h3 class="work__project-subtitle">PokiMO</h3>
             <p class="work__project-description1">
               Jogo de aventura estilo pokemon que desenvolvi em
@@ -865,7 +883,8 @@ export default {
       "content2 image2"
       "image3 content3"
       "content4 image4"
-      "image5 content5";
+      "image5 content5"
+      "content6 image6";
     place-items: center;
   }
 
@@ -889,6 +908,10 @@ export default {
     grid-area: image5;
   }
 
+  .work__image6 {
+    grid-area: image6;
+  }
+
   .work__content1 {
     grid-area: content1;
   }
@@ -907,6 +930,10 @@ export default {
 
   .work__content5 {
     grid-area: content5;
+  }
+
+  .work__content6 {
+    grid-area: content6;
   }
 
   .work__project {
