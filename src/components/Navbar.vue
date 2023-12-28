@@ -3,13 +3,13 @@
     <nav>
       <ul class="header__menu">
         <li>
-          <a class="header__link" href="#about">Sobre</a>
+          <a class="header__link" href="#about">{{ $t('Sobre')}}</a>
         </li>
         <li>
-          <a class="header__link" href="#featured">Destaque</a>
+          <a class="header__link" href="#featured">{{ $t('Destaque')}}</a>
         </li>
         <li>
-          <a class="header__link" href="#contact">Contato</a>
+          <a class="header__link" href="#contact">{{ $t('Contato')}}</a>
         </li>
         <li class="header__line"></li>
         <li>
@@ -26,7 +26,7 @@
           </button>
         </li>
         <li>
-          <a class="header__resume btn" href="/archives/Currículo_Danilo_Oliveira.pdf" download>Currículo</a>
+          <a class="header__resume btn" href="/archives/Currículo_Danilo_Oliveira.pdf" download>{{ $t('Curriculo')}}</a>
         </li>
       </ul>
       <button class="header__bars" @click="mobileNavig()">
@@ -55,17 +55,17 @@
       <ul class="mobile-nav__menu">
         <li>
           <a href="#about" class="mobile-nav__link" @click="mobileLinks()"
-            >Sobre</a
+            >{{ $t('Sobre')}}</a
           >
         </li>
         <li>
           <a href="#featured" class="mobile-nav__link" @click="mobileLinks()"
-            >Destaque</a
+            >{{ $t('Destaque')}}</a
           >
         </li>
         <li>
           <a href="#contact" class="mobile-nav__link" @click="mobileLinks()"
-            >Contato</a
+            >{{ $t('Contato')}}</a
           >
         </li>
         <li class="mobile-nav__link-line"></li>
@@ -83,7 +83,7 @@
           </button>
         </li>
         <li>
-          <a href="" class="mobile-nav__btn btn">Currículo</a>
+          <a href="" class="mobile-nav__btn btn">{{ $t('Curriculo')}}</a>
         </li>
       </ul>
     </nav>

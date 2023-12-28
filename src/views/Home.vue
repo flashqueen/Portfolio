@@ -9,7 +9,7 @@
           </div>
         </div>
         <h2 class="hero__subtitle">
-          Seja bem vindo, sou Danilo Oliveira, um desenvolvedor
+          {{ $t('BemVindo')}}
         </h2>
         <h1 class="hero__title">
           FULLSTACK <br />
@@ -24,7 +24,7 @@
           organizações privadas e não governamentais. Pesquisas na área de <strong>jogos estilo 2D, 3D e
             Top-Down</strong>.
         </p> -->
-        <a class="hero__btn btn" href="#contact">Entrar em contato</a>
+        <a class="hero__btn btn" href="#contact">{{ $t('Contate')}}</a>
       </section>
       <section id="about" class="about container section">
         <div class="about__content">
