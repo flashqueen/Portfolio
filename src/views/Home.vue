@@ -12,7 +12,7 @@
           {{ $t('BemVindo')}}
         </h2>
         <h1 class="hero__title">
-          FULLSTACK <br />
+          FULLSTACK DEVELOPER<br />
           <!-- STREAMER <br /> -->
           GAME DEVELOPER
         </h1>
@@ -28,20 +28,12 @@
       </section>
       <section id="about" class="about container section">
         <div class="about__content">
-          <h2 class="about__title">Sobre</h2>
+          <h2 class="about__title">{{ $t('Sobre')}}</h2>
           <p class="about__description">
-            Olá! me chamo Danilo e atualmente sou um
-            <strong>desenvolvedor de software / desenvolvedor frontend</strong>
-            na empresa Barco Digital em Palmas-TO. À vista disso possuo experiência
-            em <strong>desenvolvimento de formulários</strong> para banco de dados
-            governamentais e sites governamentais, organizações privadas e não governamentais.
+            {{ $t('Descricao1')}}
           </p>
           <p class="about__description">
-            Neste momento, realizo uma pós-graduação em <strong>projeto e 
-            desenvolvimento de jogos digitais</strong>, tendo craido alguns jogos
-            em <strong>javascript/html</strong> e <strong>Unity 3D</strong>.
-            Jogos digitais são parte da minha vida desde muito novo,
-            e considero cria-los um desafio muito satisfatório!
+            {{ $t('Descricao2')}}
           </p>
           <!-- <p class="about__description">
             Também faço lives em meu canal da twitch
@@ -50,7 +42,7 @@
             inusitadas e divertidas.
           </p> -->
           <hr class="about__hr" />
-          <h3 class="about__subtitle">Tecnologias</h3>
+          <h3 class="about__subtitle">{{ $t('Tecnologias')}}</h3>
           <div class="about__ul-container">
             <ul class="about__ul">
               <li class="about__list">
@@ -84,8 +76,8 @@
                 Wordpress
               </li>
               <li class="about__list">
-                <img class="about__list_img icons__color" src="/icons/python_icon.png" height="25" />
-                Python
+                <img class="about__list_img icons__color" src="/icons/unity_icon.png" height="25" />
+                Unity 3D
               </li>
             </ul>
           </div>
@@ -166,10 +158,9 @@
 
       <section class="work container section">
         <hr class="work__hr" />
-        <h2 class="work__title">Projetos</h2>
+        <h2 class="work__title">{{ $t('Projetos')}}</h2>
         <p class="work__description">
-          Lista resumida de projetos que produzi e/ou colaborei. Os projetos variam de jogos a sites em
-          <strong>Wordpress, Javascript e PHP</strong>.
+          {{ $t('Desc_proj')}}
         </p>
 
         <div class="work__container">
@@ -301,11 +292,9 @@
       </section>
       <section id="contact" class="contact container section">
 
-        <h2 class="contact__title">Entre em Contato</h2>
+        <h2 class="contact__title">{{ $t('Contato_fim')}}</h2>
         <p class="contact__description">
-          Caso esteja começando um projeto, queira fazer algum tipo de proposta
-          ou apenas dizer um oi, sinta-se livre para entrar em contato! te
-          responderei o quanto antes :)
+          {{ $t('Contato_desc')}}
         </p>
         <p class="contact__description">
           <strong>Whattsapp:</strong> (63) 98409-7497

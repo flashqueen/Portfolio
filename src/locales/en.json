@@ -5,5 +5,12 @@
     "Contato" : "Contact",
     "Curriculo" : "Resume",
     "BemVindo" : "Welcome, i'm Danilo Oliveira, a ",
-    "Contate" : "Contacts"
+    "Contate" : "Contacts",
+    "Descricao1" : "Hi! my name is Danilo and i am currently an analist III / frontend developer at System Management(SECTP) in Palmas-TO. In consideration of this, I have experience in development and analysis of systems that virtualize and solve problems in manual processes of the Tocantins education secretary.",
+    "Descricao2" : "At the moment, I am undertaking a postgraduate degree in Digital Game Design and Development, having created some games in javascript/html and Unity 3D. Digital games have been part of my life since I was very young, so I find creating them a very satisfying challenge!",
+    "Tecnologias" : "Tech",
+    "Projetos" : "Projects",
+    "Desc_proj" : "Summary list of projects I produced and/or collaborated on. Projects range from games to websites in Wordpress, Javascript and PHP.",
+    "Contato_fim" : "Get In Contact",
+    "Contato_desc" : "If you are starting a project, want to make some kind of proposal or just say hi, feel free to get in touch! I will answer you as soon as possible :)"
 }

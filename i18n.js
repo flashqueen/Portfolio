@@ -13,7 +13,7 @@ function loadLocaleMessages() {
 }
 
 export default createI18n({
-    locale: 'en',
-    fallbackLocale: 'en',
+    locale: 'ptBR',
+    fallbackLocale: 'ptBR',
     messages: loadLocaleMessages()
 })

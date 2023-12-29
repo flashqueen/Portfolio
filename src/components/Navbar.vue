@@ -2,12 +2,17 @@
   <div class="header container">
     <nav>
       <ul class="header__menu">
+        <li class="locale-changer">
+          <select v-model="$i18n.locale">
+            <option v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale">{{ locale }}</option>
+          </select>
+        </li>
         <li>
           <a class="header__link" href="#about">{{ $t('Sobre')}}</a>
         </li>
-        <li>
+        <!-- <li>
           <a class="header__link" href="#featured">{{ $t('Destaque')}}</a>
-        </li>
+        </li> -->
         <li>
           <a class="header__link" href="#contact">{{ $t('Contato')}}</a>
         </li>

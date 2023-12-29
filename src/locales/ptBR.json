@@ -5,5 +5,12 @@
     "Contato" : "Contato",
     "Curriculo" : "Currículo",
     "BemVindo" : "Seja bem vindo, sou Danilo Oliveira, um desenvolvedor ",
-    "Contate" : "Entrar em Contato"
+    "Contate" : "Entrar em Contato",
+    "Descricao1" : "Olá! me chamo Danilo e atualmente sou um analista III / desenvolvedor frontend na Gerência de Sistemas(SECTP) em Palmas-TO. À vista disso possuo experiência em desenvolvimento e análise de sistemas que virtualizam e solucionam problemas de processos manuais da secretária da educação do Tocantins.",
+    "Descricao2" : "Neste momento, realizo uma pós-graduação em Projeto e Desenvolvimento de Jogos Digitais, tendo criado alguns jogos em javascript/html e Unity 3D. Jogos digitais são parte da minha vida desde muito novo, portanto considero cria-los um desafio muito satisfatório!",
+    "Tecnologias" : "Tecnologias",
+    "Projetos" : "Projetos",
+    "Desc_proj" : "Lista resumida de projetos que produzi e/ou colaborei. Os projetos variam de jogos a sites em Wordpress, Javascript e PHP.",
+    "Contato_fim" : "Entre Em Contato",
+    "Contato_desc" : "Caso esteja começando um projeto, queira fazer algum tipo de proposta ou apenas dizer um oi, sinta-se livre para entrar em contato! te responderei o quanto antes :)"
 }
