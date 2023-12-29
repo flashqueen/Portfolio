@@ -58,16 +58,21 @@
   >
     <nav>
       <ul class="mobile-nav__menu">
+        <li class="locale-changer">
+          <select v-model="$i18n.locale">
+            <option v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale">{{ locale }}</option>
+          </select>
+        </li>
         <li>
           <a href="#about" class="mobile-nav__link" @click="mobileLinks()"
             >{{ $t('Sobre')}}</a
           >
         </li>
-        <li>
+        <!-- <li>
           <a href="#featured" class="mobile-nav__link" @click="mobileLinks()"
             >{{ $t('Destaque')}}</a
           >
-        </li>
+        </li> -->
         <li>
           <a href="#contact" class="mobile-nav__link" @click="mobileLinks()"
             >{{ $t('Contato')}}</a
