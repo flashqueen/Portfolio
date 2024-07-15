@@ -226,8 +226,8 @@
                 <!-- Project 7 -->
                 <h3 class="work__project-title">PokeVi</h3>
                 <div class="work__img-wrapper work__image7 bording__top">
-                  <img class="lazy loading" src="/pokevi.png"
-                    alt="Pokedéx da 1ª e 2ª geração" />
+                  <img class="lazy loading" src="/vitepoke.png"
+                    alt="pokedéx da 1ª e 2ª geração" />
                 </div>
                 <div class="work__project work__content7">
                   <h3 class="work__project-subtitle">PokeVi</h3>
