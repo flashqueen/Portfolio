@@ -117,10 +117,10 @@
                 <div class="work__project work__content1">
                   <h3 class="work__project-subtitle">Certifica</h3>
                   <p class="work__project-description1">
-                    Site de gerenciamento de progressão de carreira do recursos humanos da SEDUC.
+                    Sistema de gerenciamento de progressão de carreira do recursos humanos da SEDUC.
                   </p>
                   <p class="work__project-description2">
-                    Site criado para digitalizar o processo de documentação pós-graduação, mestrado e doutorado
+                    Sistema criado para digitalizar o processo de documentação pós-graduação, mestrado e doutorado
                     dos profissionais da rede de educação do Tocantins com <strong>React</strong>
                     e utilização das linguagens <strong>javascript</strong>, <strong>html</strong> e <strong>css</strong> para o frontend e <strong>java</strong> para o backend.
                   </p>
@@ -137,10 +137,10 @@
                 <div class="work__project work__content2">
                   <h3 class="work__project-subtitle">SGB</h3>
                   <p class="work__project-description1">
-                    Site de gerenciamento de bolsistas do programa de apoio a educação do Tocantins.
+                    Sistema de gerenciamento de bolsistas do programa de apoio a educação do Tocantins.
                   </p>
                   <p class="work__project-description2">
-                    Criação do site e das páginas via <strong>React</strong>
+                    Criação do sistema e das páginas via <strong>React</strong>
                     com utilização de bibliotecas como react-router-dom e utilização das linguagens
                     <strong>javascript</strong>, <strong>html</strong> e <strong>css</strong> para o frontend e <strong>java</strong> para o backend.
                   </p>
