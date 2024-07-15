@@ -111,7 +111,7 @@
                 <!-- Project 1 -->
                 <h3 class="work__project-title">Certifica</h3>
                 <div class="work__img-wrapper work__image1 bording__top">
-                  <img class="lazy loading" src="/certifica.png" 
+                  <img class="lazy loading" src="../../public/certifica.png" 
                     alt="Site de sistema de gerenciamento" />
                 </div>
                 <div class="work__project work__content1">
@@ -131,7 +131,7 @@
                 <!-- Project 2 -->
                 <h3 class="work__project-title">Sistema de Gerenciamento de Bolsistas - SGB</h3>
                 <div class="work__img-wrapper work__image2 bording__bottom">
-                  <img class="lazy loading" src="/SGB.png" 
+                  <img class="lazy loading" src="../../public/SGB.png" 
                     alt="Site de sistema de gerenciamento" />
                 </div>
                 <div class="work__project work__content2">
@@ -151,7 +151,7 @@
                 <!-- Project 3 -->
                 <h3 class="work__project-title">Vet Delivery</h3>
                 <div class="work__img-wrapper work__image3 bording__top">
-                  <img class="lazy loading" src="/vet_delivery.png" 
+                  <img class="lazy loading" src="../../public/vet_delivery.png" 
                     alt="Site de clinica veterinária" />
                 </div>
                 <div class="work__project work__content3">
@@ -171,7 +171,7 @@
                 <!-- Project 4 -->
                 <h3 class="work__project-title">Sites Governamentais / Legislativos</h3>
                 <div class="work__img-wrapper work__image4 bording__bottom">
-                  <img class="lazy loading" src="/pref_lajeado.png"
+                  <img class="lazy loading" src="../../public/pref_lajeado.png"
                     alt="Site legislativo da prefeitura de lajeado" />
                 </div>
                 <div class="work__project work__content4">
@@ -191,7 +191,7 @@
                 <!-- Project 5 -->
                 <h3 class="work__project-title">Conemad-TO</h3>
                 <div class="work__img-wrapper work__image5 bording__top">
-                  <img class="lazy loading" src="/conemad-to.png"
+                  <img class="lazy loading" src="../../public/conemad-to.png"
                     alt="Jogo de aventura estilo pokemon" />
                 </div>
                 <div class="work__project work__content5">
@@ -208,7 +208,7 @@
                 <!-- Project 6 -->
                 <h3 class="work__project-title">Sistema de Gerenciamento de Documentos</h3>
                 <div class="work__img-wrapper work__image6 bording__bottom">
-                  <img class="lazy loading" src="/BD.png"
+                  <img class="lazy loading" src="../../public/BD.png"
                     alt="Sistema de Gerenciamento de Documentos" />
                 </div>
                 <div class="work__project work__content6">
@@ -226,7 +226,7 @@
                 <!-- Project 7 -->
                 <h3 class="work__project-title">PokeVi</h3>
                 <div class="work__img-wrapper work__image7 bording__top">
-                  <img class="lazy loading" src="/Pokevi.PNG"
+                  <img class="lazy loading" src="../../public/Pokevi.png"
                     alt="Pokedéx da 1ª e 2ª geração" />
                 </div>
                 <div class="work__project work__content7">
@@ -259,7 +259,7 @@
               <!-- Project 8 -->
               <h3 class="work__project-title">Fusion Attack!</h3>
               <div class="work__img-wrapper work__image8 bording__top">
-                <img class="lazy loading" src="/fusionattack.png" data-src="/fusionattack.png"
+                <img class="lazy loading" src="../../public/fusionattack.png" data-src="/fusionattack.png"
                   alt="Jogo de luta com dois personagens em cada lado da tela" />
               </div>
               <div class="work__project work__content8">
@@ -283,7 +283,7 @@
               <!-- Project 9 -->
               <h3 class="work__project-title">PokiAdventures</h3>
               <div class="work__img-wrapper work__image9 bording__bottom">
-                <img class="lazy loading" src="/pokiMO.png" data-src="/pokiMO.png"
+                <img class="lazy loading" src="../../public/pokiMO.png" data-src="/pokiMO.png"
                   alt="Jogo de aventura estilo pokemon" />
               </div>
               <div class="work__project work__content9">
