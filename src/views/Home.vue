@@ -208,7 +208,7 @@
                 <!-- Project 6 -->
                 <h3 class="work__project-title">Sistema de Gerenciamento de Documentos</h3>
                 <div class="work__img-wrapper work__image6 bording__bottom">
-                  <img class="lazy loading" src="/bd.png"
+                  <img class="lazy loading" src="/barco.png"
                     alt="Sistema de Gerenciamento de Documentos" />
                 </div>
                 <div class="work__project work__content6">
