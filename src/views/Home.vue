@@ -112,7 +112,7 @@
                 <h3 class="work__project-title">Certifica</h3>
                 <div class="work__img-wrapper work__image1 bording__top">
                   <img class="lazy loading" src="/certifica.png" 
-                    alt="Site de sistema de gerenciamento" />
+                    alt="site de gerenciamento de progressao rh" />
                 </div>
                 <div class="work__project work__content1">
                   <h3 class="work__project-subtitle">Certifica</h3>
@@ -131,8 +131,8 @@
                 <!-- Project 2 -->
                 <h3 class="work__project-title">Sistema de Gerenciamento de Bolsistas - SGB</h3>
                 <div class="work__img-wrapper work__image2 bording__bottom">
-                  <img class="lazy loading" src="/sgb.png" 
-                    alt="Site de sistema de gerenciamento" />
+                  <img class="lazy loading" src="/bolsista.png" 
+                    alt="sistema de gerenciamento de bolsistas" />
                 </div>
                 <div class="work__project work__content2">
                   <h3 class="work__project-subtitle">SGB</h3>
