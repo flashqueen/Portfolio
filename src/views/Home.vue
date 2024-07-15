@@ -83,232 +83,184 @@
           </div>
         </div>
         <div class="about__img-wrapper">
-          <img class="about__img lazy loading" src="https://via.placeholder.com/350x360" data-src="/euSerio2.png"
+          <img class="about__img lazy loading" src="/euSerio2.png"
             alt="Foto de perfil" />
         </div>
       </section>
-      <!-- <section id="featured" class="featured container section">
-        <h3 class="featured__subtitle">Projeto em Destaque</h3>
-        <div class="featured__wrapper">
-          <h2 class="featured__title">Prefeitura de Serdin</h2>
-          <a class="featured__link" href="">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-              <path fill-rule="evenodd"
-                d="M19.902 4.098a3.75 3.75 0 00-5.304 0l-4.5 4.5a3.75 3.75 0 001.035 6.037.75.75 0 01-.646 1.353 5.25 5.25 0 01-1.449-8.45l4.5-4.5a5.25 5.25 0 117.424 7.424l-1.757 1.757a.75.75 0 11-1.06-1.06l1.757-1.757a3.75 3.75 0 000-5.304zm-7.389 4.267a.75.75 0 011-.353 5.25 5.25 0 011.449 8.45l-4.5 4.5a5.25 5.25 0 11-7.424-7.424l1.757-1.757a.75.75 0 111.06 1.06l-1.757 1.757a3.75 3.75 0 105.304 5.304l4.5-4.5a3.75 3.75 0 00-1.035-6.037.75.75 0 01-.354-1z"
-                clip-rule="evenodd" />
-            </svg>
-          </a>
-        </div>
-        <div class="featured__info-container">
-          <div>
-            <p class="featured__description">
-              Layout da fictícia prefeitura de Serdin, realizado em
-              <strong>HTML e BootstrapCSS</strong>, inspirado no visual de outras
-              prefeituras do Brasil contando com uma página principal e uma página
-              de notícia.
-            </p>
-            <div class="featured__lists">
-              <div>
-                <h3 class="featured__label">Tech stack</h3>
-                <ul class="featured__tech-stack">
-                  <li class="featured__info">BootstrapCSS</li>
-                  <li class="featured__info">Javascript</li>
-                  <li class="featured__info">HTML</li>
-                </ul>
-              </div>
-              <div>
-                <h3 class="featured__label">Project Type</h3>
-                <p class="featured__info">Fullstack-Frontend</p>
-              </div>
-              <div>
-                <h3 class="featured__label">Timeline</h3>
-                <p class="featured__info">29 a 31 de Março</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="featured__img-container">
-
-          <div class="featured__img-wrapper">
-            <img class="lazy loading" src="https://via.placeholder.com/1454x964" data-src="/prefeitura_header1.PNG"
-              alt="Prefeitura de Serdin cabeçalho" />
-          </div>
-          <div class="featured__img-wrapper">
-            <img class="lazy loading" src="https://via.placeholder.com/1902x965" data-src="/prefeitura_footer2.PNG"
-              alt="Prefeitura de Serdin rodapé" />
-          </div>
-          <div class="featured__img-wrapper">
-            <img class="lazy loading" src="https://via.placeholder.com/1403x967" data-src="/prefeitura_noticia3.PNG"
-              alt="Prefeitura de Serdin cabeçalho de notícias" />
-          </div>
-          <div class="featured__img-wrapper">
-            <img class="lazy loading" src="https://via.placeholder.com/1903x790" data-src="/prefeitura_noticia4.PNG"
-              alt="Prefeitura de Serdin rodapé de notícias" />
-          </div>
-          <div class="featured__img-wrapper">
-            <img class="lazy loading" src="https://via.placeholder.com/415x726" data-src="/prefeitura_responsivo5.PNG"
-              alt="Prefeitura de Serdin cabeçalho celular" />
-          </div>
-          <div class="featured__img-wrapper">
-            <img class="lazy loading" src="https://via.placeholder.com/423x735" data-src="/prefeitura_responsivo6.PNG"
-              alt="Prefeitura de Serdin rodapé celular" />
-          </div>
-        </div>
-      </section> -->
 
       <section class="work container section">
-        <hr class="work__hr" />
-        <h2 class="work__title">{{ $t('Projetos')}}</h2>
-        <p class="work__description">
-          {{ $t('Desc_proj')}}
-        </p>
-
-        <div class="work__container">
-          <!-- Project 1 -->
-          <h3 class="work__project-title">Vet Delivery</h3>
-          <div class="work__img-wrapper work__image1 bording__top">
-            <img class="lazy loading" src="https://via.placeholder.com/1025x576" data-src="/vet_delivery.png"
-              alt="Site de clinica veterinária" />
-          </div>
-          <div class="work__project work__content1">
-            <h3 class="work__project-subtitle">Vet Delivery</h3>
-            <p class="work__project-description1">
-              Site de clínica veterinária com atendimento a domicílio.
-            </p>
-            <p class="work__project-description2">
-              Criação do site e das páginas via <strong>Wordpress</strong>
-              com suas devidas alterações e inserção de plugins como
-              <strong>elementor</strong> e conexão para <strong>whattsapp</strong>
-            </p>
-            <div>
-              <a href="https://vetdelivery.com.br/" target="_blank" class="btn work__project-btn">Site</a>
-            </div>
-          </div>
-          <!-- Project 2 -->
-          <h3 class="work__project-title">Sites Governamentais / Legislativos</h3>
-          <div class="work__img-wrapper work__image2 bording__bottom">
-            <img class="lazy loading" src="https://via.placeholder.com/1025x576" data-src="/pref_lajeado.png"
-              alt="Site legislativo da prefeitura de lajeado" />
-          </div>
-          <div class="work__project work__content2">
-            <h3 class="work__project-subtitle">Sites Governamentais / Legislativos</h3>
-            <p class="work__project-description1">
-              Modificações nos sites legislativos e governamentais das cidades do Tocantins.
-            </p>
-            <p class="work__project-description2">
-              Colaborei realizando modificações na sua estrutura via <strong>Wordpress</strong>
-              e a transferência de arquivos do modelo antigo
-              com os aplicativos <strong>Filezilla</strong> e <strong>S3 Browser</strong>.
-            </p>
-            <div>
-              <a href="https://lajeado.to.leg.br/" target="_blank" class="btn work__project-btn">Site</a>
-            </div>
-          </div>
-          <!-- Project 3 -->
-          <h3 class="work__project-title">Conemad-TO</h3>
-          <div class="work__img-wrapper work__image3 bording__top">
-            <img class="lazy loading" src="https://via.placeholder.com/1025x576" data-src="/conemad-to.png"
-              alt="Jogo de aventura estilo pokemon" />
-          </div>
-          <div class="work__project work__content3">
-            <h3 class="work__project-subtitle">Conemad-TO</h3>
-            <p class="work__project-description1">
-              Convenção das Assembleias de Deus Ministério de Madureira no Tocantins
-            </p>
-            <p class="work__project-description2">
-              Colaboração realizando modificações na estrutura do site via <strong>Wordpress</strong>
-              e atualização do banco de imagens de eventos e participantes.
-            </p>
-            <a href="https://conemadto.com.br/" target="_blank" class="btn work__project-btn">Site</a>
-          </div>
-          <!-- Project 4 -->
-          <h3 class="work__project-title">Sistema de Gerenciamento de Documentos</h3>
-          <div class="work__img-wrapper work__image4 bording__bottom">
-            <img class="lazy loading" src="https://via.placeholder.com/1025x576" data-src="/BD.png"
-              alt="Sistema de Gerenciamento de Documentos" />
-          </div>
-          <div class="work__project work__content4">
-            <h3 class="work__project-subtitle">Sistema de Gerenciamento de Documentos</h3>
-            <p class="work__project-description1">
-              sistema que cria e gerencia diferentes documentos governamentais.
-            </p>
-            <p class="work__project-description2">
-              Trabalho com desenvolvimento em progresso com o framework
-              <strong>Vue3+Vite</strong> e  <strong>Laravel</strong>, utilizando a biblioteca
-              <strong>TailwindCSS</strong> e desenvolvido principalmente em
-              linguagem <strong>Javascript</strong>.
-            </p>
-          </div>
-          <!-- Project 5 -->
-          <h3 class="work__project-title">PokeVi</h3>
-          <div class="work__img-wrapper work__image5 bording__top">
-            <img class="lazy loading" src="https://via.placeholder.com/1025x576" data-src="/Pokevi.PNG"
-              alt="Pokedéx da 1ª e 2ª geração" />
-          </div>
-          <div class="work__project work__content5">
-            <h3 class="work__project-subtitle">PokeVi</h3>
-            <p class="work__project-description1">
-              Pokedéx da 1ª e 2ª geração de pokemons.
-            </p>
-            <p class="work__project-description2">
-              Desenvolvida para fins didáticos em
-              <strong>Vue3+Vite</strong> utilizando as bibliotecas
-              <strong>Bootstrap</strong> e <strong>AnimateCSS</strong> em
-              linguagem <strong>Javascript</strong>.
-            </p>
-            <div>
-              <a href="https://pokevi.netlify.app/" target="_blank" class="btn work__project-btn">Demo</a>
-              <a href="https://github.com/flashqueen/PokeVite" target="_blank" class="btn work__project-btn"
-                style="margin-left:15px;">Github</a>
-
-            </div>
-          </div>
-          <!-- Project 6 -->
-          <h3 class="work__project-title">Fusion Attack!</h3>
-          <div class="work__img-wrapper work__image6 bording__bottom">
-            <img class="lazy loading" src="https://via.placeholder.com/1023x576" data-src="/fusionattack.png"
-              alt="Jogo de luta com dois personagens em cada lado da tela" />
-          </div>
-          <div class="work__project work__content6">
-            <h3 class="work__project-subtitle">Fusion Attack!</h3>
-            <p class="work__project-description1">
-              Primeiro jogo de luta em dupla que desenvolvi em
-              <strong>javascript</strong> para o meu TCC.
-            </p>
-            <p class="work__project-description2">
-              ataque, esquive ou defenda dos golpes adversários.
-              ao preencher da barra azul, una-se ao seu aliado para
-              temporariamente fundirem e liberarem um
-              poderoso golpe!
-            </p>
-            <div>
-              <a href="https://fighting-prototype.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
-              <a href="https://github.com/flashqueen/fighting-game" target="_blank" class="btn work__project-btn"
-                style="margin-left:15px;">Github</a>
-            </div>
-
-          </div>
-          <!-- Project 7 -->
-          <h3 class="work__project-title">PokiMO</h3>
-          <div class="work__img-wrapper work__image7 bording__top">
-            <img class="lazy loading" src="https://via.placeholder.com/1023x573" data-src="/pokiMO.png"
-              alt="Jogo de aventura estilo pokemon" />
-          </div>
-          <div class="work__project work__content7">
-            <h3 class="work__project-subtitle">PokiMO</h3>
-            <p class="work__project-description1">
-              Jogo de aventura estilo pokemon que desenvolvi em
-              <strong>javascript</strong> e <strong>Tiled</strong> como hobbie.
-            </p>
-            <p class="work__project-description2">
-              'PokiMO' É um jogo curto que se passa em uma ilha focado no estudo
-              de combate por turnos e construção de mapas com áreas de
-              interação!
-            </p>
-            <a href="#" class="btn work__project-btn">Em Breve</a>
-          </div>
+        <div class="work__subsection">
+          <ul class="work__subsection_list">
+            <li class="subsection1">
+              <a href="#work__subsection1" class="sys__dev" @click="changeS">System Development</a>
+            </li>
+            <li class="subsection2">
+              <a href="#work__subsection2" class="game__dev" @click="changeG">Game Development</a>
+            </li>
+          </ul>
         </div>
-      </section>
+        </section>
+        <hr class="work__hr" />
+            <div id="work__subsection1 work container section" v-if="displayS">
+              <h2 class="work__title" style="text-align: center;">{{ $t('Projetos')}}</h2>
+              <p class="work__description" style="text-align: center;">
+                {{ $t('Desc_proj')}}
+              </p>
+      
+              <div class="work__container">
+                <!-- Project 1 -->
+                <h3 class="work__project-title">Vet Delivery</h3>
+                <div class="work__img-wrapper work__image1 bording__top">
+                  <img class="lazy loading" src="/vet_delivery.png" 
+                    alt="Site de clinica veterinária" />
+                </div>
+                <div class="work__project work__content1">
+                  <h3 class="work__project-subtitle">Vet Delivery</h3>
+                  <p class="work__project-description1">
+                    Site de clínica veterinária com atendimento a domicílio.
+                  </p>
+                  <p class="work__project-description2">
+                    Criação do site e das páginas via <strong>Wordpress</strong>
+                    com suas devidas alterações e inserção de plugins como
+                    <strong>elementor</strong> e conexão para <strong>whattsapp</strong>
+                  </p>
+                  <div>
+                    <a href="https://vetdelivery.com.br/" target="_blank" class="btn work__project-btn">Site</a>
+                  </div>
+                </div>
+                <!-- Project 2 -->
+                <h3 class="work__project-title">Sites Governamentais / Legislativos</h3>
+                <div class="work__img-wrapper work__image2 bording__bottom">
+                  <img class="lazy loading" src="/pref_lajeado.png"
+                    alt="Site legislativo da prefeitura de lajeado" />
+                </div>
+                <div class="work__project work__content2">
+                  <h3 class="work__project-subtitle">Sites Governamentais / Legislativos</h3>
+                  <p class="work__project-description1">
+                    Modificações nos sites legislativos e governamentais das cidades do Tocantins.
+                  </p>
+                  <p class="work__project-description2">
+                    Colaborei realizando modificações na sua estrutura via <strong>Wordpress</strong>
+                    e a transferência de arquivos do modelo antigo
+                    com os aplicativos <strong>Filezilla</strong> e <strong>S3 Browser</strong>.
+                  </p>
+                  <div>
+                    <a href="https://lajeado.to.leg.br/" target="_blank" class="btn work__project-btn">Site</a>
+                  </div>
+                </div>
+                <!-- Project 3 -->
+                <h3 class="work__project-title">Conemad-TO</h3>
+                <div class="work__img-wrapper work__image3 bording__top">
+                  <img class="lazy loading" src="/conemad-to.png"
+                    alt="Jogo de aventura estilo pokemon" />
+                </div>
+                <div class="work__project work__content3">
+                  <h3 class="work__project-subtitle">Conemad-TO</h3>
+                  <p class="work__project-description1">
+                    Convenção das Assembleias de Deus Ministério de Madureira no Tocantins
+                  </p>
+                  <p class="work__project-description2">
+                    Colaboração realizando modificações na estrutura do site via <strong>Wordpress</strong>
+                    e atualização do banco de imagens de eventos e participantes.
+                  </p>
+                  <a href="https://conemadto.com.br/" target="_blank" class="btn work__project-btn">Site</a>
+                </div>
+                <!-- Project 4 -->
+                <h3 class="work__project-title">Sistema de Gerenciamento de Documentos</h3>
+                <div class="work__img-wrapper work__image4 bording__bottom">
+                  <img class="lazy loading" src="/BD.png"
+                    alt="Sistema de Gerenciamento de Documentos" />
+                </div>
+                <div class="work__project work__content4">
+                  <h3 class="work__project-subtitle">Sistema de Gerenciamento de Documentos</h3>
+                  <p class="work__project-description1">
+                    sistema que cria e gerencia diferentes documentos governamentais.
+                  </p>
+                  <p class="work__project-description2">
+                    Trabalho com desenvolvimento em progresso com o framework
+                    <strong>Vue3+Vite</strong> e  <strong>Laravel</strong>, utilizando a biblioteca
+                    <strong>TailwindCSS</strong> e desenvolvido principalmente em
+                    linguagem <strong>Javascript</strong>.
+                  </p>
+                </div>
+                <!-- Project 5 -->
+                <h3 class="work__project-title">PokeVi</h3>
+                <div class="work__img-wrapper work__image5 bording__top">
+                  <img class="lazy loading" src="/Pokevi.PNG"
+                    alt="Pokedéx da 1ª e 2ª geração" />
+                </div>
+                <div class="work__project work__content5">
+                  <h3 class="work__project-subtitle">PokeVi</h3>
+                  <p class="work__project-description1">
+                    Pokedéx da 1ª e 2ª geração de pokemons.
+                  </p>
+                  <p class="work__project-description2">
+                    Desenvolvida para fins didáticos em
+                    <strong>Vue3+Vite</strong> utilizando as bibliotecas
+                    <strong>Bootstrap</strong> e <strong>AnimateCSS</strong> em
+                    linguagem <strong>Javascript</strong>.
+                  </p>
+                  <div>
+                    <a href="https://pokevi.netlify.app/" target="_blank" class="btn work__project-btn">Demo</a>
+                    <a href="https://github.com/flashqueen/PokeVite" target="_blank" class="btn work__project-btn"
+                      style="margin-left:15px;">Github</a>
+      
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div id="work__subsection2 work container section" v-if="displayG" >
+            <h2 class="work__title2" style="text-align: center;">{{ $t('Projetos')}}</h2>
+            <p class="work__description" style="text-align: center;">
+              {{ $t('Desc_proj')}}
+            </p>
+
+            <div class="work__container">
+              <!-- Project 6 -->
+              <h3 class="work__project-title">Fusion Attack!</h3>
+              <div class="work__img-wrapper work__image6 bording__bottom">
+                <img class="lazy loading" src="/fusionattack.png" data-src="/fusionattack.png"
+                  alt="Jogo de luta com dois personagens em cada lado da tela" />
+              </div>
+              <div class="work__project work__content6">
+                <h3 class="work__project-subtitle">Fusion Attack!</h3>
+                <p class="work__project-description1">
+                  Primeiro jogo de luta em dupla que desenvolvi em
+                  <strong>javascript</strong> para o meu TCC.
+                </p>
+                <p class="work__project-description2">
+                  ataque, esquive ou defenda dos golpes adversários.
+                  ao preencher da barra azul, una-se ao seu aliado para
+                  temporariamente fundirem e liberarem um
+                  poderoso golpe!
+                </p>
+                <div>
+                  <a href="https://fighting-prototype.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
+                  <a href="https://github.com/flashqueen/fighting-game" target="_blank" class="btn work__project-btn"
+                    style="margin-left:15px;">Github</a>
+                </div>
+              </div>
+              <!-- Project 7 -->
+              <h3 class="work__project-title">PokiMO</h3>
+              <div class="work__img-wrapper work__image7 bording__top">
+                <img class="lazy loading" src="/pokiMO.png" data-src="/pokiMO.png"
+                  alt="Jogo de aventura estilo pokemon" />
+              </div>
+              <div class="work__project work__content7">
+                <h3 class="work__project-subtitle">PokiMO</h3>
+                <p class="work__project-description1">
+                  Jogo de aventura estilo pokemon que desenvolvi em
+                  <strong>javascript</strong> e <strong>Tiled</strong> como hobbie.
+                </p>
+                <p class="work__project-description2">
+                  'PokiMO' É um jogo curto que se passa em uma ilha focado no estudo
+                  de combate por turnos e construção de mapas com áreas de
+                  interação!
+                </p>
+                <a href="#" class="btn work__project-btn">Em Breve</a>
+              </div>
+            </div>
+          </div>
       <section id="contact" class="contact container section">
 
         <h2 class="contact__title">{{ $t('Contato_fim')}}</h2>
@@ -339,14 +291,37 @@
 </template>
 
 <script>
-import lazyLoading from "../utils/lazy-loading";
+//import lazyLoading from "../utils/lazy-loading";
 
 export default {
   name: "Home",
+  
 
   mounted() {
-    lazyLoading();
+    //lazyLoading();
+    
   },
+
+  data() {
+    return {
+      displayS: true,
+      displayG: false
+    }
+    
+  },
+
+   methods: {
+    changeS() {
+      this.displayS = true;
+      this.displayG = false;
+
+      },
+    changeG() {
+      this.displayS = false;
+      this.displayG = true;
+
+      }
+   }
 
 };
 </script>
@@ -602,7 +577,7 @@ export default {
   text-align: center;
 }
 
-.work__title {
+.work__title .work__title2 {
   font-size: var(--size-2xl);
   color: var(--clr-light);
 }
@@ -612,6 +587,45 @@ export default {
   font-size: var(--size-sm);
   color: var(--clr-slate400);
   margin: 1rem auto;
+}
+
+.work__subsection ul li a{
+  padding: 15px;
+  font-size: 24px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: inline-block;
+  border-top: 2px solid #db2777;
+  border-left: 2px solid #db2777;
+  border-right: 2px solid #db2777;
+  box-shadow: 0 -2px 20px rgba(219, 39, 119, 0.5), 0 4px 4px 
+    rgba(219, 39, 119, 0.5), 0 0 20px -10px var(--clr-pink);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.work__subsection ul li a:hover {
+  transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(219, 39, 119, 0.25), 0 10px 10px 
+    rgba(219, 39, 119, 0.22), 0 0 50px -10px var(--clr-pink);
+}
+
+.work__subsection_list{
+  list-style: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.subsection1{
+  display: inline;
+}
+
+.subsection2{
+  display: inline;
+}
+
+#work__subsection2 {
+  display:none;
 }
 
 .work__hr {
@@ -819,7 +833,7 @@ export default {
   }
 
   /* ----------Projetos------------- */
-  .work__title {
+  .work__title .work__title2{
     font-size: var(--size-3xl);
   }
 
@@ -1078,7 +1092,7 @@ export default {
   }
 
   /* ----------Projetos------------- */
-  .work__title {
+  .work__title .work__title2{
     font-size: var(--size-4xl);
   }
 
@@ -1219,7 +1233,7 @@ export default {
   }
 
   /* ----------Projetos------------- */
-  .work__title {
+  .work__title .work__title2{
     font-size: var(--size-5xl);
   }
 

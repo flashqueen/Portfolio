@@ -93,7 +93,7 @@
           </button>
         </li>
         <li>
-          <a href="" class="mobile-nav__btn btn">{{ $t('Curriculo')}}</a>
+          <a href="/archives/Currículo_Danilo_Oliveira.pdf" class="mobile-nav__btn btn">{{ $t('Curriculo')}}</a>
         </li>
       </ul>
     </nav>
