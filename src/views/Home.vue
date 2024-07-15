@@ -109,12 +109,32 @@
       
               <div class="work__container">
                 <!-- Project 1 -->
-                <h3 class="work__project-title">Sistema de Gerenciamento de Bolsistas - SGB</h3>
+                <h3 class="work__project-title">Certifica</h3>
                 <div class="work__img-wrapper work__image1 bording__top">
-                  <img class="lazy loading" src="/SGB.png" 
+                  <img class="lazy loading" src="/certifica.png" 
                     alt="Site de sistema de gerenciamento" />
                 </div>
                 <div class="work__project work__content1">
+                  <h3 class="work__project-subtitle">Certifica</h3>
+                  <p class="work__project-description1">
+                    Site de gerenciamento de progressão de carreira do recursos humanos da SEDUC.
+                  </p>
+                  <p class="work__project-description2">
+                    Site criado para digitalizar o processo de documentação pós-graduação, mestrado e doutorado
+                    dos profissionais da rede de educação do Tocantins com <strong>React</strong>
+                    e utilização das linguagens <strong>javascript</strong>, <strong>html</strong> e <strong>css</strong> para o frontend e <strong>java</strong> para o backend.
+                  </p>
+                  <div>
+                    <a href="#" target="_blank" class="btn work__project-btn">Em Breve</a>
+                  </div>
+                </div>
+                <!-- Project 2 -->
+                <h3 class="work__project-title">Sistema de Gerenciamento de Bolsistas - SGB</h3>
+                <div class="work__img-wrapper work__image2 bording__bottom">
+                  <img class="lazy loading" src="/SGB.png" 
+                    alt="Site de sistema de gerenciamento" />
+                </div>
+                <div class="work__project work__content2">
                   <h3 class="work__project-subtitle">SGB</h3>
                   <p class="work__project-description1">
                     Site de gerenciamento de bolsistas do programa de apoio a educação do Tocantins.
@@ -122,19 +142,19 @@
                   <p class="work__project-description2">
                     Criação do site e das páginas via <strong>React</strong>
                     com utilização de bibliotecas como react-router-dom e utilização das linguagens
-                    <strong>javascript, html e css</strong> para o frontend e <strong>java</strong> para o backend.
+                    <strong>javascript</strong>, <strong>html</strong> e <strong>css</strong> para o frontend e <strong>java</strong> para o backend.
                   </p>
                   <div>
                     <a href="https://sgb.seduc.to.gov.br/" target="_blank" class="btn work__project-btn">Site</a>
                   </div>
                 </div>
-                <!-- Project 2 -->
+                <!-- Project 3 -->
                 <h3 class="work__project-title">Vet Delivery</h3>
-                <div class="work__img-wrapper work__image2 bording__bottom">
+                <div class="work__img-wrapper work__image3 bording__top">
                   <img class="lazy loading" src="/vet_delivery.png" 
                     alt="Site de clinica veterinária" />
                 </div>
-                <div class="work__project work__content2">
+                <div class="work__project work__content3">
                   <h3 class="work__project-subtitle">Vet Delivery</h3>
                   <p class="work__project-description1">
                     Site de clínica veterinária com atendimento a domicílio.
@@ -148,13 +168,13 @@
                     <a href="https://vetdelivery.com.br/" target="_blank" class="btn work__project-btn">Site</a>
                   </div>
                 </div>
-                <!-- Project 3 -->
+                <!-- Project 4 -->
                 <h3 class="work__project-title">Sites Governamentais / Legislativos</h3>
-                <div class="work__img-wrapper work__image3 bording__top">
+                <div class="work__img-wrapper work__image4 bording__bottom">
                   <img class="lazy loading" src="/pref_lajeado.png"
                     alt="Site legislativo da prefeitura de lajeado" />
                 </div>
-                <div class="work__project work__content3">
+                <div class="work__project work__content4">
                   <h3 class="work__project-subtitle">Sites Governamentais / Legislativos</h3>
                   <p class="work__project-description1">
                     Modificações nos sites legislativos e governamentais das cidades do Tocantins.
@@ -168,13 +188,13 @@
                     <a href="https://lajeado.to.leg.br/" target="_blank" class="btn work__project-btn">Site</a>
                   </div>
                 </div>
-                <!-- Project 4 -->
+                <!-- Project 5 -->
                 <h3 class="work__project-title">Conemad-TO</h3>
-                <div class="work__img-wrapper work__image4 bording__bottom">
+                <div class="work__img-wrapper work__image5 bording__top">
                   <img class="lazy loading" src="/conemad-to.png"
                     alt="Jogo de aventura estilo pokemon" />
                 </div>
-                <div class="work__project work__content4">
+                <div class="work__project work__content5">
                   <h3 class="work__project-subtitle">Conemad-TO</h3>
                   <p class="work__project-description1">
                     Convenção das Assembleias de Deus Ministério de Madureira no Tocantins
@@ -185,13 +205,13 @@
                   </p>
                   <a href="https://conemadto.com.br/" target="_blank" class="btn work__project-btn">Site</a>
                 </div>
-                <!-- Project 5 -->
+                <!-- Project 6 -->
                 <h3 class="work__project-title">Sistema de Gerenciamento de Documentos</h3>
-                <div class="work__img-wrapper work__image5 bording__top">
+                <div class="work__img-wrapper work__image6 bording__bottom">
                   <img class="lazy loading" src="/BD.png"
                     alt="Sistema de Gerenciamento de Documentos" />
                 </div>
-                <div class="work__project work__content5">
+                <div class="work__project work__content6">
                   <h3 class="work__project-subtitle">Sistema de Gerenciamento de Documentos</h3>
                   <p class="work__project-description1">
                     sistema que cria e gerencia diferentes documentos governamentais.
@@ -203,13 +223,13 @@
                     linguagem <strong>Javascript</strong>.
                   </p>
                 </div>
-                <!-- Project 6 -->
+                <!-- Project 7 -->
                 <h3 class="work__project-title">PokeVi</h3>
-                <div class="work__img-wrapper work__image6 bording__bottom">
+                <div class="work__img-wrapper work__image7 bording__top">
                   <img class="lazy loading" src="/Pokevi.PNG"
                     alt="Pokedéx da 1ª e 2ª geração" />
                 </div>
-                <div class="work__project work__content6">
+                <div class="work__project work__content7">
                   <h3 class="work__project-subtitle">PokeVi</h3>
                   <p class="work__project-description1">
                     Pokedéx da 1ª e 2ª geração de pokemons.
@@ -236,13 +256,13 @@
             </p>
 
             <div class="work__container">
-              <!-- Project 7 -->
+              <!-- Project 8 -->
               <h3 class="work__project-title">Fusion Attack!</h3>
-              <div class="work__img-wrapper work__image7 bording__top">
+              <div class="work__img-wrapper work__image8 bording__top">
                 <img class="lazy loading" src="/fusionattack.png" data-src="/fusionattack.png"
                   alt="Jogo de luta com dois personagens em cada lado da tela" />
               </div>
-              <div class="work__project work__content7">
+              <div class="work__project work__content8">
                 <h3 class="work__project-subtitle">Fusion Attack!</h3>
                 <p class="work__project-description1">
                   Primeiro jogo de luta em dupla que desenvolvi em
@@ -260,13 +280,13 @@
                     style="margin-left:15px;">Github</a>
                 </div>
               </div>
-              <!-- Project 8 -->
+              <!-- Project 9 -->
               <h3 class="work__project-title">PokiMO</h3>
-              <div class="work__img-wrapper work__image8 bording__bottom">
+              <div class="work__img-wrapper work__image9 bording__bottom">
                 <img class="lazy loading" src="/pokiMO.png" data-src="/pokiMO.png"
                   alt="Jogo de aventura estilo pokemon" />
               </div>
-              <div class="work__project work__content8">
+              <div class="work__project work__content9">
                 <h3 class="work__project-subtitle">PokiMO</h3>
                 <p class="work__project-description1">
                   Jogo de aventura estilo pokemon que desenvolvi em
@@ -928,7 +948,8 @@ export default {
       "image5 content5"
       "content6 image6"
       "image7 content7"
-      "content8 image8";
+      "content8 image8"
+      "image9 content9";
     place-items: center;
   }
 
@@ -964,6 +985,10 @@ export default {
     grid-area: image8;
   }
 
+  .work__image9 {
+    grid-area: image9;
+  }
+
   .work__content1 {
     grid-area: content1;
   }
@@ -994,6 +1019,10 @@ export default {
 
   .work__content8 {
     grid-area: content8;
+  }
+
+  .work__content9 {
+    grid-area: content9;
   }
 
   .work__project {
