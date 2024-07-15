@@ -281,23 +281,23 @@
                 </div>
               </div>
               <!-- Project 9 -->
-              <h3 class="work__project-title">PokiMO</h3>
+              <h3 class="work__project-title">PokiAdventures</h3>
               <div class="work__img-wrapper work__image9 bording__bottom">
                 <img class="lazy loading" src="/pokiMO.png" data-src="/pokiMO.png"
                   alt="Jogo de aventura estilo pokemon" />
               </div>
               <div class="work__project work__content9">
-                <h3 class="work__project-subtitle">PokiMO</h3>
+                <h3 class="work__project-subtitle">PokiAdventures</h3>
                 <p class="work__project-description1">
                   Jogo de aventura estilo pokemon que desenvolvi em
-                  <strong>javascript</strong> e <strong>Tiled</strong> como hobbie.
+                  <strong>javascript</strong> e <strong>Tiled</strong> para estudo.
                 </p>
                 <p class="work__project-description2">
                   'PokiMO' É um jogo curto que se passa em uma ilha focado no estudo
                   de combate por turnos e construção de mapas com áreas de
-                  interação!
+                  interação! Devido a restrições de HTML é necessário selecionar a tela uma vez para acionar a música de fundo.
                 </p>
-                <a href="#" class="btn work__project-btn">Em Breve</a>
+                <a href="https://pokiadventures.netlify.app" class="btn work__project-btn">Demo</a>
               </div>
             </div>
           </div>
