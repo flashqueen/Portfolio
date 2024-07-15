@@ -120,9 +120,9 @@
                     Sistema de gerenciamento de progressão de carreira do recursos humanos da SEDUC.
                   </p>
                   <p class="work__project-description2">
-                    Sistema criado para digitalizar o processo de documentação pós-graduação, mestrado e doutorado
-                    dos profissionais da rede de educação do Tocantins com <strong>React</strong>
-                    e utilização das linguagens <strong>javascript</strong>, <strong>html</strong> e <strong>css</strong> para o frontend e <strong>java</strong> para o backend.
+                    Sistema criado para digitalizar o processo de documentação dos profissionais da 
+                    rede de educação do Tocantins com <strong>React</strong> e utilização das linguagens 
+                    <strong>Javascript</strong>, <strong>ReactRouter</strong> e <strong>PrimeReact</strong> para o frontend e <strong>Java</strong> para o backend.
                   </p>
                   <div>
                     <a href="#" target="_blank" class="btn work__project-btn">Em Breve</a>
@@ -141,8 +141,8 @@
                   </p>
                   <p class="work__project-description2">
                     Criação do sistema e das páginas via <strong>React</strong>
-                    com utilização de bibliotecas como react-router-dom e utilização das linguagens
-                    <strong>javascript</strong>, <strong>html</strong> e <strong>css</strong> para o frontend e <strong>java</strong> para o backend.
+                    com apresentação de planilhas, documentos e dashboards para perfis de escola, cidade e regional. Utilização das linguagens
+                    <strong>Javascript</strong>, <strong>ReactRouter</strong> e <strong>PrimeReact</strong> para o frontend e <strong>Java</strong> para o backend.
                   </p>
                   <div>
                     <a href="https://sgb.seduc.to.gov.br/" target="_blank" class="btn work__project-btn">Site</a>
@@ -161,8 +161,8 @@
                   </p>
                   <p class="work__project-description2">
                     Criação do site e das páginas via <strong>Wordpress</strong>
-                    com suas devidas alterações e inserção de plugins como
-                    <strong>elementor</strong> e conexão para <strong>whattsapp</strong>
+                    com movimentação de imagens, criação de cards, cabeçalho e rodapé com menu interativo e inserção de plugins como
+                    <strong>Elementor</strong> e conexão para <strong>Whattsapp</strong> e <strong>Instagram</strong>.
                   </p>
                   <div>
                     <a href="https://vetdelivery.com.br/" target="_blank" class="btn work__project-btn">Site</a>
@@ -219,7 +219,7 @@
                   <p class="work__project-description2">
                     Trabalho com desenvolvimento em progresso com o framework
                     <strong>Vue3+Vite</strong> e  <strong>Laravel</strong>, utilizando a biblioteca
-                    <strong>TailwindCSS</strong> e desenvolvido principalmente em
+                    <strong>TailwindCSS</strong>, tradução de <strong>Bootstrap</strong> para <strong>TailwindCSS</strong> e desenvolvido principalmente em
                     linguagem <strong>Javascript</strong>.
                   </p>
                 </div>
