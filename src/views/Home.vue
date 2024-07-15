@@ -125,7 +125,7 @@
                     <strong>Javascript</strong>, <strong>ReactRouter</strong> e <strong>PrimeReact</strong> para o frontend e <strong>Java</strong> para o backend.
                   </p>
                   <div>
-                    <a href="#" target="_blank" class="btn work__project-btn">Em Breve</a>
+                    <a href="#" class="btn work__project-btn">Em Breve</a>
                   </div>
                 </div>
                 <!-- Project 2 -->
@@ -297,7 +297,7 @@
                   de combate por turnos e construção de mapas com áreas de
                   interação! Devido a restrições de HTML é necessário selecionar a tela uma vez para acionar a música de fundo.
                 </p>
-                <a href="https://pokiadventures.netlify.app" class="btn work__project-btn">Demo</a>
+                <a href="https://pokiadventures.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
               </div>
             </div>
           </div>
