@@ -58,8 +58,8 @@
                 TailwindCSS
               </li>
               <li class="about__list">
-                <img class="about__list_img icons__color" src="/icons/bootstrap_icon.png" height="25" />
-                Bootstrap
+                <img class="about__list_img icons__color" src="/icons/unity_icon.png" height="25" />
+                Unity 3D
               </li>
             </ul>
             <ul class="about__ul">
@@ -76,8 +76,8 @@
                 Wordpress
               </li>
               <li class="about__list">
-                <img class="about__list_img icons__color" src="/icons/unity_icon.png" height="25" />
-                Unity 3D
+                <img class="about__list_img icons__color" src="/icons/bootstrap_icon.png" height="25" />
+                Bootstrap
               </li>
             </ul>
           </div>
@@ -257,12 +257,33 @@
 
             <div class="work__container">
               <!-- Project 8 -->
-              <h3 class="work__project-title">Fusion Attack!</h3>
+              <h3 class="work__project-title">Cosmic Maid Café</h3>
               <div class="work__img-wrapper work__image8 bording__top">
+                <img class="lazy loading" src="/cosmicMaidCafe.png"
+                  alt="Jogo de aventura puzzle com suspense e cafe" />
+              </div>
+              <div class="work__project work__content8">
+                <h3 class="work__project-subtitle">Cosmic Maid Café</h3>
+                <p class="work__project-description1">
+                  Jogo vencedor da segunda edição da
+                  <strong>Pequi Jam</strong> em progresso.
+                </p>
+                <p class="work__project-description2">
+                  Ajude Clara a coletar os copos de café nessa cozinha
+                  de dimensão distorcida enquanto corre contra o tempo para não 
+                  cair e nem deixar sua luz interna acabar
+                </p>
+                <div>
+                  <a href="https://flashqueen.itch.io/cosmic-maid-cafe" target="_blank" class="btn work__project-btn">Jogar</a>
+                </div>
+              </div>
+              <!-- Project 9 -->
+              <h3 class="work__project-title">Fusion Attack!</h3>
+              <div class="work__img-wrapper work__image9 bording__bottom">
                 <img class="lazy loading" src="/fusionattack.png"
                   alt="Jogo de luta com dois personagens em cada lado da tela" />
               </div>
-              <div class="work__project work__content8">
+              <div class="work__project work__content9">
                 <h3 class="work__project-subtitle">Fusion Attack!</h3>
                 <p class="work__project-description1">
                   Primeiro jogo de luta em dupla que desenvolvi em
@@ -280,13 +301,13 @@
                     style="margin-left:15px;">Github</a>
                 </div>
               </div>
-              <!-- Project 9 -->
+              <!-- Project 10 -->
               <h3 class="work__project-title">PokiAdventures</h3>
-              <div class="work__img-wrapper work__image9 bording__bottom">
+              <div class="work__img-wrapper work__image10 bording__top">
                 <img class="lazy loading" src="/pokiadventures.png"
                   alt="Jogo de aventura estilo pokemon" />
               </div>
-              <div class="work__project work__content9">
+              <div class="work__project work__content10">
                 <h3 class="work__project-subtitle">PokiAdventures</h3>
                 <p class="work__project-description1">
                   Jogo de aventura estilo pokemon que desenvolvi em
@@ -948,8 +969,9 @@ export default {
       "image5 content5"
       "content6 image6"
       "image7 content7"
-      "content8 image8"
-      "image9 content9";
+      "image8 content8"
+      "content9 image9"
+      "image10 content10";
     place-items: center;
   }
 
@@ -989,6 +1011,10 @@ export default {
     grid-area: image9;
   }
 
+  .work__image10 {
+    grid-area: image10;
+  }
+
   .work__content1 {
     grid-area: content1;
   }
@@ -1023,6 +1049,10 @@ export default {
 
   .work__content9 {
     grid-area: content9;
+  }
+
+  .work__content10 {
+    grid-area: content10;
   }
 
   .work__project {
