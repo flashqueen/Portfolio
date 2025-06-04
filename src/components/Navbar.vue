@@ -33,6 +33,9 @@
         <li>
           <a class="header__resume btn" href="/archives/Currículo_Danilo_Oliveira.pdf" download>{{ $t('Curriculo')}}</a>
         </li>
+        <li>
+          <a class="header__resume btn-second" href="/archives/Currículo_Danilo_Oliveira_EN.pdf" download>{{ $t('CurriculoEN')}}</a>
+        </li>
       </ul>
       <button class="header__bars" @click="mobileNavig()">
         <svg
@@ -94,6 +97,9 @@
         </li>
         <li>
           <a href="/archives/Currículo_Danilo_Oliveira.pdf" class="mobile-nav__btn btn">{{ $t('Curriculo')}}</a>
+        </li>
+        <li>
+          <a href="/archives/Currículo_Danilo_Oliveira_EN.pdf" class="mobile-nav__btn btn-second" download>{{ $t('CurriculoEN')}}</a>
         </li>
       </ul>
     </nav>

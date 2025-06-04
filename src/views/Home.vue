@@ -242,7 +242,7 @@
                   </p>
                   <div>
                     <a href="https://pokevi.netlify.app/" target="_blank" class="btn work__project-btn">Demo</a>
-                    <a href="https://github.com/flashqueen/PokeVite" target="_blank" class="btn work__project-btn"
+                    <a href="https://github.com/flashqueen/PokeVite" target="_blank" class="btn-second work__project-btn"
                       style="margin-left:15px;">Github</a>
       
                   </div>
@@ -257,66 +257,56 @@
 
             <div class="work__container">
               <!-- Project 8 -->
-              <h3 class="work__project-title">Cosmic Maid Café</h3>
+              <h3 class="work__project-title">{{ $t('GameTitle1')}}</h3>
               <div class="work__img-wrapper work__image8 bording__top">
                 <img class="lazy loading" src="/cosmicMaidCafe.png"
                   alt="Jogo de aventura puzzle com suspense e cafe" />
               </div>
               <div class="work__project work__content8">
-                <h3 class="work__project-subtitle">Cosmic Maid Café</h3>
+                <h3 class="work__project-subtitle">{{ $t('GameSubtitle1')}}</h3>
                 <p class="work__project-description1">
-                  Jogo vencedor da segunda edição da
-                  <strong>Pequi Jam</strong> em progresso.
+                  {{ $t('Game_Desc1_1')}}
                 </p>
                 <p class="work__project-description2">
-                  Ajude Clara a coletar os copos de café nessa cozinha
-                  de dimensão distorcida enquanto corre contra o tempo para não 
-                  cair e nem deixar sua luz interna acabar
+                  {{ $t('Game_Desc2_1')}}
                 </p>
                 <div>
                   <a href="https://flashqueen.itch.io/cosmic-maid-cafe" target="_blank" class="btn work__project-btn">Jogar</a>
                 </div>
               </div>
               <!-- Project 9 -->
-              <h3 class="work__project-title">Fusion Attack!</h3>
+              <h3 class="work__project-title">{{ $t('GameTitle2')}}</h3>
               <div class="work__img-wrapper work__image9 bording__bottom">
                 <img class="lazy loading" src="/fusionattack.png"
                   alt="Jogo de luta com dois personagens em cada lado da tela" />
               </div>
               <div class="work__project work__content9">
-                <h3 class="work__project-subtitle">Fusion Attack!</h3>
+                <h3 class="work__project-subtitle">{{ $t('GameSubtitle2')}}</h3>
                 <p class="work__project-description1">
-                  Primeiro jogo de luta em dupla que desenvolvi em
-                  <strong>javascript</strong> para o meu TCC.
+                  {{ $t('Game_Desc1_2')}}
                 </p>
                 <p class="work__project-description2">
-                  ataque, esquive ou defenda dos golpes adversários.
-                  ao preencher da barra azul, una-se ao seu aliado para
-                  temporariamente fundirem e liberarem um
-                  poderoso golpe!
+                  {{ $t('Game_Desc2_2')}}
                 </p>
                 <div>
                   <a href="https://fighting-prototype.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
-                  <a href="https://github.com/flashqueen/fighting-game" target="_blank" class="btn work__project-btn"
+                  <a href="https://github.com/flashqueen/fighting-game" target="_blank" class="btn-second work__project-btn"
                     style="margin-left:15px;">Github</a>
                 </div>
               </div>
               <!-- Project 10 -->
-              <h3 class="work__project-title">PokiAdventures</h3>
+              <h3 class="work__project-title">{{ $t('GameTitle3')}}</h3>
               <div class="work__img-wrapper work__image10 bording__top">
                 <img class="lazy loading" src="/pokiadventures.png"
                   alt="Jogo de aventura estilo pokemon" />
               </div>
               <div class="work__project work__content10">
-                <h3 class="work__project-subtitle">PokiAdventures</h3>
+                <h3 class="work__project-subtitle">{{ $t('GameSubtitle3')}}</h3>
                 <p class="work__project-description1">
-                  Jogo de aventura estilo pokemon que desenvolvi em
-                  <strong>javascript</strong> e <strong>Tiled</strong> para estudo.
+                  {{ $t('Game_Desc1_3')}}
                 </p>
                 <p class="work__project-description2">
-                  'PokiMO' É um jogo curto que se passa em uma ilha focado no estudo
-                  de combate por turnos e construção de mapas com áreas de
-                  interação! Devido a restrições de HTML é necessário selecionar a tela uma vez para acionar a música de fundo.
+                  {{ $t('Game_Desc2_3')}}
                 </p>
                 <a href="https://pokiadventures.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
               </div>
