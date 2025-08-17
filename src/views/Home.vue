@@ -92,10 +92,10 @@
         <div class="work__subsection">
           <ul class="work__subsection_list">
             <li class="subsection1">
-              <a href="#work__subsection1" class="sys__dev" @click="changeS">System Development</a>
+              <a href="#work__subsection1" class="sys__dev" @click="changeS"><strong>System Development</strong></a>
             </li>
             <li class="subsection2">
-              <a href="#work__subsection2" class="game__dev" @click="changeG">Game Development</a>
+              <a href="#work__subsection2" class="game__dev" @click="changeG"><strong>Game Development</strong></a>
             </li>
           </ul>
         </div>
