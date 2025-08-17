@@ -535,7 +535,7 @@ export default {
 
 .featured__subtitle {
   font-size: var(--size-sm);
-  color: var(--clr-violet);
+  color: var(--clr-green);
   text-transform: capitalize;
   font-weight: 400;
 }
@@ -650,14 +650,14 @@ export default {
   border-left: 2px solid #db2777;
   border-right: 2px solid #db2777;
   box-shadow: 0 -2px 20px rgba(219, 39, 119, 0.5), 0 4px 4px 
-    rgba(219, 39, 119, 0.5), 0 0 20px -10px var(--clr-pink);
+    rgba(219, 39, 119, 0.5), 0 0 20px -10px var(--clr-darkpurple);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .work__subsection ul li a:hover {
   transform: translateY(-1px);
     box-shadow: 0 4px 8px rgba(219, 39, 119, 0.25), 0 10px 10px 
-    rgba(219, 39, 119, 0.22), 0 0 50px -10px var(--clr-pink);
+    rgba(219, 39, 119, 0.22), 0 0 50px -10px var(--clr-darkpurple);
 }
 
 .work__subsection_list{

@@ -229,7 +229,7 @@ export default {
 }
 
 .mobile-nav__link:hover {
-  color: var(--clr-pink);
+  color: var(--clr-darkpurple);
 }
 
 .mobile-nav__link-line {
@@ -268,7 +268,7 @@ export default {
   }
 
   .header__link:hover {
-    color: var(--clr-pink);
+    color: var(--clr-darkpurple);
   }
 
   .header__line {
