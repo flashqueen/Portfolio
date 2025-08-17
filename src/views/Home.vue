@@ -50,30 +50,52 @@
                 Javascript
               </li>
               <li class="about__list">
+                <img class="about__list_img icons__color" src="/icons/laravel_icon.png" height="25" />
+                Laravel
+              </li>
+              <li class="about__list">
+                <img class="about__list_img icons__color" src="/icons/csharp_icon.png" height="25" />
+                C#
+              </li>
+              <li class="about__list">
+                <img class="about__list_img icons__color" src="/icons/mysql_icon.png" height="25" />
+                MySQL
+              </li>
+            </ul>
+            <ul class="about__ul">
+              <li class="about__list">
+                <img class="about__list_img icons__color" src="/icons/next_icon.png" height="25" />
+                Next.js
+              </li>
+              <li class="about__list">
+                <img class="about__list_img icons__color" src="/icons/php_icon.png" height="25" />
+                PHP
+              </li>
+              <li class="about__list">
+                <img class="about__list_img icons__color" src="/icons/unity_icon.png" height="25" />
+                Unity 3D
+              </li>
+              <li class="about__list">
+                <img class="about__list_img icons__color" src="/icons/wordpress_icon.png" height="25" />
+                Wordpress
+              </li>
+            </ul>
+            <ul class="about__ul">
+              <li class="about__list">
+                <img class="about__list_img icons__color" src="/icons/python_icon.png" height="25" />
+                Python
+              </li>
+              <li class="about__list">
+                <img class="about__list_img icons__color" src="/icons/vue_fill_icon.png" height="25" />
+                Vue3 (+vite)
+              </li>
+              <li class="about__list">
                 <img class="about__list_img icons__color" src="/icons/filetype_css_icon.png" height="25" />
                 CSS / HTML
               </li>
               <li class="about__list">
                 <img class="about__list_img icons__color" src="/icons/tailwind_icon.png" height="25" />
                 TailwindCSS
-              </li>
-              <li class="about__list">
-                <img class="about__list_img icons__color" src="/icons/unity_icon.png" height="25" />
-                Unity 3D
-              </li>
-            </ul>
-            <ul class="about__ul">
-              <li class="about__list">
-                <img class="about__list_img icons__color" src="/icons/vue_fill_icon.png" height="25" />
-                Vue3 (+vite)
-              </li>
-              <li class="about__list">
-                <img class="about__list_img icons__color" src="/icons/laravel_icon.png" height="25" />
-                Laravel
-              </li>
-              <li class="about__list">
-                <img class="about__list_img icons__color" src="/icons/wordpress_icon.png" height="25" />
-                Wordpress
               </li>
               <li class="about__list">
                 <img class="about__list_img icons__color" src="/icons/bootstrap_icon.png" height="25" />
@@ -92,10 +114,10 @@
         <div class="work__subsection">
           <ul class="work__subsection_list">
             <li class="subsection1">
-              <a href="#work__subsection1" class="sys__dev" @click="changeS"><strong>System Development</strong></a>
+              <a href="#work__subsection1" class="sys__dev" @click="changeS">System Development</a>
             </li>
             <li class="subsection2">
-              <a href="#work__subsection2" class="game__dev" @click="changeG"><strong>Game Development</strong></a>
+              <a href="#work__subsection2" class="game__dev" @click="changeG">Game Development</a>
             </li>
           </ul>
         </div>
@@ -109,12 +131,32 @@
       
               <div class="work__container">
                 <!-- Project 1 -->
-                <h3 class="work__project-title">Certifica</h3>
+                <h3 class="work__project-title">GEGAL</h3>
                 <div class="work__img-wrapper work__image1 bording__top">
+                  <img class="lazy loading" src="/GEGAL.png" 
+                    alt="sistema de gerenciamento e site de notícias" />
+                </div>
+                <div class="work__project work__content1">
+                  <h3 class="work__project-subtitle">Grupo de Estudos globais e América Latina</h3>
+                  <p class="work__project-description1">
+                    Sistema de gerenciamento e site de notícias com facilitadores para administrador.
+                  </p>
+                  <p class="work__project-description2">
+                    Sistema e site criados com o objetivo de agilizar e facilitar o processo dos gestores da página,
+                    desenvolvido com <strong>Next.js</strong> utilizando <strong>Javascript</strong> e <strong>Headless Wordpress</strong>
+                    além de criação de plugins e sitemas como criação de publicação, tags dinâmicas e comentários.
+                  </p>
+                  <div>
+                    <a href="https://gegal.vercel.app" target="_blank" class="btn work__project-btn">Site</a>
+                  </div>
+                </div>
+                <!-- Project 2 -->
+                <h3 class="work__project-title">Certifica</h3>
+                <div class="work__img-wrapper work__image2 bording__bottom">
                   <img class="lazy loading" src="/certifica.png" 
                     alt="site de gerenciamento de progressao rh" />
                 </div>
-                <div class="work__project work__content1">
+                <div class="work__project work__content2">
                   <h3 class="work__project-subtitle">Certifica</h3>
                   <p class="work__project-description1">
                     Sistema de gerenciamento de progressão de carreira do recursos humanos da SEDUC.
@@ -125,16 +167,16 @@
                     <strong>Javascript</strong>, <strong>ReactRouter</strong> e <strong>PrimeReact</strong> para o frontend e <strong>Java</strong> para o backend.
                   </p>
                   <div>
-                    <a href="#" class="btn work__project-btn">Em Breve</a>
+                    <a href="https://certifica.seduc.to.gov.br/" target="_blank" class="btn work__project-btn">Site</a>
                   </div>
                 </div>
-                <!-- Project 2 -->
+                <!-- Project 3 -->
                 <h3 class="work__project-title">Sistema de Gerenciamento de Bolsistas - SGB</h3>
-                <div class="work__img-wrapper work__image2 bording__bottom">
+                <div class="work__img-wrapper work__image3 bording__top">
                   <img class="lazy loading" src="/bolsista.png" 
                     alt="sistema de gerenciamento de bolsistas" />
                 </div>
-                <div class="work__project work__content2">
+                <div class="work__project work__content3">
                   <h3 class="work__project-subtitle">SGB</h3>
                   <p class="work__project-description1">
                     Sistema de gerenciamento de bolsistas do programa de apoio a educação do Tocantins.
@@ -148,13 +190,13 @@
                     <a href="https://sgb.seduc.to.gov.br/" target="_blank" class="btn work__project-btn">Site</a>
                   </div>
                 </div>
-                <!-- Project 3 -->
+                <!-- Project 4 -->
                 <h3 class="work__project-title">Vet Delivery</h3>
-                <div class="work__img-wrapper work__image3 bording__top">
+                <div class="work__img-wrapper work__image4 bording__bottom">
                   <img class="lazy loading" src="/vet_delivery.png" 
                     alt="Site de clinica veterinária" />
                 </div>
-                <div class="work__project work__content3">
+                <div class="work__project work__content4">
                   <h3 class="work__project-subtitle">Vet Delivery</h3>
                   <p class="work__project-description1">
                     Site de clínica veterinária com atendimento a domicílio.
@@ -168,13 +210,13 @@
                     <a href="https://vetdelivery.com.br/" target="_blank" class="btn work__project-btn">Site</a>
                   </div>
                 </div>
-                <!-- Project 4 -->
+                <!-- Project 5 -->
                 <h3 class="work__project-title">Sites Governamentais / Legislativos</h3>
-                <div class="work__img-wrapper work__image4 bording__bottom">
+                <div class="work__img-wrapper work__image5 bording__top">
                   <img class="lazy loading" src="/pref_lajeado.png"
                     alt="Site legislativo da prefeitura de lajeado" />
                 </div>
-                <div class="work__project work__content4">
+                <div class="work__project work__content5">
                   <h3 class="work__project-subtitle">Sites Governamentais / Legislativos</h3>
                   <p class="work__project-description1">
                     Modificações nos sites legislativos e governamentais das cidades do Tocantins.
@@ -188,13 +230,13 @@
                     <a href="https://lajeado.to.leg.br/" target="_blank" class="btn work__project-btn">Site</a>
                   </div>
                 </div>
-                <!-- Project 5 -->
+                <!-- Project 6 -->
                 <h3 class="work__project-title">Conemad-TO</h3>
-                <div class="work__img-wrapper work__image5 bording__top">
+                <div class="work__img-wrapper work__image6 bording__bottom">
                   <img class="lazy loading" src="/conemad-to.png"
                     alt="Jogo de aventura estilo pokemon" />
                 </div>
-                <div class="work__project work__content5">
+                <div class="work__project work__content6">
                   <h3 class="work__project-subtitle">Conemad-TO</h3>
                   <p class="work__project-description1">
                     Convenção das Assembleias de Deus Ministério de Madureira no Tocantins
@@ -205,13 +247,13 @@
                   </p>
                   <a href="https://conemadto.com.br/" target="_blank" class="btn work__project-btn">Site</a>
                 </div>
-                <!-- Project 6 -->
+                <!-- Project 7 -->
                 <h3 class="work__project-title">Sistema de Gerenciamento de Documentos</h3>
-                <div class="work__img-wrapper work__image6 bording__bottom">
+                <div class="work__img-wrapper work__image7 bording__top">
                   <img class="lazy loading" src="/barco.png"
                     alt="Sistema de Gerenciamento de Documentos" />
                 </div>
-                <div class="work__project work__content6">
+                <div class="work__project work__content7">
                   <h3 class="work__project-subtitle">Sistema de Gerenciamento de Documentos</h3>
                   <p class="work__project-description1">
                     sistema que cria e gerencia diferentes documentos governamentais.
@@ -223,13 +265,13 @@
                     linguagem <strong>Javascript</strong>.
                   </p>
                 </div>
-                <!-- Project 7 -->
+                <!-- Project 8 -->
                 <h3 class="work__project-title">PokeVi</h3>
-                <div class="work__img-wrapper work__image7 bording__top">
+                <div class="work__img-wrapper work__image8 bording__bottom">
                   <img class="lazy loading" src="/vitepoke.png"
                     alt="pokedéx da 1ª e 2ª geração" />
                 </div>
-                <div class="work__project work__content7">
+                <div class="work__project work__content8">
                   <h3 class="work__project-subtitle">PokeVi</h3>
                   <p class="work__project-description1">
                     Pokedéx da 1ª e 2ª geração de pokemons.
@@ -256,13 +298,13 @@
             </p>
 
             <div class="work__container">
-              <!-- Project 8 -->
+              <!-- Project 9 -->
               <h3 class="work__project-title">{{ $t('GameTitle1')}}</h3>
-              <div class="work__img-wrapper work__image8 bording__top">
+              <div class="work__img-wrapper work__image9 bording__bottom">
                 <img class="lazy loading" src="/cosmicMaidCafe.png"
-                  alt="Jogo de aventura puzzle com suspense e cafe" />
+                  alt="Jogo de aventura puzzle com suspense e cafe - 31_10_2024" />
               </div>
-              <div class="work__project work__content8">
+              <div class="work__project work__content9">
                 <h3 class="work__project-subtitle">{{ $t('GameSubtitle1')}}</h3>
                 <p class="work__project-description1">
                   {{ $t('Game_Desc1_1')}}
@@ -274,13 +316,13 @@
                   <a href="https://flashqueen.itch.io/cosmic-maid-cafe" target="_blank" class="btn work__project-btn">Jogar</a>
                 </div>
               </div>
-              <!-- Project 9 -->
+              <!-- Project 10 -->
               <h3 class="work__project-title">{{ $t('GameTitle2')}}</h3>
-              <div class="work__img-wrapper work__image9 bording__bottom">
+              <div class="work__img-wrapper work__image10 bording__top">
                 <img class="lazy loading" src="/fusionattack.png"
-                  alt="Jogo de luta com dois personagens em cada lado da tela" />
+                  alt="Jogo de luta com dois personagens em cada lado da tela - 20_11_2023" />
               </div>
-              <div class="work__project work__content9">
+              <div class="work__project work__content10">
                 <h3 class="work__project-subtitle">{{ $t('GameSubtitle2')}}</h3>
                 <p class="work__project-description1">
                   {{ $t('Game_Desc1_2')}}
@@ -294,13 +336,13 @@
                     style="margin-left:15px;">Github</a>
                 </div>
               </div>
-              <!-- Project 10 -->
+              <!-- Project 11 -->
               <h3 class="work__project-title">{{ $t('GameTitle3')}}</h3>
-              <div class="work__img-wrapper work__image10 bording__top">
+              <div class="work__img-wrapper work__image11 bording__bottom">
                 <img class="lazy loading" src="/pokiadventures.png"
-                  alt="Jogo de aventura estilo pokemon" />
+                  alt="Jogo de aventura estilo pokemon - 15_07_2024" />
               </div>
-              <div class="work__project work__content10">
+              <div class="work__project work__content11">
                 <h3 class="work__project-subtitle">{{ $t('GameSubtitle3')}}</h3>
                 <p class="work__project-description1">
                   {{ $t('Game_Desc1_3')}}
@@ -309,6 +351,38 @@
                   {{ $t('Game_Desc2_3')}}
                 </p>
                 <a href="https://pokiadventures.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
+              </div>
+              <!-- Project 12 -->
+              <h3 class="work__project-title">{{ $t('GameTitle4')}}</h3>
+              <div class="work__img-wrapper work__image12 bording__top">
+                <img class="lazy loading" src="/flappy_bird.png"
+                  alt="Jogo do flappy bird - 24_09_2024" />
+              </div>
+              <div class="work__project work__content12">
+                <h3 class="work__project-subtitle">{{ $t('GameSubtitle4')}}</h3>
+                <p class="work__project-description1">
+                  {{ $t('Game_Desc1_4')}}
+                </p>
+                <p class="work__project-description2">
+                  {{ $t('Game_Desc2_4')}}
+                </p>
+                <a href="https://github.com/flashqueen/FlappyBird" target="_blank" class="btn work__project-btn">Demo</a>
+              </div>
+              <!-- Project 13 -->
+              <h3 class="work__project-title">{{ $t('GameTitle5')}}</h3>
+              <div class="work__img-wrapper work__image13 bording__bottom">
+                <img class="lazy loading" src="/brick_break.png"
+                  alt="Jogo de quebrar blocos - 23_10_2024" />
+              </div>
+              <div class="work__project work__content13">
+                <h3 class="work__project-subtitle">{{ $t('GameSubtitle5')}}</h3>
+                <p class="work__project-description1">
+                  {{ $t('Game_Desc1_5')}}
+                </p>
+                <p class="work__project-description2">
+                  {{ $t('Game_Desc2_5')}}
+                </p>
+                <a href="https://flashqueen.itch.io/brick-break-test" target="_blank" class="btn work__project-btn">Demo</a>
               </div>
             </div>
           </div>
@@ -646,18 +720,18 @@ export default {
   margin-left: 50px;
   margin-right: 50px;
   display: inline-block;
-  border-top: 2px solid #db2777;
-  border-left: 2px solid #db2777;
-  border-right: 2px solid #db2777;
-  box-shadow: 0 -2px 20px rgba(219, 39, 119, 0.5), 0 4px 4px 
-    rgba(219, 39, 119, 0.5), 0 0 20px -10px var(--clr-darkpurple);
+  border-top: 2px solid var(--clr-darkpurple);
+  border-left: 2px solid var(--clr-darkpurple);
+  border-right: 2px solid var(--clr-darkpurple);
+  box-shadow: 0 -2px 20px rgba(132, 39, 219, 0.5), 0 4px 4px 
+    rgba(132, 39, 219, 0.5), 0 0 20px -10px var(--clr-darkpurple);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .work__subsection ul li a:hover {
   transform: translateY(-1px);
-    box-shadow: 0 4px 8px rgba(219, 39, 119, 0.25), 0 10px 10px 
-    rgba(219, 39, 119, 0.22), 0 0 50px -10px var(--clr-darkpurple);
+    box-shadow: 0 4px 8px rgba(132, 39, 119, 0.25), 0 10px 10px 
+    rgba(132, 39, 119, 0.22), 0 0 50px -10px var(--clr-darkpurple);
 }
 
 .work__subsection_list{
@@ -683,7 +757,7 @@ export default {
   border: 0;
   height: 5px;
   margin-bottom: 20px;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0), #db2777, rgba(0, 0, 0, 0))
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), var(--clr-darkpurple), rgba(0, 0, 0, 0))
 }
 
 .work__project-title {
@@ -700,7 +774,7 @@ export default {
   border-block-start: 4px solid;
   border-image-source:
     radial-gradient(circle at top left,
-      #db2777,
+      var(--clr-darkpurple),
       transparent 45%);
   border-image-slice: 1;
 }
@@ -711,14 +785,14 @@ export default {
   margin-top: .5em;
   border-image-source:
     radial-gradient(circle at bottom right,
-      #db2777,
+      var(--clr-darkpurple),
       transparent 45%);
   border-image-slice: 1;
 }
 
 .work__img-wrapper::after {
   content: "";
-  background-color: rgba(124, 58, 237, 0.6);
+  background-color: rgba(124, 58, 237, 0.4);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -959,9 +1033,12 @@ export default {
       "image5 content5"
       "content6 image6"
       "image7 content7"
-      "image8 content8"
+      "content8 image8"
       "content9 image9"
-      "image10 content10";
+      "image10 content10"
+      "content11 image11"
+      "image12 content12"
+      "content13 image13";
     place-items: center;
   }
 
@@ -1005,6 +1082,18 @@ export default {
     grid-area: image10;
   }
 
+  .work__image11 {
+    grid-area: image11;
+  }
+
+  .work__image12 {
+    grid-area: image12;
+  }
+
+  .work__image13 {
+    grid-area: image13;
+  }
+
   .work__content1 {
     grid-area: content1;
   }
@@ -1043,6 +1132,18 @@ export default {
 
   .work__content10 {
     grid-area: content10;
+  }
+
+  .work__content11 {
+    grid-area: content11;
+  }
+
+  .work__content12 {
+    grid-area: content12;
+  }
+
+  .work__content13 {
+    grid-area: content13;
   }
 
   .work__project {

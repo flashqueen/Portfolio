@@ -7,8 +7,8 @@
     "CurriculoEN" : "Resume",
     "BemVindo" : "Welcome, i'm Danilo Oliveira, a ",
     "Contate" : "Contacts",
-    "Descricao1" : "Hello! My name is Danilo, and I am currently working as an IT Administrative Technician / Full-Stack Developer at the National Commercial Learning Service (SENAC) in Palmas, Tocantins. In this role, I have gained experience in the development and analysis of systems designed to virtualize and resolve manual process issues across various areas of the commercial sector.",
-    "Descricao2" : "At present, I hold a postgraduate degree in Digital Game Design and Development, and I actively participate in game development competitions (Game Jams), having created several games using JavaScript/HTML, Unity 3D, and Python. Digital games have been a part of my life since an early age, and I find the process of creating them to be a highly rewarding challenge.",
+    "Descricao1" : "Hello! My name is Danilo Oliveira, and I am an IT administrative technician and fullstack developer at SENAC Palmas-TO, with experience in developing and analyzing systems focused on process automation and digital transformation. I have worked at SEDUC-TO, contributing to the creation of solutions that optimized services for students and teachers, while also supporting the management of development projects at the Secretariat. I also served as an instructor at Tech Inclusão, teaching courses on web service programming and digital marketing.",
+    "Descricao2" : "I hold a postgraduate degree in Digital Game Design and Development and actively participate in Game Jams, where I have achieved recognition with the game Cosmic Maid Café (1st place at UFT’s Game Jam Pequi), in addition to developing titles such as Fusion Attack! and PokiAdventures. Passionate about games from an early age, I now turn this passion into professional practice, combining innovation, creativity, and technology to create meaningful interactive experiences.",
     "Tecnologias" : "Tech",
     "Projetos" : "Projects",
     "Desc_proj" : "Summary list of projects I produced and/or collaborated on. Projects range from games in javascript or Unity3D to websites in Wordpress, React and Vue.",
@@ -25,5 +25,13 @@
     "GameTitle3" : "PokiAdventures!",
     "GameSubtitle3" : "PokiAdventures",
     "Game_Desc1_3" : "A Pokémon-style adventure game I developed using JavaScript and Tiled as a personal study project.",
-    "Game_Desc2_3" : "Focused on turn-based combat mechanics and interactive map building. Due to HTML restrictions, you must click the screen once to activate the background music."
+    "Game_Desc2_3" : "Focused on turn-based combat mechanics and interactive map building. Due to HTML restrictions, you must click the screen once to activate the background music.",
+    "GameTitle4" : "Flappy Bird",
+    "GameSubtitle4" : "Flappy Bird",
+    "Game_Desc1_4" : "A simple flapping bird game that i developed in python with Pygames library as a personal study project.",
+    "Game_Desc2_4" : "Focused on learning game creation on python!",
+    "GameTitle5" : "Brick Break!",
+    "GameSubtitle5" : "Brick Break!",
+    "Game_Desc1_5" : "A breaking blocks game that i developed in python with Pygames library as a personal study project.",
+    "Game_Desc2_5" : "Focused on learning and making the first steps in game creation on python!"
 }

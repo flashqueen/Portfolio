@@ -34,7 +34,7 @@
           <a class="header__resume btn" href="/archives/Currículo_Danilo_Oliveira.pdf" download>{{ $t('Curriculo')}}</a>
         </li>
         <li>
-          <a class="header__resume btn-second" href="/archives/Currículo_Danilo_Oliveira_EN.pdf" download>{{ $t('CurriculoEN')}}</a>
+          <a class="header__resume btn-second" href="/archives/Curriculum_Danilo_Oliveira_EN.pdf" download>{{ $t('CurriculoEN')}}</a>
         </li>
       </ul>
       <button class="header__bars" @click="mobileNavig()">

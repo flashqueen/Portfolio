@@ -7,8 +7,8 @@
     "CurriculoEN" : "CurrículoEN",
     "BemVindo" : "Seja bem vindo, sou Danilo Oliveira, um desenvolvedor ",
     "Contate" : "Entrar em Contato",
-    "Descricao1" : "Olá! me chamo Danilo e atualmente sou técnico administrativo de TI / desenvolvedor fullstack no Serviço Nacional de Aprendizagem Comercial(SENAC) em Palmas-TO. À vista disso possuo experiência em desenvolvimento e análise de sistemas que virtualizam e solucionam problemas de processos manuais de diferentes área do comércio.",
-    "Descricao2" : "Neste momento, tenho uma pós-graduação em Projeto e Desenvolvimento de Jogos Digitais e busco participar ativamente de campeonatos de desenvolvimento de jogos (GameJams), tendo já criado alguns jogos em javascript/html, Unity 3D e Python. Jogos digitais são parte da minha vida desde muito novo, portanto considero cria-los um desafio muito satisfatório!",
+    "Descricao1" : "Olá! Meu nome é Danilo Oliveira e sou técnico administrativo de TI e desenvolvedor fullstack no SENAC Palmas-TO, com experiência em desenvolvimento e análise de sistemas voltados à automação e modernização de processos. Atuei na SEDUC-TO, contribuindo para a criação de soluções que otimizaram o atendimento a estudantes e professores, além de apoiar na gestão de projetos de desenvolvimento da secretaria. Também fui instrutor no Tech Inclusão, ministrando cursos de programação de serviços web e marketing digital.",
+    "Descricao2" : "Sou pós-graduado em Projeto e Desenvolvimento de Jogos Digitais e participo ativamente de Game Jams, onde conquistei destaque com o jogo Cosmic Maid Café (1º lugar na Game Jam Pequi da UFT), além de desenvolver títulos como Fusion Attack! e PokiAdventures. Apaixonado por jogos desde cedo, transformo essa vivência em prática profissional, unindo inovação, criatividade e tecnologia para criar experiências interativas significativas.",
     "Tecnologias" : "Tecnologias",
     "Projetos" : "Projetos",
     "Desc_proj" : "Lista resumida de projetos que produzi e/ou colaborei. Os projetos variam de jogos em javascript, Unity3D e Python a sites em Wordpress, React e Vue.",
@@ -23,7 +23,15 @@
     "Game_Desc1_2" : "Primeiro jogo de luta em dupla que desenvolvi em javascript para o meu TCC.",
     "Game_Desc2_2" : "Ataque, esquive ou defenda dos golpes adversários. ao preencher da barra azul, una-se ao seu aliado para temporariamente fundirem e liberarem um poderoso golpe!",
     "GameTitle3" : "PokiAdventures!",
-    "GameSubtitle3" : "PokiAdventures",
+    "GameSubtitle3" : "PokiAdventures!",
     "Game_Desc1_3" : "Jogo de aventura estilo pokemon que desenvolvi em javascript e Tiled para estudo.",
-    "Game_Desc2_3" : "Focado no estudo de combate por turnos e construção de mapas com áreas de interação! Devido a restrições de HTML é necessário selecionar a tela uma vez para acionar a música de fundo."
+    "Game_Desc2_3" : "Focado no estudo de combate por turnos e construção de mapas com áreas de interação! Devido a restrições de HTML é necessário selecionar a tela uma vez para acionar a música de fundo.",
+    "GameTitle4" : "Flappy Bird",
+    "GameSubtitle4" : "Flappy Bird",
+    "Game_Desc1_4" : "Jogo simples do passarinho que pula que desenvolvi em python com a biblioteca Pygames para estudo.",
+    "Game_Desc2_4" : "Focado no estudo da biblioteca de desenvolvimento de jogos do python.",
+    "GameTitle5" : "Brick Break!",
+    "GameSubtitle5" : "Brick Break!",
+    "Game_Desc1_5" : "Jogo de quebrar blocos que desenvolvi em python com a biblioteca Pygames para estudo.",
+    "Game_Desc2_5" : "Focado no estudo da biblioteca de desenvolvimento de jogos do python! Dando os primeiros passos para um longo caminho."
 }
