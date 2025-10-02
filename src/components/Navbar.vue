@@ -99,7 +99,7 @@
           <a href="/archives/Currículo_Danilo_Oliveira.pdf" class="mobile-nav__btn btn">{{ $t('Curriculo')}}</a>
         </li>
         <li>
-          <a href="/archives/Currículo_Danilo_Oliveira_EN.pdf" class="mobile-nav__btn btn-second" download>{{ $t('CurriculoEN')}}</a>
+          <a href="/archives/Curriculum_Danilo_Oliveira_EN.pdf" class="mobile-nav__btn btn-second" download>{{ $t('CurriculoEN')}}</a>
         </li>
       </ul>
     </nav>
