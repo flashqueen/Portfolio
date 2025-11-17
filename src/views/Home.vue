@@ -61,6 +61,14 @@
                 <img class="about__list_img icons__color" src="/icons/mysql_icon.png" height="25" />
                 MySQL
               </li>
+              <li class="about__list">
+                <img class="about__list_img icons__color" src="/icons/java_icon.png" height="25" />
+                Java
+              </li>
+              <li class="about__list">
+                <img class="about__list_img icons__color" src="/icons/docker_icon.png" height="25" />
+                Docker
+              </li>
             </ul>
             <ul class="about__ul">
               <li class="about__list">
@@ -78,6 +86,14 @@
               <li class="about__list">
                 <img class="about__list_img icons__color" src="/icons/wordpress_icon.png" height="25" />
                 Wordpress
+              </li>
+              <li class="about__list">
+                <img class="about__list_img icons__color" src="/icons/django_icon.png" height="25" />
+                Django
+              </li>
+              <li class="about__list">
+                <img class="about__list_img icons__color" src="/icons/powerBI_icon.png" height="25" />
+                Power BI
               </li>
             </ul>
             <ul class="about__ul">
@@ -100,6 +116,10 @@
               <li class="about__list">
                 <img class="about__list_img icons__color" src="/icons/bootstrap_icon.png" height="25" />
                 Bootstrap
+              </li>
+              <li class="about__list">
+                <img class="about__list_img icons__color" src="/icons/Looker_icon.svg" height="25" />
+                Looker Studio
               </li>
             </ul>
           </div>
