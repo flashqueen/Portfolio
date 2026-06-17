@@ -342,8 +342,8 @@
               <!-- Project 10 -->
               <h3 class="work__project-title">{{ $t('GameTitle1')}}</h3>
               <div class="work__img-wrapper work__image10 bording__top">
-                <img class="lazy loading" src="/cosmicMaidCafe.png"
-                  alt="Jogo de aventura puzzle com suspense e cafe - 31_10_2024" />
+                <img class="lazy loading" src="/twinTails.png"
+                  alt="Jogo de aventura puzzle com poderes de luz, sombra e gatinhos - 17_06_2026" />
               </div>
               <div class="work__project work__content10">
                 <h3 class="work__project-subtitle">{{ $t('GameSubtitle1')}}</h3>
@@ -354,14 +354,14 @@
                   {{ $t('Game_Desc2_1')}}
                 </p>
                 <div>
-                  <a href="https://flashqueen.itch.io/cosmic-maid-cafe" target="_blank" class="btn work__project-btn">Jogar</a>
+                  <a href="https://nine-lives-studio.itch.io/twin-tails" target="_blank" class="btn work__project-btn">Jogar</a>
                 </div>
               </div>
               <!-- Project 11 -->
               <h3 class="work__project-title">{{ $t('GameTitle2')}}</h3>
               <div class="work__img-wrapper work__image11 bording__bottom">
-                <img class="lazy loading" src="/fusionattack.png"
-                  alt="Jogo de luta com dois personagens em cada lado da tela - 20_11_2023" />
+                <img class="lazy loading" src="/cosmicMaidCafe.png"
+                  alt="Jogo de aventura puzzle com suspense e cafe - 31_10_2024" />
               </div>
               <div class="work__project work__content11">
                 <h3 class="work__project-subtitle">{{ $t('GameSubtitle2')}}</h3>
@@ -372,16 +372,14 @@
                   {{ $t('Game_Desc2_2')}}
                 </p>
                 <div>
-                  <a href="https://fighting-prototype.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
-                  <a href="https://github.com/flashqueen/fighting-game" target="_blank" class="btn-second work__project-btn"
-                    style="margin-left:15px;">Github</a>
+                  <a href="https://flashqueen.itch.io/cosmic-maid-cafe" target="_blank" class="btn work__project-btn">Jogar</a>
                 </div>
               </div>
               <!-- Project 12 -->
               <h3 class="work__project-title">{{ $t('GameTitle3')}}</h3>
               <div class="work__img-wrapper work__image12 bording__top">
-                <img class="lazy loading" src="/pokiadventures.png"
-                  alt="Jogo de aventura estilo pokemon - 15_07_2024" />
+                <img class="lazy loading" src="/fusionattack.png"
+                  alt="Jogo de luta com dois personagens em cada lado da tela - 20_11_2023" />
               </div>
               <div class="work__project work__content12">
                 <h3 class="work__project-subtitle">{{ $t('GameSubtitle3')}}</h3>
@@ -391,13 +389,17 @@
                 <p class="work__project-description2">
                   {{ $t('Game_Desc2_3')}}
                 </p>
-                <a href="https://pokiadventures.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
+                <div>
+                  <a href="https://fighting-prototype.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
+                  <a href="https://github.com/flashqueen/fighting-game" target="_blank" class="btn-second work__project-btn"
+                    style="margin-left:15px;">Github</a>
+                </div>
               </div>
               <!-- Project 13 -->
               <h3 class="work__project-title">{{ $t('GameTitle4')}}</h3>
               <div class="work__img-wrapper work__image13 bording__bottom">
-                <img class="lazy loading" src="/flappy_bird.png"
-                  alt="Jogo do flappy bird - 24_09_2024" />
+                <img class="lazy loading" src="/pokiadventures.png"
+                  alt="Jogo de aventura estilo pokemon - 15_07_2024" />
               </div>
               <div class="work__project work__content13">
                 <h3 class="work__project-subtitle">{{ $t('GameSubtitle4')}}</h3>
@@ -407,13 +409,13 @@
                 <p class="work__project-description2">
                   {{ $t('Game_Desc2_4')}}
                 </p>
-                <a href="https://github.com/flashqueen/FlappyBird" target="_blank" class="btn work__project-btn">Demo</a>
+                <a href="https://pokiadventures.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
               </div>
               <!-- Project 14 -->
               <h3 class="work__project-title">{{ $t('GameTitle5')}}</h3>
               <div class="work__img-wrapper work__image14 bording__top">
-                <img class="lazy loading" src="/brick_break.png"
-                  alt="Jogo de quebrar blocos - 23_10_2024" />
+                <img class="lazy loading" src="/flappy_bird.png"
+                  alt="Jogo do flappy bird - 24_09_2024" />
               </div>
               <div class="work__project work__content14">
                 <h3 class="work__project-subtitle">{{ $t('GameSubtitle5')}}</h3>
@@ -422,6 +424,22 @@
                 </p>
                 <p class="work__project-description2">
                   {{ $t('Game_Desc2_5')}}
+                </p>
+                <a href="https://github.com/flashqueen/FlappyBird" target="_blank" class="btn work__project-btn">Demo</a>
+              </div>
+              <!-- Project 15 -->
+              <h3 class="work__project-title">{{ $t('GameTitle6')}}</h3>
+              <div class="work__img-wrapper work__image15 bording__bottom">
+                <img class="lazy loading" src="/brick_break.png"
+                  alt="Jogo de quebrar blocos - 23_10_2024" />
+              </div>
+              <div class="work__project work__content15">
+                <h3 class="work__project-subtitle">{{ $t('GameSubtitle6')}}</h3>
+                <p class="work__project-description1">
+                  {{ $t('Game_Desc1_6')}}
+                </p>
+                <p class="work__project-description2">
+                  {{ $t('Game_Desc2_6')}}
                 </p>
                 <a href="https://flashqueen.itch.io/brick-break-test" target="_blank" class="btn work__project-btn">Demo</a>
               </div>
@@ -1080,7 +1098,8 @@ export default {
       "content11 image11"
       "image12 content12"
       "content13 image13"
-      "image14 content14";
+      "image14 content14"
+      "content15 image15";
     place-items: center;
   }
 
@@ -1140,6 +1159,10 @@ export default {
     grid-area: image14;
   }
 
+  .work__image15 {
+    grid-area: image15;
+  }
+
   .work__content1 {
     grid-area: content1;
   }
@@ -1194,6 +1217,10 @@ export default {
 
   .work__content14 {
     grid-area: content14;
+  }
+
+  .work__content15 {
+    grid-area: content15;
   }
 
   .work__project {
