@@ -5,7 +5,7 @@
         <div class="person">
           <div class="person__container">
             <img class="hero__img" src="/eu3.jpg" alt="Esse sou eu!" />
-            <img class="hero__outer_img" src="/eu2_removebg.png" alt="Esse sou eu!">
+            <img class="hero__outer_img" src="/eu26_5-removebg.png" alt="Esse sou eu!">
           </div>
         </div>
         <h2 class="hero__subtitle">
