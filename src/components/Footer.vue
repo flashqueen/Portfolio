@@ -1,7 +1,7 @@
 <template>
     <section class="bottom">
         <div>
-            <p class="bottom__header">Danilo Oliveira | 2025</p>
+            <p class="bottom__header">Danilo Oliveira | 2026</p>
             <!-- <img src="cbpk_purple.jpg" alt="" class="contact__img"> -->
         </div>
     </section>

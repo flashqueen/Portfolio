@@ -125,7 +125,7 @@
           </div>
         </div>
         <div class="about__img-wrapper">
-          <img class="about__img lazy loading" src="/euSerio2.png"
+          <img class="about__img lazy loading" src="/Eu26_big.jpeg"
             alt="Foto de perfil" />
         </div>
       </section>
@@ -148,15 +148,37 @@
               <p class="work__description" style="text-align: center;">
                 {{ $t('Desc_proj')}}
               </p>
-      
+              
               <div class="work__container">
                 <!-- Project 1 -->
-                <h3 class="work__project-title">ProntoChef</h3>
+                <h3 class="work__project-title">Marketplace/Rastreamento</h3>
                 <div class="work__img-wrapper work__image1 bording__top">
-                  <img class="lazy loading" src="/gerenciamento.png" 
-                    alt="sistema de gerenciamento de produtos gastrônomicos" />
+                  <img class="lazy loading" src="/Prorede3_mktplace.jpeg" 
+                    alt="sistema de gerenciamento e acompanhamento de produtos " />
                 </div>
                 <div class="work__project work__content1">
+                  <h3 class="work__project-subtitle">Marketplace/Rastreamento</h3>
+                  <p class="work__project-description1">
+                    Sistema de gerenciamento de pedidos entre empresas e sistema de acompanhamento das solicitações.
+                  </p>
+                  <p class="work__project-description2">
+                    Atuei no desenvolvimento e integração do Marketplace, desenvolvido com <Strong>React</Strong>, <Strong>TypeScript</Strong>, Node.js/Express e <Strong>PostgreSQL</Strong>. 
+                    Implementei e corrigi fluxos de ofertas, cestas, pré-análise, aprovação de doações, notificações internas e por e-mail via Mailgun, 
+                    autenticação Auth0, upload de arquivos em S3 e integração de compromissos com o Rastreamento. 
+                    No Rastreamento, composto por frontend <Strong>Angular/TypeScript</Strong> e backend <Strong>Laravel/PHP</Strong> com <Strong>MySQL</Strong>, trabalhei em autenticação e permissões, 
+                    movimentação e estoque, importação de planilhas, upload de documentos em S3, indicadores e integração com o Marketplace.
+                  </p>
+                  <div>
+                    <!-- <a href="https://gegal.vercel.app" target="_blank" class="btn work__project-btn">Site</a> -->
+                  </div>
+                </div>
+                <!-- Project 2 -->
+                <h3 class="work__project-title">ProntoChef</h3>
+                <div class="work__img-wrapper work__image2 bording__bottom">
+                  <img class="lazy loading" src="/gerenciamento.png" 
+                    alt="sistema de gerenciamento e acompanhamento de produtos" />
+                </div>
+                <div class="work__project work__content2">
                   <h3 class="work__project-subtitle">ProntoChef</h3>
                   <p class="work__project-description1">
                     Sistema de gerenciamento de produtos e lotes para o armazenamento das turmas de gastronomia.
@@ -171,13 +193,13 @@
                     <!-- <a href="https://gegal.vercel.app" target="_blank" class="btn work__project-btn">Site</a> -->
                   </div>
                 </div>
-                <!-- Project 2 -->
+                <!-- Project 3 -->
                 <h3 class="work__project-title">GEGAL</h3>
-                <div class="work__img-wrapper work__image2 bording__bottom">
+                <div class="work__img-wrapper work__image3 bording__top">
                   <img class="lazy loading" src="/GEGAL.png" 
                     alt="sistema de gerenciamento e site de notícias" />
                 </div>
-                <div class="work__project work__content2">
+                <div class="work__project work__content3">
                   <h3 class="work__project-subtitle">GEGAL</h3>
                   <p class="work__project-description1">
                     Grupo de Estudos globais e América Latina - Sistema de gerenciamento e site de notícias com facilitadores para administrador.
@@ -191,13 +213,13 @@
                     <a href="https://gegal.com.br" target="_blank" class="btn work__project-btn">Site</a>
                   </div>
                 </div>
-                <!-- Project 3 -->
+                <!-- Project 4 -->
                 <h3 class="work__project-title">Certifica</h3>
-                <div class="work__img-wrapper work__image3 bording__top">
+                <div class="work__img-wrapper work__image4 bording__bottom">
                   <img class="lazy loading" src="/certifica.png" 
                     alt="site de gerenciamento de progressao rh" />
                 </div>
-                <div class="work__project work__content3">
+                <div class="work__project work__content4">
                   <h3 class="work__project-subtitle">Certifica</h3>
                   <p class="work__project-description1">
                     Sistema de gerenciamento de progressão de carreira do recursos humanos da SEDUC.
@@ -211,13 +233,13 @@
                     <a href="https://certifica.seduc.to.gov.br/" target="_blank" class="btn work__project-btn">Site</a>
                   </div>
                 </div>
-                <!-- Project 4 -->
+                <!-- Project 5 -->
                 <h3 class="work__project-title">Sistema de Gerenciamento de Bolsistas - SGB</h3>
-                <div class="work__img-wrapper work__image4 bording__bottom">
+                <div class="work__img-wrapper work__image5 bording__top">
                   <img class="lazy loading" src="/bolsista.png" 
                     alt="sistema de gerenciamento de bolsistas" />
                 </div>
-                <div class="work__project work__content4">
+                <div class="work__project work__content5">
                   <h3 class="work__project-subtitle">SGB</h3>
                   <p class="work__project-description1">
                     Sistema de gerenciamento de bolsistas do programa de apoio a educação do Tocantins.
@@ -231,13 +253,13 @@
                     <a href="https://sgb.seduc.to.gov.br/" target="_blank" class="btn work__project-btn">Site</a>
                   </div>
                 </div>
-                <!-- Project 5 -->
+                <!-- Project 6 -->
                 <h3 class="work__project-title">Vet Delivery</h3>
-                <div class="work__img-wrapper work__image5 bording__top">
+                <div class="work__img-wrapper work__image6 bording__bottom">
                   <img class="lazy loading" src="/vet_delivery.png" 
                     alt="Site de clinica veterinária" />
                 </div>
-                <div class="work__project work__content5">
+                <div class="work__project work__content6">
                   <h3 class="work__project-subtitle">Vet Delivery</h3>
                   <p class="work__project-description1">
                     Site de clínica veterinária com atendimento a domicílio.
@@ -251,13 +273,13 @@
                     <a href="https://vetdelivery.com.br/" target="_blank" class="btn work__project-btn">Site</a>
                   </div>
                 </div>
-                <!-- Project 6 -->
+                <!-- Project 7 -->
                 <h3 class="work__project-title">Sites Governamentais / Legislativos</h3>
-                <div class="work__img-wrapper work__image6 bording__bottom">
+                <div class="work__img-wrapper work__image7 bording__top">
                   <img class="lazy loading" src="/pref_lajeado.png"
                     alt="Site legislativo da prefeitura de lajeado" />
                 </div>
-                <div class="work__project work__content6">
+                <div class="work__project work__content7">
                   <h3 class="work__project-subtitle">Sites Governamentais / Legislativos</h3>
                   <p class="work__project-description1">
                     Modificações nos sites legislativos e governamentais das cidades do Tocantins.
@@ -271,13 +293,13 @@
                     <a href="https://lajeado.to.leg.br/" target="_blank" class="btn work__project-btn">Site</a>
                   </div>
                 </div>
-                <!-- Project 7 -->
+                <!-- Project 8 -->
                 <h3 class="work__project-title">Conemad-TO</h3>
-                <div class="work__img-wrapper work__image7 bording__top">
+                <div class="work__img-wrapper work__image8 bording__bottom">
                   <img class="lazy loading" src="/conemad-to.png"
                     alt="Jogo de aventura estilo pokemon" />
                 </div>
-                <div class="work__project work__content7">
+                <div class="work__project work__content8">
                   <h3 class="work__project-subtitle">Conemad-TO</h3>
                   <p class="work__project-description1">
                     Convenção das Assembleias de Deus Ministério de Madureira no Tocantins
@@ -288,13 +310,13 @@
                   </p>
                   <a href="https://conemadto.com.br/" target="_blank" class="btn work__project-btn">Site</a>
                 </div>
-                <!-- Project 8 -->
+                <!-- Project 9 -->
                 <h3 class="work__project-title">Sistema de Gerenciamento de Documentos</h3>
-                <div class="work__img-wrapper work__image8 bording__bottom">
+                <div class="work__img-wrapper work__image9 bording__top">
                   <img class="lazy loading" src="/barco.png"
                     alt="Sistema de Gerenciamento de Documentos" />
                 </div>
-                <div class="work__project work__content8">
+                <div class="work__project work__content9">
                   <h3 class="work__project-subtitle">Sistema de Gerenciamento de Documentos</h3>
                   <p class="work__project-description1">
                     sistema que cria e gerencia diferentes documentos governamentais.
@@ -306,13 +328,13 @@
                     linguagem <strong>Javascript</strong>.
                   </p>
                 </div>
-                <!-- Project 9 -->
+                <!-- Project 10 -->
                 <h3 class="work__project-title">PokeVi</h3>
-                <div class="work__img-wrapper work__image9 bording__top">
+                <div class="work__img-wrapper work__image10 bording__bottom">
                   <img class="lazy loading" src="/vitepoke.png"
                     alt="pokedéx da 1ª e 2ª geração" />
                 </div>
-                <div class="work__project work__content9">
+                <div class="work__project work__content10">
                   <h3 class="work__project-subtitle">PokeVi</h3>
                   <p class="work__project-description1">
                     Pokedéx da 1ª e 2ª geração de pokemons.
@@ -339,13 +361,13 @@
             </p>
 
             <div class="work__container">
-              <!-- Project 10 -->
+              <!-- Project 11 -->
               <h3 class="work__project-title">{{ $t('GameTitle1')}}</h3>
-              <div class="work__img-wrapper work__image10 bording__top">
+              <div class="work__img-wrapper work__image11 bording__bottom">
                 <img class="lazy loading" src="/twinTails.png"
                   alt="Jogo de aventura puzzle com poderes de luz, sombra e gatinhos - 17_06_2026" />
               </div>
-              <div class="work__project work__content10">
+              <div class="work__project work__content11">
                 <h3 class="work__project-subtitle">{{ $t('GameSubtitle1')}}</h3>
                 <p class="work__project-description1">
                   {{ $t('Game_Desc1_1')}}
@@ -357,13 +379,13 @@
                   <a href="https://nine-lives-studio.itch.io/twin-tails" target="_blank" class="btn work__project-btn">Jogar</a>
                 </div>
               </div>
-              <!-- Project 11 -->
+              <!-- Project 12 -->
               <h3 class="work__project-title">{{ $t('GameTitle2')}}</h3>
-              <div class="work__img-wrapper work__image11 bording__bottom">
-                <img class="lazy loading" src="/cosmicMaidCafe.png"
-                  alt="Jogo de aventura puzzle com suspense e cafe - 31_10_2024" />
+              <div class="work__img-wrapper work__image12 bording__top">
+                <img class="lazy loading" src="/conquerWin.png"
+                  alt="Jogo visual novel de escolhas e minigames - 09_08_2026" />
               </div>
-              <div class="work__project work__content11">
+              <div class="work__project work__content12">
                 <h3 class="work__project-subtitle">{{ $t('GameSubtitle2')}}</h3>
                 <p class="work__project-description1">
                   {{ $t('Game_Desc1_2')}}
@@ -372,16 +394,16 @@
                   {{ $t('Game_Desc2_2')}}
                 </p>
                 <div>
-                  <a href="https://flashqueen.itch.io/cosmic-maid-cafe" target="_blank" class="btn work__project-btn">Jogar</a>
+                  <a href="https://thatyanne.itch.io/conquer-and-win" target="_blank" class="btn work__project-btn">Jogar</a>
                 </div>
               </div>
-              <!-- Project 12 -->
+              <!-- Project 13 -->
               <h3 class="work__project-title">{{ $t('GameTitle3')}}</h3>
-              <div class="work__img-wrapper work__image12 bording__top">
-                <img class="lazy loading" src="/fusionattack.png"
-                  alt="Jogo de luta com dois personagens em cada lado da tela - 20_11_2023" />
+              <div class="work__img-wrapper work__image13 bording__bottom">
+                <img class="lazy loading" src="/cosmicMaidCafe.png"
+                  alt="Jogo de aventura puzzle com suspense e cafe - 31_10_2024" />
               </div>
-              <div class="work__project work__content12">
+              <div class="work__project work__content13">
                 <h3 class="work__project-subtitle">{{ $t('GameSubtitle3')}}</h3>
                 <p class="work__project-description1">
                   {{ $t('Game_Desc1_3')}}
@@ -390,18 +412,16 @@
                   {{ $t('Game_Desc2_3')}}
                 </p>
                 <div>
-                  <a href="https://fighting-prototype.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
-                  <a href="https://github.com/flashqueen/fighting-game" target="_blank" class="btn-second work__project-btn"
-                    style="margin-left:15px;">Github</a>
+                  <a href="https://flashqueen.itch.io/cosmic-maid-cafe" target="_blank" class="btn work__project-btn">Jogar</a>
                 </div>
               </div>
-              <!-- Project 13 -->
+              <!-- Project 14 -->
               <h3 class="work__project-title">{{ $t('GameTitle4')}}</h3>
-              <div class="work__img-wrapper work__image13 bording__bottom">
-                <img class="lazy loading" src="/pokiadventures.png"
-                  alt="Jogo de aventura estilo pokemon - 15_07_2024" />
+              <div class="work__img-wrapper work__image14 bording__top">
+                <img class="lazy loading" src="/witchesCookingStorm.png"
+                  alt="Jogo top-down 3D estilo overcooked - 26_10_2023" />
               </div>
-              <div class="work__project work__content13">
+              <div class="work__project work__content14">
                 <h3 class="work__project-subtitle">{{ $t('GameSubtitle4')}}</h3>
                 <p class="work__project-description1">
                   {{ $t('Game_Desc1_4')}}
@@ -409,15 +429,17 @@
                 <p class="work__project-description2">
                   {{ $t('Game_Desc2_4')}}
                 </p>
-                <a href="https://pokiadventures.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
+                <div>
+                  <!--<a href="https://flashqueen.itch.io/cosmic-maid-cafe" target="_blank" class="btn work__project-btn">Jogar</a>-->
+                </div>
               </div>
-              <!-- Project 14 -->
+              <!-- Project 15 -->
               <h3 class="work__project-title">{{ $t('GameTitle5')}}</h3>
-              <div class="work__img-wrapper work__image14 bording__top">
-                <img class="lazy loading" src="/flappy_bird.png"
-                  alt="Jogo do flappy bird - 24_09_2024" />
+              <div class="work__img-wrapper work__image15 bording__bottom">
+                <img class="lazy loading" src="/fusionattack.png"
+                  alt="Jogo de luta com dois personagens em cada lado da tela - 20_11_2023" />
               </div>
-              <div class="work__project work__content14">
+              <div class="work__project work__content15">
                 <h3 class="work__project-subtitle">{{ $t('GameSubtitle5')}}</h3>
                 <p class="work__project-description1">
                   {{ $t('Game_Desc1_5')}}
@@ -425,21 +447,57 @@
                 <p class="work__project-description2">
                   {{ $t('Game_Desc2_5')}}
                 </p>
-                <a href="https://github.com/flashqueen/FlappyBird" target="_blank" class="btn work__project-btn">Demo</a>
+                <div>
+                  <a href="https://fighting-prototype.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
+                  <a href="https://github.com/flashqueen/fighting-game" target="_blank" class="btn-second work__project-btn"
+                    style="margin-left:15px;">Github</a>
+                </div>
               </div>
-              <!-- Project 15 -->
+              <!-- Project 16 -->
               <h3 class="work__project-title">{{ $t('GameTitle6')}}</h3>
-              <div class="work__img-wrapper work__image15 bording__bottom">
-                <img class="lazy loading" src="/brick_break.png"
-                  alt="Jogo de quebrar blocos - 23_10_2024" />
+              <div class="work__img-wrapper work__image16 bording__top">
+                <img class="lazy loading" src="/pokiadventures.png"
+                  alt="Jogo de aventura estilo pokemon - 15_07_2024" />
               </div>
-              <div class="work__project work__content15">
+              <div class="work__project work__content16">
                 <h3 class="work__project-subtitle">{{ $t('GameSubtitle6')}}</h3>
                 <p class="work__project-description1">
                   {{ $t('Game_Desc1_6')}}
                 </p>
                 <p class="work__project-description2">
                   {{ $t('Game_Desc2_6')}}
+                </p>
+                <a href="https://pokiadventures.netlify.app" target="_blank" class="btn work__project-btn">Demo</a>
+              </div>
+              <!-- Project 17 -->
+              <h3 class="work__project-title">{{ $t('GameTitle7')}}</h3>
+              <div class="work__img-wrapper work__image17 bording__bottom">
+                <img class="lazy loading" src="/flappy_bird.png"
+                  alt="Jogo do flappy bird - 24_09_2024" />
+              </div>
+              <div class="work__project work__content17">
+                <h3 class="work__project-subtitle">{{ $t('GameSubtitle7')}}</h3>
+                <p class="work__project-description1">
+                  {{ $t('Game_Desc1_7')}}
+                </p>
+                <p class="work__project-description2">
+                  {{ $t('Game_Desc2_7')}}
+                </p>
+                <a href="https://github.com/flashqueen/FlappyBird" target="_blank" class="btn work__project-btn">Demo</a>
+              </div>
+              <!-- Project 18 -->
+              <h3 class="work__project-title">{{ $t('GameTitle8')}}</h3>
+              <div class="work__img-wrapper work__image18 bording__top">
+                <img class="lazy loading" src="/brick_break.png"
+                  alt="Jogo de quebrar blocos - 23_10_2024" />
+              </div>
+              <div class="work__project work__content18">
+                <h3 class="work__project-subtitle">{{ $t('GameSubtitle8')}}</h3>
+                <p class="work__project-description1">
+                  {{ $t('Game_Desc1_8')}}
+                </p>
+                <p class="work__project-description2">
+                  {{ $t('Game_Desc2_8')}}
                 </p>
                 <a href="https://flashqueen.itch.io/brick-break-test" target="_blank" class="btn work__project-btn">Demo</a>
               </div>
@@ -1094,12 +1152,15 @@ export default {
       "image7 content7"
       "content8 image8"
       "image9 content9"
-      "image10 content10"
+      "content10 image10"
       "content11 image11"
       "image12 content12"
       "content13 image13"
       "image14 content14"
-      "content15 image15";
+      "content15 image15"
+      "image16 content16"
+      "content17 image17"
+      "image18 content18";
     place-items: center;
   }
 
@@ -1163,6 +1224,18 @@ export default {
     grid-area: image15;
   }
 
+  .work__image16 {
+    grid-area: image16;
+  }
+
+  .work__image17 {
+    grid-area: image17;
+  }
+
+  .work__image18 {
+    grid-area: image18;
+  }
+
   .work__content1 {
     grid-area: content1;
   }
@@ -1221,6 +1294,18 @@ export default {
 
   .work__content15 {
     grid-area: content15;
+  }
+
+  .work__content16 {
+    grid-area: content16;
+  }
+
+  .work__content17 {
+    grid-area: content17;
+  }
+
+  .work__content18 {
+    grid-area: content18;
   }
 
   .work__project {
